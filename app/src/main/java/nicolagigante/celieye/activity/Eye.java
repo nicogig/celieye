@@ -1,7 +1,9 @@
 package nicolagigante.celieye.activity;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.util.AttributeSet;
 import android.view.Menu;
 import android.content.Intent;
 import android.view.MenuItem;
@@ -29,13 +31,6 @@ public class Eye extends Activity {
         AnimationSet animation = new AnimationSet(false); //change to false
         animation.addAnimation(fadeIn);
         b.startAnimation(animation);
-        Button settings=(Button) findViewById(R.id.button);
-        settings.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                clickSettings();
-            }
-        });
     }
 
 
@@ -59,8 +54,13 @@ public class Eye extends Activity {
         return super.onOptionsItemSelected(item);
     }
     private void clickSettings(){
-        Intent enabler=new Intent(this, Info.class);
+        Intent enabler=new Intent(this, Settings.class);
         startActivity(enabler);
     }
+    public void Camera(View view) {
+// Do something in response to button
+        Intent intent = new Intent(this, NotAvailable.class);
+        startActivity(intent);
 
+    }
 }
