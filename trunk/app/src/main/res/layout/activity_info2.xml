@@ -21,7 +21,6 @@
         android:layout_height="wrap_content"
         android:text="CeliEye"
         android:id="@+id/textView"
-        android:textAlignment="gravity"
         android:textSize="34dp"
         android:textIsSelectable="false"
         android:layout_alignWithParentIfMissing="true"
