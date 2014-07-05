@@ -4,6 +4,9 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="20" />
@@ -14,7 +17,7 @@
         android:label="@string/app_name"
         android:theme="@style/MyCustomTheme" >
         <activity
-            android:name="nicolagigante.celieye.Eye"
+            android:name="nicolagigante.celieye.activity.Eye"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,8 +26,32 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="nicolagigante.celieye.Info"
+            android:name="nicolagigante.celieye.activity.Info"
             android:label="@string/title_activity_info" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nicolagigante.celieye.activity.Eye" />
+        </activity>
+        <activity
+            android:name="nicolagigante.celieye.activity.Settings"
+            android:label="@string/title_activity_settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nicolagigante.celieye.activity.Eye" />
+        </activity>
+        <activity
+            android:name="nicolagigante.celieye.activity.Design"
+            android:label="@string/title_activity_design" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nicolagigante.celieye.activity.Eye" />
+        </activity>
+        <activity
+            android:name="nicolagigante.celieye.activity.NotAvailable"
+            android:label="@string/title_activity_not_available" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nicolagigante.celieye.activity.Eye" />
         </activity>
     </application>
 

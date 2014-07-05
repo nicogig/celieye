@@ -1,14 +1,48 @@
+
 <RelativeLayout
+    android:theme="@android:style/Theme.NoTitleBar"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Button
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/imageView2"
+        android:background="@drawable/ic_launcher"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_marginTop="133dp"
+        android:layout_below="@+id/button"
+        android:layout_toLeftOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CeliEye"
+        android:id="@+id/textView"
+        android:textAlignment="gravity"
+        android:textSize="34dp"
+        android:textIsSelectable="false"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versione 0.0.3a - Prototipo di Design"
+        android:id="@+id/textView2"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Utilizzo consentito solo a scopo DEMO"
+        android:id="@+id/textView3"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

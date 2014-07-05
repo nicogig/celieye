@@ -1,14 +1,23 @@
 <resources>
     <style name="MyCustomTheme" parent="@android:style/Theme.Holo.Light">
         <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_actionbar</item>
     </style>
 
     <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
         <item name="android:background">@drawable/ic_actionbar</item>
         <item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item> <!-- This does the magic! -->
+        <item name="android:icon">@android:color/transparent</item>
     </style>
 
     <style name="Theme.MyAppTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
-        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:textColor">#ffffff</item>
     </style>
+    <style name="CustomProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/anim_progress</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
 </resources>
