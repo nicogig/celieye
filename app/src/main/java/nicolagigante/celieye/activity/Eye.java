@@ -17,9 +17,12 @@ import android.widget.ImageButton;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 import nicolagigante.celieye.R;
+import android.view.View.OnClickListener;
+import android.widget.TextView;
+import android.widget.Toast;
 
-
-public class Eye extends Activity {
+public class Eye extends Activity implements OnClickListener {
+    private TextView formatTxt, contentTxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,9 @@ public class Eye extends Activity {
         AnimationSet animation = new AnimationSet(false); //change to false
         animation.addAnimation(fadeIn);
         b.startAnimation(animation);
+        b.setOnClickListener((View.OnClickListener) this);
+        formatTxt = (TextView)findViewById(R.id.textView);
+        contentTxt = (TextView)findViewById(R.id.textView2);
     }
 
 
@@ -58,10 +64,31 @@ public class Eye extends Activity {
         Intent enabler=new Intent(this, Settings.class);
         startActivity(enabler);
     }
-    public void Camera(View view) {
-// Do something in response to button
-        Intent intent = new Intent(this, NotAvailable.class);
-        startActivity(intent);
 
+    @Override
+    public void onClick(View v) {
+        if(v.getId()==R.id.imageButton){
+            //Controlla per un click del bottone, e procede alla scansione.
+            IntentIntegrator scanIntegrator = new IntentIntegrator(this);
+            scanIntegrator.initiateScan();
+
+        }
+    }
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+//retrieve scan result
+        IntentResult scanningResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
+        if (scanningResult != null) {
+//we have a result
+            String scanContent = scanningResult.getContents();
+            String scanFormat = scanningResult.getFormatName();
+            formatTxt.setText("FORMAT: " + scanFormat);
+            contentTxt.setText("CONTENT: " + scanContent);
+        }
+        else{
+            Toast toast = Toast.makeText(getApplicationContext(),
+                    "No scan data received!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
     }
 }
