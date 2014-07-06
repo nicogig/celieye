@@ -14,7 +14,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationSet;
 import android.widget.Button;
 import android.widget.ImageButton;
-
+import com.google.zxing.integration.android.IntentIntegrator;
+import com.google.zxing.integration.android.IntentResult;
 import nicolagigante.celieye.R;
 
 
