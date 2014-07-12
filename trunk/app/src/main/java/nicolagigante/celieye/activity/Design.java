@@ -1,11 +1,11 @@
 package nicolagigante.celieye.activity;
 
 import android.app.Activity;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.view.Menu;
 import android.view.MenuItem;
+
 import nicolagigante.celieye.R;
 
 public class Design extends Activity {

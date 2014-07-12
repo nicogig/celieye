@@ -26,61 +26,61 @@ public final class R {
         public static final int back=0x7f020002;
         public static final int back_button=0x7f020003;
         public static final int button_circle=0x7f020004;
-        public static final int circle_focused=0x7f020005;
-        public static final int ic_action_about=0x7f020006;
-        public static final int ic_action_camera=0x7f020007;
-        public static final int ic_action_search=0x7f020008;
-        public static final int ic_action_search_pressed=0x7f020009;
-        public static final int ic_action_settings=0x7f02000a;
-        public static final int ic_action_settings_pressed=0x7f02000b;
-        public static final int ic_actionbar=0x7f02000c;
-        public static final int ic_back=0x7f02000d;
-        public static final int ic_back_action=0x7f02000e;
-        public static final int ic_back_action_old=0x7f02000f;
-        public static final int ic_back_action_old_old=0x7f020010;
-        public static final int ic_back_action_pressed=0x7f020011;
-        public static final int ic_back_action_pressed_old=0x7f020012;
-        public static final int ic_back_action_pressed_old_old=0x7f020013;
-        public static final int ic_back_actionbar=0x7f020014;
-        public static final int ic_back_pressed=0x7f020015;
-        public static final int ic_camera=0x7f020016;
-        public static final int ic_camera_pressed=0x7f020017;
-        public static final int ic_info=0x7f020018;
-        public static final int ic_info_pressed=0x7f020019;
-        public static final int ic_launcher=0x7f02001a;
-        public static final int ic_navbar=0x7f02001b;
-        public static final int ic_notavailable=0x7f02001c;
-        public static final int ic_quantumdesign=0x7f02001d;
-        public static final int ic_quantumdesign_pressed=0x7f02001e;
-        public static final int info=0x7f02001f;
-        public static final int progress=0x7f020020;
-        public static final int progress_medium_material=0x7f020021;
-        public static final int progress_small_material=0x7f020022;
-        public static final int quantumdesign=0x7f020023;
-        public static final int rectangle=0x7f020024;
-        public static final int rectangle_button=0x7f020025;
-        public static final int rectangle_pressed=0x7f020026;
-        public static final int search=0x7f020027;
-        public static final int settings=0x7f020028;
+        public static final int circle=0x7f020005;
+        public static final int circle_focused=0x7f020006;
+        public static final int circle_pressed=0x7f020007;
+        public static final int circle_shadow=0x7f020008;
+        public static final int ic_action_about=0x7f020009;
+        public static final int ic_action_camera=0x7f02000a;
+        public static final int ic_action_search=0x7f02000b;
+        public static final int ic_action_search_pressed=0x7f02000c;
+        public static final int ic_action_settings=0x7f02000d;
+        public static final int ic_action_settings_pressed=0x7f02000e;
+        public static final int ic_actionbar=0x7f02000f;
+        public static final int ic_back=0x7f020010;
+        public static final int ic_back_action=0x7f020011;
+        public static final int ic_back_action_old_old=0x7f020012;
+        public static final int ic_back_action_pressed=0x7f020013;
+        public static final int ic_back_action_pressed_old_old=0x7f020014;
+        public static final int ic_back_actionbar=0x7f020015;
+        public static final int ic_back_pressed=0x7f020016;
+        public static final int ic_camera=0x7f020017;
+        public static final int ic_camera_pressed=0x7f020018;
+        public static final int ic_info=0x7f020019;
+        public static final int ic_info_pressed=0x7f02001a;
+        public static final int ic_launcher=0x7f02001b;
+        public static final int ic_navbar=0x7f02001c;
+        public static final int ic_notavailable=0x7f02001d;
+        public static final int ic_quantumdesign=0x7f02001e;
+        public static final int ic_quantumdesign_pressed=0x7f02001f;
+        public static final int info=0x7f020020;
+        public static final int progress=0x7f020021;
+        public static final int progress_medium_material=0x7f020022;
+        public static final int progress_small_material=0x7f020023;
+        public static final int quantumdesign=0x7f020024;
+        public static final int rectangle=0x7f020025;
+        public static final int rectangle_button=0x7f020026;
+        public static final int rectangle_pressed=0x7f020027;
+        public static final int search=0x7f020028;
+        public static final int settings=0x7f020029;
     }
     public static final class id {
-        public static final int TextNotAvailable=0x7f0a000f;
-        public static final int action_search=0x7f0a0010;
-        public static final int action_settings=0x7f0a0011;
+        public static final int TextNotAvailable=0x7f0a000e;
+        public static final int action_search=0x7f0a000f;
+        public static final int action_settings=0x7f0a0010;
         public static final int button=0x7f0a0000;
         public static final int button2=0x7f0a0002;
         public static final int checkBox=0x7f0a0003;
-        public static final int imageButton=0x7f0a000a;
-        public static final int imageView2=0x7f0a000b;
+        public static final int imageButton=0x7f0a0009;
+        public static final int imageView2=0x7f0a000c;
         public static final int progressBar=0x7f0a0007;
         public static final int radioButton=0x7f0a0001;
         public static final int ratingBar=0x7f0a0006;
         public static final int seekBar=0x7f0a0008;
-        public static final int surface_camera=0x7f0a0009;
         public static final int switch1=0x7f0a0004;
-        public static final int textView=0x7f0a000c;
-        public static final int textView2=0x7f0a000d;
-        public static final int textView3=0x7f0a000e;
+        public static final int textView=0x7f0a000a;
+        public static final int textView2=0x7f0a000b;
+        public static final int textView3=0x7f0a000d;
         public static final int toggleButton=0x7f0a0005;
     }
     public static final class layout {
@@ -88,14 +88,18 @@ public final class R {
         public static final int activity_eye=0x7f030001;
         public static final int activity_info2=0x7f030002;
         public static final int activity_not_available=0x7f030003;
-        public static final int activity_settings=0x7f030004;
+        public static final int activity_parse_json=0x7f030004;
+        public static final int activity_settings=0x7f030005;
+        public static final int activity_test=0x7f030006;
     }
     public static final class menu {
         public static final int design=0x7f090000;
         public static final int eye=0x7f090001;
         public static final int info=0x7f090002;
         public static final int not_available=0x7f090003;
-        public static final int settings=0x7f090004;
+        public static final int parse_json=0x7f090004;
+        public static final int settings=0x7f090005;
+        public static final int test=0x7f090006;
     }
     public static final class string {
         public static final int action_search=0x7f070000;
@@ -119,7 +123,8 @@ public final class R {
         public static final int title_activity_design=0x7f070012;
         public static final int title_activity_info=0x7f070013;
         public static final int title_activity_not_available=0x7f070014;
-        public static final int title_activity_settings=0x7f070015;
+        public static final int title_activity_parse_json=0x7f070015;
+        public static final int title_activity_settings=0x7f070016;
     }
     public static final class style {
         public static final int CustomProgressBar=0x7f080000;
