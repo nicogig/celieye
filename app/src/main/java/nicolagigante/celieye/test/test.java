@@ -1,4 +1,4 @@
-package nicolagigante.celieye;
+package nicolagigante.celieye.test;
 
 import android.app.Activity;
 import android.os.Bundle;
