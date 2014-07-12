@@ -1,0 +1,2 @@
+select * from products where description  like "%sev%"
+SELECT a.description, b.name FROM products a, companies b WHERE a.id_company = b.id_company and a.description like "%sev%"

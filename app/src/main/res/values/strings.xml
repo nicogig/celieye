@@ -8,5 +8,6 @@
     <string name="action_search">Cerca</string>
     <string name="title_activity_design">Design</string>
     <string name="title_activity_not_available">Non Disponibile</string>
+    <string name="title_activity_parse_json">ParseJSON</string>
 
 </resources>
