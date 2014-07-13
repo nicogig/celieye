@@ -86,9 +86,9 @@ public class Eye extends Activity implements OnClickListener {
             String scanFormat = scanningResult.getFormatName();
              formatTxt.setText("FORMAT: " + scanFormat);
              contentTxt.setText("CONTENT: " + scanContent);
-             String url="https://api.scandit.com/v2/products/" + scanContent + "?key=C6NTW7yipvCc3NsOCRGMFwL0v30btTfc-f3D7i4E3Qz&sources=basic&timeout=2000";
-             ReadJson readJson = new ReadJson(url);
-             resultTxt.setText(readJson.getRead());
+             //String url="https://api.scandit.com/v2/products/" + scanContent + "?key=C6NTW7yipvCc3NsOCRGMFwL0v30btTfc-f3D7i4E3Qz&sources=basic&timeout=2000";
+             //ReadJson readJson = new ReadJson(url);
+             //resultTxt.setText(readJson.getRead());
 
          }
          else{

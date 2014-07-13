@@ -47,6 +47,18 @@ public class Settings extends Activity {
         startActivity(intent);
 
     }
+    public void ReleaseNotes(View view) {
+// Do something in response to button
+        Intent intent = new Intent(this, ReleaseNotes.class);
+        startActivity(intent);
+
+    }
+    public void ToDo(View view) {
+// Do something in response to button
+        Intent intent = new Intent(this, ToDo.class);
+        startActivity(intent);
+
+    }
     public void Design(View view) {
 // Do something in response to button
         Intent intent = new Intent(this, Design.class);

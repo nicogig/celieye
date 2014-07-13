@@ -6,51 +6,49 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".eye">
+    tools:context="nicolagigante.celieye.activity.ToDo">
 
-    <ImageButton
-        android:layout_width="90sp"
-        android:layout_height="90sp"
-        android:background="@drawable/button_circle"
-        android:gravity="center_vertical|center_horizontal"
-        android:text=""
-        android:textColor="#fff"
-        android:id="@+id/imageButton"
-        android:onClick="Camera"
-        android:contentDescription="@drawable/ic_launcher"
-        android:cropToPadding="false"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:text="Da fare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:id="@+id/todo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="- Integrare Thread"
         android:id="@+id/textView"
-        android:layout_alignParentTop="true"
+        android:textSize="24dp"
+        android:layout_below="@+id/todo"
         android:layout_alignParentLeft="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="- Finire la grafica"
         android:id="@+id/textView2"
+        android:textSize="24dp"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="- Costruire Activity Successo/Fallimento"
         android:id="@+id/textView3"
+        android:textSize="24dp"
         android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Premi qui per effettuare una scansione."
+        android:text="- Rendere la lista preistorica"
         android:id="@+id/textView4"
-        android:layout_above="@+id/imageButton"
-        android:layout_centerHorizontal="true" />
-
+        android:textSize="24dp"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true" />
 
 </RelativeLayout>
