@@ -65,14 +65,16 @@ public final class R {
         public static final int settings=0x7f020029;
     }
     public static final class id {
-        public static final int TextNotAvailable=0x7f0a000e;
-        public static final int action_search=0x7f0a000f;
-        public static final int action_settings=0x7f0a0010;
+        public static final int TextNotAvailable=0x7f0a000f;
+        public static final int action_search=0x7f0a0016;
+        public static final int action_settings=0x7f0a0017;
         public static final int button=0x7f0a0000;
         public static final int button2=0x7f0a0002;
+        public static final int button3=0x7f0a0013;
+        public static final int button4=0x7f0a0014;
         public static final int checkBox=0x7f0a0003;
         public static final int imageButton=0x7f0a0009;
-        public static final int imageView2=0x7f0a000c;
+        public static final int imageView2=0x7f0a000e;
         public static final int progressBar=0x7f0a0007;
         public static final int radioButton=0x7f0a0001;
         public static final int ratingBar=0x7f0a0006;
@@ -80,7 +82,12 @@ public final class R {
         public static final int switch1=0x7f0a0004;
         public static final int textView=0x7f0a000a;
         public static final int textView2=0x7f0a000b;
-        public static final int textView3=0x7f0a000d;
+        public static final int textView3=0x7f0a000c;
+        public static final int textView4=0x7f0a000d;
+        public static final int textView5=0x7f0a0010;
+        public static final int textView6=0x7f0a0011;
+        public static final int textView7=0x7f0a0012;
+        public static final int todo=0x7f0a0015;
         public static final int toggleButton=0x7f0a0005;
     }
     public static final class layout {
@@ -89,8 +96,10 @@ public final class R {
         public static final int activity_info2=0x7f030002;
         public static final int activity_not_available=0x7f030003;
         public static final int activity_parse_json=0x7f030004;
-        public static final int activity_settings=0x7f030005;
-        public static final int activity_test=0x7f030006;
+        public static final int activity_release_notes=0x7f030005;
+        public static final int activity_settings=0x7f030006;
+        public static final int activity_test=0x7f030007;
+        public static final int activity_to_do=0x7f030008;
     }
     public static final class menu {
         public static final int design=0x7f090000;
@@ -98,8 +107,10 @@ public final class R {
         public static final int info=0x7f090002;
         public static final int not_available=0x7f090003;
         public static final int parse_json=0x7f090004;
-        public static final int settings=0x7f090005;
-        public static final int test=0x7f090006;
+        public static final int release_notes=0x7f090005;
+        public static final int settings=0x7f090006;
+        public static final int test=0x7f090007;
+        public static final int to_do=0x7f090008;
     }
     public static final class string {
         public static final int action_search=0x7f070000;
@@ -124,7 +135,9 @@ public final class R {
         public static final int title_activity_info=0x7f070013;
         public static final int title_activity_not_available=0x7f070014;
         public static final int title_activity_parse_json=0x7f070015;
-        public static final int title_activity_settings=0x7f070016;
+        public static final int title_activity_release_notes=0x7f070016;
+        public static final int title_activity_settings=0x7f070017;
+        public static final int title_activity_to_do=0x7f070018;
     }
     public static final class style {
         public static final int CustomProgressBar=0x7f080000;

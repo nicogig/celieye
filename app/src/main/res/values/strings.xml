@@ -9,5 +9,7 @@
     <string name="title_activity_design">Design</string>
     <string name="title_activity_not_available">Non Disponibile</string>
     <string name="title_activity_parse_json">ParseJSON</string>
+    <string name="title_activity_release_notes">Note sulla release</string>
+    <string name="title_activity_to_do">ToDo</string>
 
 </resources>

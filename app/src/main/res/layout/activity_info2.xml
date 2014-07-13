@@ -30,7 +30,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Versione 0.0.3a - Prototipo di Design"
+        android:text="Versione 0.0.6a - OMFG FUNZIONAAA"
         android:id="@+id/textView2"
         android:layout_alignWithParentIfMissing="true"
         android:layout_below="@+id/textView"
@@ -39,9 +39,10 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Utilizzo consentito solo a scopo DEMO"
+        android:text="Qualcosa random sul fatto che non dovesti farla vedere al mondo st'app."
         android:id="@+id/textView3"
         android:layout_alignWithParentIfMissing="true"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView2" />
 </RelativeLayout>
