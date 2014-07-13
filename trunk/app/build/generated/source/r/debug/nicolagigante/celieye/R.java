@@ -53,28 +53,33 @@ public final class R {
         public static final int ic_notavailable=0x7f02001d;
         public static final int ic_quantumdesign=0x7f02001e;
         public static final int ic_quantumdesign_pressed=0x7f02001f;
-        public static final int info=0x7f020020;
-        public static final int progress=0x7f020021;
-        public static final int progress_medium_material=0x7f020022;
-        public static final int progress_small_material=0x7f020023;
-        public static final int quantumdesign=0x7f020024;
-        public static final int rectangle=0x7f020025;
-        public static final int rectangle_button=0x7f020026;
-        public static final int rectangle_pressed=0x7f020027;
-        public static final int search=0x7f020028;
-        public static final int settings=0x7f020029;
+        public static final int ic_releasenotes=0x7f020020;
+        public static final int ic_releasenotes_pressed=0x7f020021;
+        public static final int ic_todo=0x7f020022;
+        public static final int ic_todo_pressed=0x7f020023;
+        public static final int info=0x7f020024;
+        public static final int progress=0x7f020025;
+        public static final int progress_medium_material=0x7f020026;
+        public static final int progress_small_material=0x7f020027;
+        public static final int quantumdesign=0x7f020028;
+        public static final int rectangle=0x7f020029;
+        public static final int rectangle_button=0x7f02002a;
+        public static final int rectangle_pressed=0x7f02002b;
+        public static final int releasenotes=0x7f02002c;
+        public static final int search=0x7f02002d;
+        public static final int settings=0x7f02002e;
+        public static final int todo=0x7f02002f;
     }
     public static final class id {
-        public static final int TextNotAvailable=0x7f0a000f;
-        public static final int action_search=0x7f0a0016;
-        public static final int action_settings=0x7f0a0017;
+        public static final int TextNotAvailable=0x7f0a000e;
+        public static final int action_search=0x7f0a0015;
+        public static final int action_settings=0x7f0a0016;
         public static final int button=0x7f0a0000;
         public static final int button2=0x7f0a0002;
-        public static final int button3=0x7f0a0013;
-        public static final int button4=0x7f0a0014;
+        public static final int button3=0x7f0a0012;
+        public static final int button4=0x7f0a0013;
         public static final int checkBox=0x7f0a0003;
         public static final int imageButton=0x7f0a0009;
-        public static final int imageView2=0x7f0a000e;
         public static final int progressBar=0x7f0a0007;
         public static final int radioButton=0x7f0a0001;
         public static final int ratingBar=0x7f0a0006;
@@ -84,10 +89,10 @@ public final class R {
         public static final int textView2=0x7f0a000b;
         public static final int textView3=0x7f0a000c;
         public static final int textView4=0x7f0a000d;
-        public static final int textView5=0x7f0a0010;
-        public static final int textView6=0x7f0a0011;
-        public static final int textView7=0x7f0a0012;
-        public static final int todo=0x7f0a0015;
+        public static final int textView5=0x7f0a000f;
+        public static final int textView6=0x7f0a0010;
+        public static final int textView7=0x7f0a0011;
+        public static final int todo=0x7f0a0014;
         public static final int toggleButton=0x7f0a0005;
     }
     public static final class layout {
