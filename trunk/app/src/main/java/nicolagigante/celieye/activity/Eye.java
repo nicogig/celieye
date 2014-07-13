@@ -13,6 +13,7 @@ import android.view.animation.AnimationSet;
 import android.widget.ImageButton;
 
 import nicolagigante.celieye.R;
+import nicolagigante.celieye.jsonService.ReadJson;
 
 import android.view.View.OnClickListener;
 import android.widget.TextView;
@@ -22,7 +23,7 @@ import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
 public class Eye extends Activity implements OnClickListener {
-   private TextView formatTxt, contentTxt;
+   private TextView formatTxt, contentTxt, resultTxt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,7 @@ public class Eye extends Activity implements OnClickListener {
        b.setOnClickListener((View.OnClickListener) this);
         formatTxt = (TextView)findViewById(R.id.textView);
        contentTxt = (TextView)findViewById(R.id.textView2);
+        resultTxt = (TextView)findViewById(R.id.textView3);
     }
 
 
@@ -84,6 +86,10 @@ public class Eye extends Activity implements OnClickListener {
             String scanFormat = scanningResult.getFormatName();
              formatTxt.setText("FORMAT: " + scanFormat);
              contentTxt.setText("CONTENT: " + scanContent);
+             String url="https://api.scandit.com/v2/products/" + scanContent + "?key=C6NTW7yipvCc3NsOCRGMFwL0v30btTfc-f3D7i4E3Qz&sources=basic&timeout=2000";
+             ReadJson readJson = new ReadJson(url);
+             resultTxt.setText(readJson.getRead());
+
          }
          else{
              Toast toast = Toast.makeText(getApplicationContext(),
