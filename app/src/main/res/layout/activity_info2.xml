@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CeliEye"
+        android:text="@string/AppName"
         android:id="@+id/textView"
         android:textSize="34dp"
         android:textIsSelectable="false"
@@ -20,7 +20,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Versione 0.0.6a - OMFG FUNZIONAAA"
+        android:text="@string/InfoVersion"
         android:id="@+id/textView2"
         android:layout_alignWithParentIfMissing="true"
         android:layout_below="@+id/textView"
@@ -29,7 +29,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Qualcosa random sul fatto che non dovesti farla vedere al mondo st'app."
+        android:text="@string/InfoCopyright"
         android:id="@+id/textView3"
         android:layout_alignWithParentIfMissing="true"
         android:layout_below="@+id/textView2"

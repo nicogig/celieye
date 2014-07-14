@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Informazioni"
+        android:text="@string/SettingsInfo"
         android:id="@+id/textView"
         android:gravity="center_horizontal"
         android:layout_alignBaseline="@+id/button"
@@ -33,7 +33,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Note sulla release"
+        android:text="@string/SettingsRelease"
         android:id="@+id/textView3"
         android:gravity="center_horizontal"
         android:layout_alignBaseline="@+id/button3"
@@ -50,7 +50,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="To Do"
+        android:text="@string/SettingsToDO"
         android:id="@+id/textView4"
         android:gravity="center_horizontal"
         android:layout_alignBaseline="@+id/button4"
@@ -67,7 +67,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Quantum Design Test Area"
+        android:text="@string/SettingsQuantum"
         android:id="@+id/textView2"
         android:gravity="center_horizontal"
         android:layout_alignBaseline="@+id/button2"
