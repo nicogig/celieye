@@ -1,15 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <string name="title_activity_settings">Settings</string>
     <string name="app_name">CeliEye</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Impostazioni</string>
-    <string name="title_activity_info">Informazioni</string>
-    <string name="action_search">Cerca</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_info">Infos</string>
+    <string name="action_search">Search</string>
     <string name="title_activity_design">Design</string>
-    <string name="title_activity_not_available">Non Disponibile</string>
+    <string name="title_activity_not_available">Not Available</string>
     <string name="title_activity_parse_json">ParseJSON</string>
-    <string name="title_activity_release_notes">Note sulla release</string>
+    <string name="title_activity_release_notes">Release Notes</string>
     <string name="title_activity_to_do">ToDo</string>
+    <string name="Release4">- Fun Fact: This app walks like a dinosaur.</string>
+    <string name="Release3">- Fixed Graphics</string>
+    <string name="Release2">- The app now scans elements</string>
+    <string name="Release1">- Bug Fixes</string>
+    <string name="ReleaseCodename">Quantum Dinosaur</string>
+    <string name="ReleaseVersion">Version 0.0.6a</string>
+    <string name="SettingsQuantum">Quantum Design Test Area</string>
+    <string name="SettingsToDO">To Do</string>
+    <string name="SettingsRelease">Release Notes</string>
+    <string name="SettingsInfo">Infos</string>
+    <string name="AppName">CeliEye</string>
+    <string name="InfoVersion">Version 0.0.6a - OMFG IT WORKS!</string>
+    <string name="InfoCopyright">Something random about the fact that this app is not to be shown in the wild… yet.</string>
+    <string name="NotAvailable">This feature is not available yet.</string>
+    <string name="EyeScan">Touch here to scan.</string>
+    <string name="ToDoTitle">To Do.</string>
+    <string name="ToDo1">- Integrate Thread</string>
+    <string name="ToDo2">- Finish the graphics</string>
+    <string name="ToDo3">- Build Success/Failure Graphics</string>
+    <string name="ToDo4">- Make this list prehistoric</string>
 
 </resources>

@@ -72,12 +72,12 @@ public final class R {
     }
     public static final class id {
         public static final int TextNotAvailable=0x7f0a000e;
-        public static final int action_search=0x7f0a0015;
-        public static final int action_settings=0x7f0a0016;
+        public static final int action_search=0x7f0a0014;
+        public static final int action_settings=0x7f0a0015;
         public static final int button=0x7f0a0000;
         public static final int button2=0x7f0a0002;
-        public static final int button3=0x7f0a0012;
-        public static final int button4=0x7f0a0013;
+        public static final int button3=0x7f0a0011;
+        public static final int button4=0x7f0a0012;
         public static final int checkBox=0x7f0a0003;
         public static final int imageButton=0x7f0a0009;
         public static final int progressBar=0x7f0a0007;
@@ -91,8 +91,7 @@ public final class R {
         public static final int textView4=0x7f0a000d;
         public static final int textView5=0x7f0a000f;
         public static final int textView6=0x7f0a0010;
-        public static final int textView7=0x7f0a0011;
-        public static final int todo=0x7f0a0014;
+        public static final int todo=0x7f0a0013;
         public static final int toggleButton=0x7f0a0005;
     }
     public static final class layout {
@@ -118,31 +117,51 @@ public final class R {
         public static final int to_do=0x7f090008;
     }
     public static final class string {
-        public static final int action_search=0x7f070000;
-        public static final int action_settings=0x7f070001;
-        public static final int app_name=0x7f070002;
-        public static final int hello_world=0x7f070003;
-        public static final int pref_default_display_name=0x7f070004;
-        public static final int pref_description_social_recommendations=0x7f070005;
-        public static final int pref_header_data_sync=0x7f070006;
-        public static final int pref_header_general=0x7f070007;
-        public static final int pref_header_notifications=0x7f070008;
-        public static final int pref_ringtone_silent=0x7f070009;
-        public static final int pref_title_add_friends_to_messages=0x7f07000a;
-        public static final int pref_title_display_name=0x7f07000b;
-        public static final int pref_title_new_message_notifications=0x7f07000c;
-        public static final int pref_title_ringtone=0x7f07000d;
-        public static final int pref_title_social_recommendations=0x7f07000e;
-        public static final int pref_title_sync_frequency=0x7f07000f;
-        public static final int pref_title_system_sync_settings=0x7f070010;
-        public static final int pref_title_vibrate=0x7f070011;
-        public static final int title_activity_design=0x7f070012;
-        public static final int title_activity_info=0x7f070013;
-        public static final int title_activity_not_available=0x7f070014;
-        public static final int title_activity_parse_json=0x7f070015;
-        public static final int title_activity_release_notes=0x7f070016;
-        public static final int title_activity_settings=0x7f070017;
-        public static final int title_activity_to_do=0x7f070018;
+        public static final int AppName=0x7f070000;
+        public static final int EyeScan=0x7f070001;
+        public static final int InfoCopyright=0x7f070002;
+        public static final int InfoVersion=0x7f070003;
+        public static final int NotAvailable=0x7f070004;
+        public static final int Release1=0x7f070005;
+        public static final int Release2=0x7f070006;
+        public static final int Release3=0x7f070007;
+        public static final int Release4=0x7f070008;
+        public static final int ReleaseCodename=0x7f070009;
+        public static final int ReleaseVersion=0x7f07000a;
+        public static final int SettingsInfo=0x7f07000b;
+        public static final int SettingsQuantum=0x7f07000c;
+        public static final int SettingsRelease=0x7f07000d;
+        public static final int SettingsToDO=0x7f07000e;
+        public static final int ToDo1=0x7f07000f;
+        public static final int ToDo2=0x7f070010;
+        public static final int ToDo3=0x7f070011;
+        public static final int ToDo4=0x7f070012;
+        public static final int ToDoTitle=0x7f070013;
+        public static final int action_search=0x7f070014;
+        public static final int action_settings=0x7f070015;
+        public static final int app_name=0x7f070016;
+        public static final int hello_world=0x7f070017;
+        public static final int pref_default_display_name=0x7f070018;
+        public static final int pref_description_social_recommendations=0x7f070019;
+        public static final int pref_header_data_sync=0x7f07001a;
+        public static final int pref_header_general=0x7f07001b;
+        public static final int pref_header_notifications=0x7f07001c;
+        public static final int pref_ringtone_silent=0x7f07001d;
+        public static final int pref_title_add_friends_to_messages=0x7f07001e;
+        public static final int pref_title_display_name=0x7f07001f;
+        public static final int pref_title_new_message_notifications=0x7f070020;
+        public static final int pref_title_ringtone=0x7f070021;
+        public static final int pref_title_social_recommendations=0x7f070022;
+        public static final int pref_title_sync_frequency=0x7f070023;
+        public static final int pref_title_system_sync_settings=0x7f070024;
+        public static final int pref_title_vibrate=0x7f070025;
+        public static final int title_activity_design=0x7f070026;
+        public static final int title_activity_info=0x7f070027;
+        public static final int title_activity_not_available=0x7f070028;
+        public static final int title_activity_parse_json=0x7f070029;
+        public static final int title_activity_release_notes=0x7f07002a;
+        public static final int title_activity_settings=0x7f07002b;
+        public static final int title_activity_to_do=0x7f07002c;
     }
     public static final class style {
         public static final int CustomProgressBar=0x7f080000;

@@ -9,7 +9,7 @@
     tools:context="nicolagigante.celieye.activity.ToDo">
 
     <TextView
-        android:text="Da fare"
+        android:text="@string/ToDoTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="32dp"
@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Integrare Thread"
+        android:text="@string/ToDo1"
         android:id="@+id/textView"
         android:textSize="24dp"
         android:layout_below="@+id/todo"
@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Finire la grafica"
+        android:text="@string/ToDo2"
         android:id="@+id/textView2"
         android:textSize="24dp"
         android:layout_below="@+id/textView"
@@ -36,7 +36,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Costruire Activity Successo/Fallimento"
+        android:text="@string/ToDo3"
         android:id="@+id/textView3"
         android:textSize="24dp"
         android:layout_below="@+id/textView2"
@@ -45,7 +45,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="- Rendere la lista preistorica"
+        android:text="@string/ToDo4"
         android:id="@+id/textView4"
         android:textSize="24dp"
         android:layout_below="@+id/textView3"

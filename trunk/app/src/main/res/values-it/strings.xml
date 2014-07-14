@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="app_name">CeliEye</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="title_activity_info">Informazioni</string>
+    <string name="action_search">Cerca</string>
+    <string name="title_activity_design">Design</string>
+    <string name="title_activity_not_available">Non Disponibile</string>
+    <string name="title_activity_parse_json">ParseJSON</string>
+    <string name="title_activity_release_notes">Note sulla release</string>
+    <string name="title_activity_to_do">ToDo</string>
+    <string name="Release4">- Fun Fact: Questa app cammina come un dinosauro.</string>
+    <string name="Release3">- Aggiustata la grafica</string>
+    <string name="Release2">- L\'app ora effettua scansioni</string>
+    <string name="Release1">- Risolti alcuni bug</string>
+    <string name="ReleaseCodename">Dinosauro Quantistico</string>
+    <string name="ReleaseVersion">Versione 0.0.6a</string>
+    <string name="SettingsQuantum">Quantum Design Test Area</string>
+    <string name="SettingsToDO">To Do</string>
+    <string name="SettingsRelease">Note sulla release</string>
+    <string name="SettingsInfo">Informazioni</string>
+    <string name="AppName">CeliEye</string>
+    <string name="InfoVersion">Versione 0.0.6a - OMFG FUNZIONAAA</string>
+    <string name="InfoCopyright">Qualcosa random sul fatto che non dovesti farla vedere al mondo st\'app.</string>
+    <string name="NotAvailable">Questa funzione non è ancora disponibile.</string>
+    <string name="EyeScan">Premi qui per effettuare una scansione.</string>
+    <string name="ToDoTitle">Da fare</string>
+    <string name="ToDo1">- Integrare Thread</string>
+    <string name="ToDo2">- Finire la grafica</string>
+    <string name="ToDo3">- Costruire Activity Successo/Fallimento</string>
+    <string name="ToDo4">- Rendere la lista preistorica</string>
+
+</resources>
