@@ -66,14 +66,4 @@
         android:layout_below="@+id/textView5"
         android:layout_alignParentLeft="true"
         android:textSize="24sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="P.S. Auguri Giugy :3, anche se sono in anticipo/ritardo."
-        android:id="@+id/textView7"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true" />
-
 </RelativeLayout>
