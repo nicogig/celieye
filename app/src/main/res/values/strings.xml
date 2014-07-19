@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="title_activity_settings">Settings</string>
     <string name="app_name">CeliEye</string>
     <string name="hello_world">Hello world!</string>
@@ -31,5 +32,6 @@
     <string name="ToDo2">- Finish the graphics</string>
     <string name="ToDo3">- Build Success/Failure Graphics</string>
     <string name="ToDo4">- Make this list prehistoric</string>
+    <string name="title_activity_async_task_http_post">AsyncTaskHttpPost</string>
 
 </resources>

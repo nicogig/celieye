@@ -13,6 +13,7 @@ import android.view.animation.AnimationSet;
 import android.widget.ImageButton;
 
 import nicolagigante.celieye.R;
+import nicolagigante.celieye.httpPost.AsyncTaskHttpPost;
 import nicolagigante.celieye.jsonService.ReadJson;
 
 import android.view.View.OnClickListener;
@@ -78,17 +79,23 @@ public class Eye extends Activity implements OnClickListener {
      }
     @Override
      public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        String url;
 //retrieve scan result
         IntentResult scanningResult = IntentIntegrator.parseActivityResult(requestCode, resultCode, intent);
          if (scanningResult != null) {
 //we have a result
-            String scanContent = scanningResult.getContents();
-            String scanFormat = scanningResult.getFormatName();
+             String scanContent = scanningResult.getContents();
+             String scanFormat = scanningResult.getFormatName();
              formatTxt.setText("FORMAT: " + scanFormat);
              contentTxt.setText("CONTENT: " + scanContent);
-             //String url="https://api.scandit.com/v2/products/" + scanContent + "?key=C6NTW7yipvCc3NsOCRGMFwL0v30btTfc-f3D7i4E3Qz&sources=basic&timeout=2000";
-             //ReadJson readJson = new ReadJson(url);
-             //resultTxt.setText(readJson.getRead());
+             url = "https://api.scandit.com/v2/products/" + scanContent + "?key=C6NTW7yipvCc3NsOCRGMFwL0v30btTfc-f3D7i4E3Qz&sources=basic&timeout=2000";
+             //-------------------------------change intent---------------------
+            Intent i=new Intent(this, AsyncTaskHttpPost.class);
+             i.putExtra("url", url);
+             startActivity(i);
+             //---------------------------------------------------------------
+
+
 
          }
          else{
