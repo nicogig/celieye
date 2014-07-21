@@ -19,6 +19,7 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -28,6 +29,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 import nicolagigante.celieye.R;
+import nicolagigante.celieye.model.ApplicationProdotti;
+import nicolagigante.celieye.model.Prodotto;
 
 public class AsyncTaskHttpPost extends Activity {
     EditText etResponse;
@@ -104,6 +107,12 @@ private static String convertInputStreamToString(InputStream inputStream) throws
             JSONObject json = null;
             try {
                 json = new JSONObject(result);
+                JSONArray prodottoArray = json.getJSONArray("prodotto"); //da cambiare con chiamata ricevuta da json
+                Prodotto prodotto = new Prodotto();
+                prodotto.setBarcode(prodottoArray.getJSONObject(0).getString("barcode"));
+                prodotto.setDescrizioneprodotto(prodottoArray.getJSONObject(0).getString("descrizione"));
+                prodotto.setNomeprodotto(prodottoArray.getJSONObject(0).getString("nome"));
+                ApplicationProdotti applicationProdotti = (ApplicationProdotti) getApplication();
             } catch (JSONException e) {
                 e.printStackTrace();
             }
