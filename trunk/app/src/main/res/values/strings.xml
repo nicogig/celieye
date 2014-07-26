@@ -23,7 +23,7 @@
     <string name="SettingsRelease">Release Notes</string>
     <string name="SettingsInfo">Infos</string>
     <string name="AppName">CeliEye</string>
-    <string name="InfoVersion">Version 0.0.6a - OMFG IT WORKS!</string>
+    <string name="InfoVersion">Version 0.0.9a - Getting better!</string>
     <string name="InfoCopyright">Something random about the fact that this app is not to be shown in the wild… yet.</string>
     <string name="NotAvailable">This feature is not available yet.</string>
     <string name="EyeScan">Touch here to scan.</string>
@@ -33,6 +33,9 @@
     <string name="ToDo3">- Build Success/Failure Graphics</string>
     <string name="ToDo4">- Make this list prehistoric</string>
     <string name="title_activity_async_task_http_post">AsyncTaskHttpPost</string>
-    <string name="title_activity_good">Good</string>
+    <string name="title_activity_good">Gluten-free product</string>
+    <string name="good">This product is gluten-free!</string>
+    <string name="bad">This is NOT a gluten-free product!</string>
+    <string name="title_activity_bad">Product with gluten</string>
 
 </resources>
