@@ -65,4 +65,16 @@ public class Settings extends Activity {
         startActivity(intent);
 
     }
+    public void Good(View view) {
+// Do something in response to button
+        Intent intent = new Intent(this, Good.class);
+        startActivity(intent);
+
+    }
+    public void Bad(View view) {
+// Do something in response to button
+        Intent intent = new Intent(this, bad.class);
+        startActivity(intent);
+
+    }
 }

@@ -88,6 +88,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
         </activity>
+        <activity
+            android:name=".activity.bad"
+            android:label="@string/title_activity_bad"
+            android:parentActivityName=".activity.Eye" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nicolagigante.celieye.activity.Eye" />
+        </activity>
     </application>
 
 </manifest>

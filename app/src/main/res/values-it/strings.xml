@@ -22,7 +22,7 @@
     <string name="SettingsRelease">Note sulla release</string>
     <string name="SettingsInfo">Informazioni</string>
     <string name="AppName">CeliEye</string>
-    <string name="InfoVersion">Versione 0.0.6a - OMFG FUNZIONAAA</string>
+    <string name="InfoVersion">Versione 0.0.9a - Migliorando!</string>
     <string name="InfoCopyright">Qualcosa random sul fatto che non dovesti farla vedere al mondo st\'app.</string>
     <string name="NotAvailable">Questa funzione non è ancora disponibile.</string>
     <string name="EyeScan">Premi qui per effettuare una scansione.</string>
@@ -31,5 +31,8 @@
     <string name="ToDo2">- Finire la grafica</string>
     <string name="ToDo3">- Costruire Activity Successo/Fallimento</string>
     <string name="ToDo4">- Rendere la lista preistorica</string>
-
+    <string name="title_activity_good">Prodotto senza glutine</string>
+    <string name="good">Questo prodotto è senza glutine!</string>
+    <string name="bad">Questo prodotto NON è senza glutine!</string>
+    <string name="title_activity_bad">Prodotto con glutine</string>
 </resources>
