@@ -113,6 +113,7 @@ private static String convertInputStreamToString(InputStream inputStream) throws
                 prodotto.setDescrizioneprodotto(prodottoArray.getJSONObject(0).getString("descrizione"));
                 prodotto.setNomeprodotto(prodottoArray.getJSONObject(0).getString("nome"));
                 ApplicationProdotti applicationProdotti = (ApplicationProdotti) getApplication();
+                applicationProdotti.setProdotto(prodotto);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
