@@ -25,7 +25,7 @@
     <string name="InfoVersion">Versione 0.0.9a - Migliorando!</string>
     <string name="InfoCopyright">Qualcosa random sul fatto che non dovesti farla vedere al mondo st\'app.</string>
     <string name="NotAvailable">Questa funzione non è ancora disponibile.</string>
-    <string name="EyeScan">Premi qui per effettuare una scansione.</string>
+    <string name="EyeScan">Tocca la fotocamera per iniziare una scansione.</string>
     <string name="ToDoTitle">Da fare</string>
     <string name="ToDo1">- Integrare Thread</string>
     <string name="ToDo2">- Finire la grafica</string>

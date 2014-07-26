@@ -26,7 +26,7 @@
     <string name="InfoVersion">Version 0.0.9a - Getting better!</string>
     <string name="InfoCopyright">Something random about the fact that this app is not to be shown in the wild… yet.</string>
     <string name="NotAvailable">This feature is not available yet.</string>
-    <string name="EyeScan">Touch here to scan.</string>
+    <string name="EyeScan">Touch the camera to start scanning.</string>
     <string name="ToDoTitle">To Do.</string>
     <string name="ToDo1">- Integrate Thread</string>
     <string name="ToDo2">- Finish the graphics</string>
@@ -37,5 +37,6 @@
     <string name="good">This product is gluten-free!</string>
     <string name="bad">This is NOT a gluten-free product!</string>
     <string name="title_activity_bad">Product with gluten</string>
+    <string name="error">Is this an error? Report it by tapping here.</string>
 
 </resources>
