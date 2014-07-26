@@ -15,6 +15,8 @@ import android.widget.ImageButton;
 import nicolagigante.celieye.R;
 import nicolagigante.celieye.httpPost.AsyncTaskHttpPost;
 import nicolagigante.celieye.jsonService.ReadJson;
+import nicolagigante.celieye.model.ApplicationProdotti;
+import nicolagigante.celieye.model.Prodotto;
 
 import android.view.View.OnClickListener;
 import android.widget.TextView;
@@ -41,6 +43,8 @@ public class Eye extends Activity implements OnClickListener {
         formatTxt = (TextView)findViewById(R.id.textView);
        contentTxt = (TextView)findViewById(R.id.textView2);
         resultTxt = (TextView)findViewById(R.id.textView3);
+        ApplicationProdotti applicationProdotti = (ApplicationProdotti) getApplication();
+        Prodotto prodotto=applicationProdotti.getProdotto();
     }
 
 
