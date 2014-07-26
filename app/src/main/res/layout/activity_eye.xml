@@ -8,6 +8,22 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".eye">
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/backdrop"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageButton2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/circle" />
+
     <ImageButton
         android:layout_width="90sp"
         android:layout_height="90sp"
@@ -19,8 +35,8 @@
         android:onClick="Camera"
         android:contentDescription="@drawable/ic_launcher"
         android:cropToPadding="false"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -49,8 +65,10 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/EyeScan"
         android:id="@+id/textView4"
-        android:layout_above="@+id/imageButton"
-        android:layout_centerHorizontal="true" />
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff" />
 
 
 </RelativeLayout>
