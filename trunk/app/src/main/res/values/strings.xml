@@ -33,5 +33,6 @@
     <string name="ToDo3">- Build Success/Failure Graphics</string>
     <string name="ToDo4">- Make this list prehistoric</string>
     <string name="title_activity_async_task_http_post">AsyncTaskHttpPost</string>
+    <string name="title_activity_good">Good</string>
 
 </resources>
