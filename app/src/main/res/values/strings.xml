@@ -48,5 +48,6 @@
     <string name="error_message_general" />
     <string name="error_message_file_not_found" />
     <string name="error_message_bad_url" />
+    <string name="ForceDatabase">Update manually the database</string>
 
 </resources>
