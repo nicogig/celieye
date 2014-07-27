@@ -65,11 +65,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="9b966b6f-c0c5-409c-84e4-7171998c5444" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/nicolagigante/celieye/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/nicolagigante/celieye/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/android_file_downloader.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/android_file_downloader.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/eye.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/eye.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values-it/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values-it/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_info2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_info2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CeliEye.iws" />
@@ -235,23 +231,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values-it/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.76605505" vertical-offset="533" max-vertical-offset="1003">
+            <state vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1003">
               <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/info.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
+      <file leaf-file-name="activity_info2.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_info2.xml">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="884">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
               <folding />
             </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1341,7 +1340,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/todo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/releasenotes.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_release_notes.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_info2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_not_available.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_to_do.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings_activity_settings.xml" />
@@ -1370,6 +1368,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/eye.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-it/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_info2.xml" />
       </list>
     </option>
   </component>
@@ -2041,14 +2040,18 @@
       <created>1406493539196</created>
       <updated>1406493539196</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Stuff basically.">
+      <created>1406495026663</created>
+      <updated>1406495026663</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2035139" sideWeight="0.43396226" order="2" side_tool="true" content_ui="tabs" x="226" y="164" width="845" height="628" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2035139" sideWeight="0.43396226" order="2" side_tool="true" content_ui="tabs" x="226" y="164" width="845" height="628" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19033675" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2101,7 +2104,8 @@
     <MESSAGE value="Drawables added&#10;&#10;" />
     <MESSAGE value="Good/Bad classes added&#10;" />
     <MESSAGE value="Animation added, modified layouts." />
-    <option name="LAST_COMMIT_MESSAGE" value="Animation added, modified layouts." />
+    <MESSAGE value="Stuff basically." />
+    <option name="LAST_COMMIT_MESSAGE" value="Stuff basically." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2198,17 +2202,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_info2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="482" max-vertical-offset="867">
-          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -2553,10 +2546,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-it/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76605505" vertical-offset="533" max-vertical-offset="1003">
+        <state vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1003">
           <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_info2.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="445" max-vertical-offset="867">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
