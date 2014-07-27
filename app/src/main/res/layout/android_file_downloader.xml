@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:orientation="vertical"
 android:layout_width="fill_parent"
 android:layout_height="fill_parent"
@@ -15,11 +15,35 @@ android:layout_height="fill_parent"
     android:text="http://unisalerno.altervista.org/upload/dbaic.db"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    />
+    android:layout_above="@+id/download_button"
+    android:layout_alignParentLeft="true" />
 <Button
-    android:text="Download"
     android:id="@+id/download_button"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    />
-</LinearLayout>
+    android:background="@drawable/update"
+    android:layout_gravity="center_horizontal"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/updateinfo"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="normal"
+        android:textSize="15dp"
+        android:layout_margin="5dp"
+        android:layout_marginLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/devupdate"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/url_input"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignRight="@+id/textView" />
+</RelativeLayout>

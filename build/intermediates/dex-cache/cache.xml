@@ -14,11 +14,23 @@
         revision="20.0.0"
         sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
     <item
+        dex="C:\CeliEye_3\app\build\intermediates\pre-dexed\debug\gson-2.2.4-be7a3fe7b3340d08ac83af1b1fa083bd248004b3.jar"
+        jar="C:\CeliEye_3\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+    <item
         dex="C:\CeliEye_2\app\build\intermediates\pre-dexed\debug\gson-2.2.4-6d93640cf425639322677b752e4477a997ab4582.jar"
         jar="C:\CeliEye_2\app\libs\gson-2.2.4.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+    <item
+        dex="C:\CeliEye_3\app\build\intermediates\pre-dexed\debug\android-support-v4-3a55063b57cfdb690b09c0945fc3fda4a32b8882.jar"
+        jar="C:\CeliEye_3\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507"/>
     <item
         dex="C:\CeliEye\app\build\intermediates\pre-dexed\debug\android-support-v4-1c15f113ef8cdc39a9c37dd5d6edcfabda92f172.jar"
         jar="C:\CeliEye\app\libs\android-support-v4.jar"
