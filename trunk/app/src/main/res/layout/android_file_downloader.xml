@@ -17,14 +17,6 @@ android:layout_height="fill_parent"
     android:layout_height="wrap_content"
     android:layout_above="@+id/download_button"
     android:layout_alignParentLeft="true" />
-<Button
-    android:id="@+id/download_button"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/update"
-    android:layout_gravity="center_horizontal"
-    android:layout_alignParentBottom="true"
-    android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,10 +25,10 @@ android:layout_height="fill_parent"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:textStyle="normal"
-        android:textSize="15dp"
+        android:textSize="20dp"
         android:layout_margin="5dp"
-        android:layout_marginLeft="5dp" />
+        android:layout_marginLeft="5dp"
+        android:textStyle="italic" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -46,4 +38,13 @@ android:layout_height="fill_parent"
         android:layout_above="@+id/url_input"
         android:layout_alignLeft="@+id/textView"
         android:layout_alignRight="@+id/textView" />
+
+    <Button
+        android:id="@+id/download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/update"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

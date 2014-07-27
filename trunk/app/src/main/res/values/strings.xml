@@ -39,17 +39,18 @@
     <string name="title_activity_bad">Product with gluten</string>
     <string name="error">Is this an error? Report it by tapping here.</string>
     <string name="status_text_default" />
-    <string name="progress_dialog_title_connecting" />
+    <string name="progress_dialog_title_connecting">Connecting...</string>
     <string name="progress_dialog_message_prefix_connecting" />
-    <string name="progress_dialog_title_downloading" />
+    <string name="progress_dialog_title_downloading">Downloading...</string>
     <string name="progress_dialog_message_prefix_downloading" />
-    <string name="user_message_download_complete" />
-    <string name="user_message_download_canceled" />
-    <string name="error_message_general" />
-    <string name="error_message_file_not_found" />
-    <string name="error_message_bad_url" />
+    <string name="user_message_download_complete">Download Completed.</string>
+    <string name="user_message_download_canceled">Download Cancelled.</string>
+    <string name="error_message_general">Ooops, we have an error!</string>
+    <string name="error_message_file_not_found">I didn \'t find the file, sorry.</string>
+    <string name="error_message_bad_url">Huston, we have a bad URL!</string>
     <string name="ForceDatabase">Update manually the database</string>
     <string name="downloader">Update manually the database</string>
     <string name="updateinfo">Manually updating the database may require up to five minutes to complete, but may fix some problems you may encounter when scanning or browsing it. To start updating the database, press the button below.</string>
     <string name="devupdate">This is the address which is used to download the database. Should be hidden to the end-user.</string>
+    <string name="cart">Cart</string>
 </resources>
