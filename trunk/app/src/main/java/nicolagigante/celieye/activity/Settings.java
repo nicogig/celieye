@@ -77,4 +77,10 @@ public class Settings extends Activity {
         startActivity(intent);
 
     }
+    public void DatabaseUpdate(View view) {
+// Do something in response to button
+        Intent intent = new Intent(this, AndroidFileDownloader.class);
+        startActivity(intent);
+
+    }
 }

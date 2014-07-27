@@ -9,8 +9,8 @@
     tools:context=".eye">
 
     <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
         android:background="@drawable/backdrop"
         android:id="@+id/imageView"
         android:layout_centerVertical="true"
@@ -68,7 +68,7 @@
         android:textStyle="italic"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:textColor="#ffffffff" />
+        android:textColor="#ff000000" />
 
 
 </RelativeLayout>

@@ -89,5 +89,23 @@
         android:onClick="Bad"
         android:layout_alignTop="@+id/button5"
         android:layout_toRightOf="@+id/button5" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:background="@drawable/quantumdesign"
+        android:onClick="DatabaseUpdate"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ForceDatabase"
+        android:id="@+id/textView5"
+        android:gravity="center_horizontal"
+        android:layout_alignBaseline="@+id/button7"
+        android:layout_alignBottom="@+id/button7"
+        android:layout_toRightOf="@+id/button7" />
+
 </RelativeLayout>
 
