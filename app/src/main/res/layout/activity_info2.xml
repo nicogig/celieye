@@ -34,11 +34,12 @@
         android:layout_alignWithParentIfMissing="true"
         android:layout_below="@+id/textView2"
         android:layout_alignLeft="@+id/textView2"
-        android:layout_alignRight="@+id/textView2" />
+        android:layout_alignRight="@+id/textView2"
+        android:textStyle="italic" />
 
     <ImageButton
-        android:layout_width="48dp"
-        android:layout_height="48dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:id="@+id/imageButton"
         android:background="@drawable/ic_launcher"
         android:layout_above="@+id/textView"
