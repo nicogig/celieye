@@ -50,4 +50,6 @@
     <string name="error_message_bad_url" />
     <string name="ForceDatabase">Update manually the database</string>
     <string name="downloader">Update manually the database</string>
+    <string name="updateinfo">Manually updating the database may require up to five minutes to complete, but may fix some problems you may encounter when scanning or browsing it. To start updating the database, press the button below.</string>
+    <string name="devupdate">This is the address which is used to download the database. Should be hidden to the end-user.</string>
 </resources>
