@@ -8,6 +8,8 @@ import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.support.v4.app.NavUtils;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -37,6 +39,7 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
         thisActivity = this;
         downloaderThread = null;
         progressDialog = null;
@@ -53,6 +56,16 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
         String urlInput = urlInputField.getText().toString();
         downloaderThread = new DownloaderThread(thisActivity, urlInput);
         downloaderThread.start();
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
     /**

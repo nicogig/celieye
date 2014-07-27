@@ -2,8 +2,20 @@
 <pre-dex-items>
 
     <item
+        dex="C:\CeliEye_2\app\build\intermediates\pre-dexed\debug\android-support-v4-cef4ffe6a18aeff2b8f772847823afb517ddbbfb.jar"
+        jar="C:\CeliEye_2\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507"/>
+    <item
         dex="C:\CeliEye\app\build\intermediates\pre-dexed\debug\gson-2.2.4-5d7a99fbc8a90e41e8bb698d00c35d638252d25b.jar"
         jar="C:\CeliEye\app\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+    <item
+        dex="C:\CeliEye_2\app\build\intermediates\pre-dexed\debug\gson-2.2.4-6d93640cf425639322677b752e4477a997ab4582.jar"
+        jar="C:\CeliEye_2\app\libs\gson-2.2.4.jar"
         jumboMode="false"
         revision="20.0.0"
         sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>

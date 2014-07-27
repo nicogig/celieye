@@ -96,6 +96,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
         </activity>
+        <activity android:name=".activity.AndroidFileDownloader"
+            android:label="@string/downloader"
+            android:parentActivityName=".activity.Eye">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nicolagigante.celieye.activity.Eye" />
+            </activity>
     </application>
 
 </manifest>
