@@ -38,5 +38,15 @@
     <string name="bad">This is NOT a gluten-free product!</string>
     <string name="title_activity_bad">Product with gluten</string>
     <string name="error">Is this an error? Report it by tapping here.</string>
+    <string name="status_text_default" />
+    <string name="progress_dialog_title_connecting" />
+    <string name="progress_dialog_message_prefix_connecting" />
+    <string name="progress_dialog_title_downloading" />
+    <string name="progress_dialog_message_prefix_downloading" />
+    <string name="user_message_download_complete" />
+    <string name="user_message_download_canceled" />
+    <string name="error_message_general" />
+    <string name="error_message_file_not_found" />
+    <string name="error_message_bad_url" />
 
 </resources>
