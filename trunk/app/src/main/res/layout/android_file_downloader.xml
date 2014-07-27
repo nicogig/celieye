@@ -12,7 +12,7 @@ android:layout_height="fill_parent"
     />
 <EditText
     android:id="@+id/url_input"
-    android:text="http://egigante.altervista.org/dbaic.db"
+    android:text="http://unisalerno.altervista.org/upload/dbaic.db"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     />
