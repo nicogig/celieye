@@ -55,4 +55,5 @@
     <string name="learnmore">Scopri di più.</string>
     <string name="notavailable">Questa funzione non è disponibile nelle Design Previews di CeliEye.</string>
     <string name="addcart">Aggiungi al Carrello.</string>
+    <string name="error">C \' è un errore? Informaci, tappando qui.</string>
 </resources>
