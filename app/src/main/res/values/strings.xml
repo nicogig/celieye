@@ -23,7 +23,7 @@
     <string name="SettingsRelease">Release Notes</string>
     <string name="SettingsInfo">Infos</string>
     <string name="AppName">CeliEye</string>
-    <string name="InfoVersion">Version 0.0.9a - Getting better!</string>
+    <string name="InfoVersion">Design Preview 1</string>
     <string name="InfoCopyright">Something random about the fact that this app is not to be shown in the wild… yet.</string>
     <string name="NotAvailable">This feature is not available yet.</string>
     <string name="EyeScan">Touch the camera to start scanning.</string>
@@ -38,11 +38,11 @@
     <string name="bad">This is NOT a gluten-free product!</string>
     <string name="title_activity_bad">Product with gluten</string>
     <string name="error">Is this an error? Report it by tapping here.</string>
-    <string name="status_text_default" />
+    <string name="status_text_default"></string>
     <string name="progress_dialog_title_connecting">Connecting...</string>
-    <string name="progress_dialog_message_prefix_connecting" />
+    <string name="progress_dialog_message_prefix_connecting"></string>
     <string name="progress_dialog_title_downloading">Downloading...</string>
-    <string name="progress_dialog_message_prefix_downloading" />
+    <string name="progress_dialog_message_prefix_downloading"></string>
     <string name="user_message_download_complete">Download Completed.</string>
     <string name="user_message_download_canceled">Download Cancelled.</string>
     <string name="error_message_general">Ooops, we have an error!</string>
@@ -53,4 +53,9 @@
     <string name="updateinfo">Manually updating the database may require up to five minutes to complete, but may fix some problems you may encounter when scanning or browsing it. To start updating the database, press the button below.</string>
     <string name="devupdate">This is the address which is used to download the database. Should be hidden to the end-user.</string>
     <string name="cart">Cart</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="cart_intro">Keep track of gluten-free foods.</string>
+    <string name="learnmore">Learn more.</string>
+    <string name="notavailable">This feature is not available in Design Previews of CeliEye.</string>
+    <string name="addcart">Add to Cart.</string>
 </resources>

@@ -65,13 +65,20 @@ public class Eye extends Activity implements OnClickListener {
             clickSettings();
             return true; //Potrebbe essere eliminato(?)
         }
+        if (id == R.id.action_cart) {
+            clickCart();
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
     private void clickSettings(){
         Intent enabler=new Intent(this, Settings.class);
         startActivity(enabler);
     }
-
+    private void clickCart(){
+        Intent enabler=new Intent(this, Cart.class);
+        startActivity(enabler);
+    }
    @Override
     public void onClick(View v) {
        if(v.getId()==R.id.imageButton){
