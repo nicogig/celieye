@@ -2,6 +2,7 @@ package nicolagigante.celieye.activity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.view.Menu;
@@ -40,7 +41,13 @@ public class Settings extends Activity {
             default:
                 return super.onOptionsItemSelected(item);
     }
+
 }
+    private void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
     public void Info(View view) {
 // Do something in response to button
         Intent intent = new Intent(this, Info.class);
@@ -70,5 +77,8 @@ public class Settings extends Activity {
         Intent intent = new Intent(this, AndroidFileDownloader.class);
         startActivity(intent);
 
+    }
+    public void Guide(View view) {
+        goToUrl("http://celieye.tk/in-app/");
     }
 }
