@@ -23,7 +23,7 @@
     <string name="SettingsRelease">Release Notes</string>
     <string name="SettingsInfo">Infos</string>
     <string name="AppName">CeliEye</string>
-    <string name="InfoVersion">Design Preview 1</string>
+    <string name="InfoVersion">Design Preview 2</string>
     <string name="InfoCopyright">Something random about the fact that this app is not to be shown in the wild… yet.</string>
     <string name="NotAvailable">This feature is not available yet.</string>
     <string name="EyeScan">Touch the camera to start scanning.</string>
