@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="nicolagigante.celieye"
     android:versionCode="1"
-    android:versionName="Design Preview 1">
+    android:versionName="Design Preview 1" >
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -113,6 +113,10 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
+        </activity>
+        <activity
+            android:name=".test.TestDB"
+            android:label="@string/title_activity_test_db" >
         </activity>
     </application>
 
