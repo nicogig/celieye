@@ -8,10 +8,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
         android:background="@drawable/info"
-        android:onClick="Info" />
+        android:onClick="Info"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,8 +29,8 @@
         android:id="@+id/button2"
         android:background="@drawable/quantumdesign"
         android:onClick="Design"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/button" />
+        android:layout_below="@+id/button8"
+        android:layout_alignParentLeft="true" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,8 +47,7 @@
         android:background="@drawable/ic_good"
         android:onClick="Good"
         android:layout_below="@+id/button2"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="76dp" />
+        android:layout_alignParentLeft="true" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,7 +62,7 @@
         android:id="@+id/button7"
         android:background="@drawable/update"
         android:onClick="DatabaseUpdate"
-        android:layout_below="@+id/button2"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true" />
     <TextView
         android:layout_width="wrap_content"
@@ -80,8 +79,8 @@
         android:id="@+id/button8"
         android:background="@drawable/info"
         android:onClick="Guide"
-        android:layout_alignTop="@+id/button5"
-        android:layout_toRightOf="@+id/button5" />
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -90,7 +89,7 @@
         android:id="@+id/textView3"
         android:layout_alignBaseline="@+id/button8"
         android:layout_alignBottom="@+id/button8"
-        android:layout_centerHorizontal="true" />
+        android:layout_toRightOf="@+id/button8" />
 
 </RelativeLayout>
 
