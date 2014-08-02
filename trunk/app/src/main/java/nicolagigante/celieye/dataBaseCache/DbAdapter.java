@@ -27,7 +27,7 @@ public class DbAdapter {
 
     public DbAdapter open() throws SQLException {
         dbHelper = new DatabaseHelper(context);
-        database = dbHelper.getWritableDatabase();
+        database = dbHelper.getReadableDatabase();
         return this;
     }
 
@@ -36,9 +36,15 @@ public class DbAdapter {
     }
 
     public boolean veifyProduct(String barcode){
-        Cursor mCursor = database.query(true,dbKey.TABLE_BARCODE,new String[]{dbKey.KEY_BARCODE_ID_BARCODE},
-                "id_barcode="+barcode,null,null, null, null, null, null
-        );
+      //  Cursor mCursor = database.query(false,dbKey.TABLE_BARCODE,new String[]{"*"},
+            //  "id_barcode = "+barcode,null,null, null, null, null, null);
+       String[] arraycolonne = {
+               "*"
+       };
+        Cursor mCursor = database.query(false,"barcode", arraycolonne ,
+                "id_barcode = "+barcode,null,null, null, null, null, null);
+
+       // Cursor mCursor=database.rawQuery("SELECT * " + " from " + dbKey.TABLE_BARCODE, new String[]{dbKey.KEY_BARCODE_ID_BARCODE + "=" + barcode});
         if (mCursor==null) {
             return false;
         }
