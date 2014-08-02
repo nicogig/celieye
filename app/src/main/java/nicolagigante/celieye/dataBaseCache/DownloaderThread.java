@@ -31,11 +31,6 @@ public class DownloaderThread extends Thread
     private AndroidFileDownloader parentActivity;
     private String downloadUrl;
 
-    /**
-     * Instantiates a new DownloaderThread object.
-     * @param parentActivity Reference to AndroidFileDownloader activity.
-     * @param inUrl String representing the URL of the file to be downloaded.
-     */
     public DownloaderThread(AndroidFileDownloader inParentActivity, String inUrl)
     {
         downloadUrl = "";

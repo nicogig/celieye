@@ -90,6 +90,7 @@ public final class R {
         public static final int settings=0x7f02003f;
         public static final int todo=0x7f020040;
         public static final int update=0x7f020041;
+        public static final int update_flow=0x7f020042;
     }
     public static final class id {
         public static final int TextNotAvailable=0x7f0b0003;
@@ -149,16 +150,17 @@ public final class R {
         public static final int cart=0x7f0a0002;
         public static final int database=0x7f0a0003;
         public static final int design=0x7f0a0004;
-        public static final int eye=0x7f0a0005;
-        public static final int good=0x7f0a0006;
-        public static final int info=0x7f0a0007;
-        public static final int not_available=0x7f0a0008;
-        public static final int parse_json=0x7f0a0009;
-        public static final int release_notes=0x7f0a000a;
-        public static final int settings=0x7f0a000b;
-        public static final int test=0x7f0a000c;
-        public static final int test_db=0x7f0a000d;
-        public static final int to_do=0x7f0a000e;
+        public static final int downloader=0x7f0a0005;
+        public static final int eye=0x7f0a0006;
+        public static final int good=0x7f0a0007;
+        public static final int info=0x7f0a0008;
+        public static final int not_available=0x7f0a0009;
+        public static final int parse_json=0x7f0a000a;
+        public static final int release_notes=0x7f0a000b;
+        public static final int settings=0x7f0a000c;
+        public static final int test=0x7f0a000d;
+        public static final int test_db=0x7f0a000e;
+        public static final int to_do=0x7f0a000f;
     }
     public static final class string {
         public static final int AppName=0x7f080000;
@@ -223,17 +225,18 @@ public final class R {
         public static final int title_activity_cart=0x7f08003b;
         public static final int title_activity_database=0x7f08003c;
         public static final int title_activity_design=0x7f08003d;
-        public static final int title_activity_good=0x7f08003e;
-        public static final int title_activity_info=0x7f08003f;
-        public static final int title_activity_not_available=0x7f080040;
-        public static final int title_activity_parse_json=0x7f080041;
-        public static final int title_activity_release_notes=0x7f080042;
-        public static final int title_activity_settings=0x7f080043;
-        public static final int title_activity_test_db=0x7f080044;
-        public static final int title_activity_to_do=0x7f080045;
-        public static final int updateinfo=0x7f080046;
-        public static final int user_message_download_canceled=0x7f080047;
-        public static final int user_message_download_complete=0x7f080048;
+        public static final int title_activity_downloader=0x7f08003e;
+        public static final int title_activity_good=0x7f08003f;
+        public static final int title_activity_info=0x7f080040;
+        public static final int title_activity_not_available=0x7f080041;
+        public static final int title_activity_parse_json=0x7f080042;
+        public static final int title_activity_release_notes=0x7f080043;
+        public static final int title_activity_settings=0x7f080044;
+        public static final int title_activity_test_db=0x7f080045;
+        public static final int title_activity_to_do=0x7f080046;
+        public static final int updateinfo=0x7f080047;
+        public static final int user_message_download_canceled=0x7f080048;
+        public static final int user_message_download_complete=0x7f080049;
     }
     public static final class style {
         public static final int CustomProgressBar=0x7f090000;
