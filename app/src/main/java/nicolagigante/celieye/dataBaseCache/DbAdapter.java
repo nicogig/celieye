@@ -11,6 +11,8 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.provider.ContactsContract;
 
+import nicolagigante.celieye.model.Prodotto;
+
 public class DbAdapter {
     @SuppressWarnings("unused")
     private static final String LOG_TAG = DbAdapter.class.getSimpleName();
@@ -18,15 +20,11 @@ public class DbAdapter {
     private Context context;
     private SQLiteDatabase database;
     private DatabaseHelper dbHelper;
+    private DbKey dbKey= new DbKey();
 
     // Database fields
-    private static final String DATABASE_TABLE = "contact";
 
-    public static final String KEY_CONTACTID = "_id";
-    public static final String KEY_NAME = "name";
-    public static final String KEY_SURNAME = "surname";
-    public static final String KEY_SEX = "sex";
-    public static final String KEY_BIRTH_DATE = "birth_date";
+
 
     public DbAdapter(Context context) {
         this.context = context;
@@ -42,22 +40,37 @@ public class DbAdapter {
         dbHelper.close();
     }
 
-    private ContentValues createContentValues(String name, String surname, String sex, String birth_date) {
+    public boolean veifyProduct(String barcode){
+        Cursor mCursor = database.query(true,dbKey.TABLE_BARCODE,new String[]{dbKey.KEY_BARCODE_ID_BARCODE},
+                "id_barcode="+barcode,null,null, null, null, null, null
+        );
+        if (mCursor==null) {
+            return false;
+        }
+
+        return true;
+    }
+
+
+/*
+    private ContentValues createContentValues(String id_products, String id_barcode, String flags_validate) {
         ContentValues values = new ContentValues();
-        values.put(KEY_NAME, name);
-        values.put(KEY_SURNAME, surname);
-        values.put(KEY_SEX, sex);
-        values.put(KEY_BIRTH_DATE, birth_date);
+        values.put(ID_PRODUCT, id_products);
+        values.put(ID_BARCODE, id_barcode);
+        values.put(FLAG_VALIDATE, flags_validate);
 
         return values;
     }
 
     //create a contact
-    public long createContact(String name, String surname, String sex, String birth_date) {
-        ContentValues initialValues = createContentValues(name, surname, sex, birth_date);
-        return database.insertOrThrow(DATABASE_TABLE, null, initialValues);
+    public long createContact(String id_products, String id_barcode, String flags_validate) {
+        ContentValues initialValues = createContentValues(id_products, id_barcode, flags_validate);
+        return database.insertOrThrow(DATABASE_TABLE, null, initialValues);//da modificare
     }
+    public boolean insertProduct(Prodotto prodotto){
 
+        return false;
+    }
     //update a contact
     public boolean updateContact(long contactID, String name, String surname, String sex, String birth_date) {
         ContentValues updateValues = createContentValues(name, surname, sex, birth_date);
@@ -83,4 +96,5 @@ public class DbAdapter {
 
         return mCursor;
     }
+    */
 }
