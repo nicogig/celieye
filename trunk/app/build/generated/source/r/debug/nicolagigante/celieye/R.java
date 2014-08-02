@@ -140,8 +140,9 @@ public final class R {
         public static final int activity_release_notes=0x7f030009;
         public static final int activity_settings=0x7f03000a;
         public static final int activity_test=0x7f03000b;
-        public static final int activity_to_do=0x7f03000c;
-        public static final int android_file_downloader=0x7f03000d;
+        public static final int activity_test_db=0x7f03000c;
+        public static final int activity_to_do=0x7f03000d;
+        public static final int android_file_downloader=0x7f03000e;
     }
     public static final class menu {
         public static final int async_task_http_post=0x7f0a0000;
@@ -156,7 +157,8 @@ public final class R {
         public static final int release_notes=0x7f0a0009;
         public static final int settings=0x7f0a000a;
         public static final int test=0x7f0a000b;
-        public static final int to_do=0x7f0a000c;
+        public static final int test_db=0x7f0a000c;
+        public static final int to_do=0x7f0a000d;
     }
     public static final class string {
         public static final int AppName=0x7f080000;
@@ -226,10 +228,11 @@ public final class R {
         public static final int title_activity_parse_json=0x7f080040;
         public static final int title_activity_release_notes=0x7f080041;
         public static final int title_activity_settings=0x7f080042;
-        public static final int title_activity_to_do=0x7f080043;
-        public static final int updateinfo=0x7f080044;
-        public static final int user_message_download_canceled=0x7f080045;
-        public static final int user_message_download_complete=0x7f080046;
+        public static final int title_activity_test_db=0x7f080043;
+        public static final int title_activity_to_do=0x7f080044;
+        public static final int updateinfo=0x7f080045;
+        public static final int user_message_download_canceled=0x7f080046;
+        public static final int user_message_download_complete=0x7f080047;
     }
     public static final class style {
         public static final int CustomProgressBar=0x7f090000;
