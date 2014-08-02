@@ -3,15 +3,10 @@ package nicolagigante.celieye.dataBaseCache;
 /**
  * Created by genio_2 on 01/08/2014.
  */
-import android.content.ContentResolver;
-import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import android.provider.ContactsContract;
-
-import nicolagigante.celieye.model.Prodotto;
 
 public class DbAdapter {
     @SuppressWarnings("unused")
