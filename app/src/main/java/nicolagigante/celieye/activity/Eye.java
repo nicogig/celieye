@@ -101,10 +101,13 @@ public class Eye extends Activity implements OnClickListener {
              contentTxt.setText("CONTENT: " + scanContent);
              url = "https://api.scandit.com/v2/products/" + scanContent + "?key=C6NTW7yipvCc3NsOCRGMFwL0v30btTfc-f3D7i4E3Qz&sources=basic&timeout=2000";
              //-------------------------------change intent---------------------
-            Intent i=new Intent(this, AsyncTaskHttpPost.class);
-             i.putExtra("url", url);
-             startActivity(i);
+          //  Intent i=new Intent(this, AsyncTaskHttpPost.class);
+          //   i.putExtra("url", url);
+           //  startActivity(i);
              //---------------------------------------------------------------
+             Intent t=new Intent(this, DatabaseActivity.class);
+             t.putExtra("barcode", scanContent);
+             startActivity(t);
 
 
 
