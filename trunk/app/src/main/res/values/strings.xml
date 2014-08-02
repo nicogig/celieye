@@ -59,5 +59,6 @@
     <string name="notavailable">This feature is not available in Design Previews of CeliEye.</string>
     <string name="addcart">Add to Cart.</string>
     <string name="title_activity_test_db">TestDB</string>
+    <string name="title_activity_database">DatabaseActivity</string>
 
 </resources>
