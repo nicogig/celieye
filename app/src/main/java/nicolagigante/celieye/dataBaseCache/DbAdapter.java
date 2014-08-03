@@ -45,11 +45,11 @@ public class DbAdapter {
                 "id_barcode = "+barcode,null,null, null, null, null, null);
 
        // Cursor mCursor=database.rawQuery("SELECT * " + " from " + dbKey.TABLE_BARCODE, new String[]{dbKey.KEY_BARCODE_ID_BARCODE + "=" + barcode});
-        if (mCursor==null) {
-            return false;
+        if (mCursor.moveToFirst()) {
+            return true;
         }
-
-        return true;
+        else
+        return false;
     }
 
 

@@ -6,14 +6,21 @@ package nicolagigante.celieye.dataBaseCache;
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.nio.channels.FileChannel;
 
+import android.content.Context;
 import android.os.Environment;
 import android.os.Message;
+import android.util.Log;
 
 import nicolagigante.celieye.R;
 import nicolagigante.celieye.activity.AndroidFileDownloader;
@@ -30,6 +37,9 @@ public class DownloaderThread extends Thread
     // instance variables
     private AndroidFileDownloader parentActivity;
     private String downloadUrl;
+    private final Context myContext;
+    private static String DB_PATH = "/data/data/nicolagigante.celieye/databases/";
+    private static String DB_NAME = "dbaic.db";
 
     public DownloaderThread(AndroidFileDownloader inParentActivity, String inUrl)
     {
@@ -39,9 +49,60 @@ public class DownloaderThread extends Thread
             downloadUrl = inUrl;
         }
         parentActivity = inParentActivity;
+        myContext = null;
     }
 
+//---------------------------copy db-------------------
+private void copyDataBase() throws IOException{
+     Log.i( "copyDataBase", "sono entrato, e tante grazie.");
+    //Open your local db as the input stream
+    InputStream myInput = myContext.openFileInput("/sdcard/dbaic.db");
+    Log.i("myInput", myInput.toString());
 
+    // Path to the just created empty db
+    String outFileName = "/data/data/nicolagigante.celieye/databases/" + "dbaic.db";
+Log.i("outFileName", outFileName);
+
+    //Open the empty db as the output stream
+    OutputStream myOutput = new FileOutputStream(outFileName);
+    Log.i("myOutput", myOutput.toString());
+
+    //transfer bytes from the inputfile to the outputfile
+    byte[] buffer = new byte[1024];
+    int length;
+    while ((length = myInput.read(buffer))>0){
+        myOutput.write(buffer, 0, length);
+    }
+
+    //Close the streams
+    myOutput.flush();
+    myOutput.close();
+    myInput.close();
+
+}
+//-----------------------------------------------------
+
+
+    public static void copyFile(File src, File dst) throws IOException
+    {
+        Log.i("copyFile", "entrato");
+        FileChannel inChannel = new FileInputStream(src).getChannel();
+        Log.i("inChannel", inChannel.toString());
+        FileChannel outChannel = new FileOutputStream(dst).getChannel();
+        Log.i("outChannel", outChannel.toString());
+        try
+        {
+            inChannel.transferTo(0, inChannel.size(), outChannel);
+            Log.i("inChannel Transfer", inChannel.toString());
+        }
+        finally
+        {
+            if (inChannel != null)
+                inChannel.close();
+            if (outChannel != null)
+                outChannel.close();
+        }
+    }
 
     /**
      * Connects to the URL of the file, begins the download, and notifies the
@@ -60,6 +121,7 @@ public class DownloaderThread extends Thread
         File outFile;
         FileOutputStream fileStream;
         Message msg;
+        File destFile;
 
         // we're going to connect now
         msg = Message.obtain(parentActivity.activityHandler,
@@ -95,7 +157,9 @@ public class DownloaderThread extends Thread
 
             // start download
             inStream = new BufferedInputStream(conn.getInputStream());
+            //outFile = new File(Environment.getDataDirectory() + "/nicolagigante.celieye/databases/" + fileName);
             outFile = new File(Environment.getExternalStorageDirectory() + "/" + fileName);
+            //destFile = new File(Context.getApplicationContext().getFilesDir() + "/");
             fileStream = new FileOutputStream(outFile);
             outStream = new BufferedOutputStream(fileStream, DOWNLOAD_BUFFER_SIZE);
             byte[] data = new byte[DOWNLOAD_BUFFER_SIZE];
@@ -128,6 +192,7 @@ public class DownloaderThread extends Thread
                 msg = Message.obtain(parentActivity.activityHandler,
                         AndroidFileDownloader.MESSAGE_DOWNLOAD_COMPLETE);
                 parentActivity.activityHandler.sendMessage(msg);
+                //copyFile(outFile, destFile);
             }
         }
         catch(MalformedURLException e)
@@ -155,5 +220,4 @@ public class DownloaderThread extends Thread
             parentActivity.activityHandler.sendMessage(msg);
         }
     }
-
 }

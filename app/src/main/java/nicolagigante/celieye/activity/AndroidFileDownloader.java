@@ -5,10 +5,13 @@ package nicolagigante.celieye.activity;
  */
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v4.app.NavUtils;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -16,11 +19,19 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.nio.channels.FileChannel;
+
 import nicolagigante.celieye.R;
 import nicolagigante.celieye.dataBaseCache.DownloaderThread;
 
 public class AndroidFileDownloader extends Activity implements OnClickListener
 {
+
     // Used to communicate state changes in the DownloaderThread
     public static final int MESSAGE_DOWNLOAD_STARTED = 1000;
     public static final int MESSAGE_DOWNLOAD_COMPLETE = 1001;
@@ -29,10 +40,15 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
     public static final int MESSAGE_CONNECTING_STARTED = 1004;
     public static final int MESSAGE_ENCOUNTERED_ERROR = 1005;
 
+
     // instance variables
     private AndroidFileDownloader thisActivity;
     private Thread downloaderThread;
     private ProgressDialog progressDialog;
+    File destFile;
+    File outFile;
+    String fileName = "dbaic.db";
+
 
     /** Called when the activity is first created. */
     @Override
@@ -46,6 +62,37 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
         setContentView(R.layout.android_file_downloader);
         Button button = (Button) this.findViewById(R.id.download_button);
         button.setOnClickListener(this);
+        outFile = new File(Environment.getExternalStorageDirectory() + "/" + fileName);
+        destFile = new File(this.getApplicationContext().getFilesDir() + "/" + fileName);
+        try {
+            Log.i("Entrato", "tryfileoutput");
+            FileOutputStream fos = openFileOutput("dbaic.db", Context.MODE_PRIVATE);
+            Log.i("FileOutputStream", "riuscito");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+    }
+    public static void copyFile(File src, File dst) throws IOException
+    {
+        Log.i("copyFile", "entrato");
+
+        FileChannel inChannel = new FileInputStream(src).getChannel();
+        Log.i("inChannel", inChannel.toString());
+        FileChannel outChannel = new FileOutputStream(dst).getChannel();
+        Log.i("outChannel", outChannel.toString());
+        try
+        {
+            inChannel.transferTo(0, inChannel.size(), outChannel);
+            Log.i("inChannel Transfer", inChannel.toString());
+        }
+        finally
+        {
+            if (inChannel != null)
+                inChannel.close();
+            if (outChannel != null)
+                outChannel.close();
+        }
     }
 
     /** Called when the user clicks on something. */
@@ -170,8 +217,19 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
                                  * 2. Display Toast that says download is complete.
                                  */
                 case MESSAGE_DOWNLOAD_COMPLETE:
+                    Log.i("DownloadComplete", "Completato");
                     dismissCurrentProgressDialog();
+                    Log.i("Dismesso", "Dialogo Dis");
                     displayMessage(getString(R.string.user_message_download_complete));
+                    Log.i("messaggio", "messaggio mostrato");
+
+                    try {
+                        Log.i("entro", "entrato nel try");
+                        copyFile(outFile, destFile);
+                        Log.i("copyFile", "copyFile");
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                     break;
 
                                 /*
