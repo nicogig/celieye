@@ -24,7 +24,7 @@
     <string name="SettingsInfo">Infos</string>
     <string name="AppName">CeliEye</string>
     <string name="InfoVersion">Preview 1</string>
-    <string name="InfoCopyright">Made by Eugenio &amp; Nicola Gigante. Some informations in our database might not be correct, so please don't trust us 100%.</string>
+    <string name="InfoCopyright">Made by Eugenio &amp; Nicola Gigante. Some informations in our database might not be correct, so please don \'t trust us 100%.</string>
     <string name="NotAvailable">This feature is not available yet.</string>
     <string name="EyeScan">Touch the camera to start scanning.</string>
     <string name="ToDoTitle">To Do.</string>
