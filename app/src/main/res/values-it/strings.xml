@@ -22,8 +22,8 @@
     <string name="SettingsRelease">Note sulla release</string>
     <string name="SettingsInfo">Informazioni</string>
     <string name="AppName">CeliEye</string>
-    <string name="InfoVersion">Design Preview 2</string>
-    <string name="InfoCopyright">Qualcosa random sul fatto che non dovesti farla vedere al mondo st\'app.</string>
+    <string name="InfoVersion">Preview 1</string>
+    <string name="InfoCopyright">Creata da Eugenio &amp; Nicola Gigante. Qualche informazione nel nostro database potrebbe risultare non corretta al 100%. Anche se tentiamo sempre di verificare le informazioni, procedete con cautela.</string>
     <string name="NotAvailable">Questa funzione non è ancora disponibile.</string>
     <string name="EyeScan">Tocca la fotocamera per iniziare una scansione.</string>
     <string name="ToDoTitle">Da fare</string>
@@ -53,7 +53,7 @@
     <string name="title_activity_cart">Carrello</string>
     <string name="cart_intro">Tieni traccia di cibi senza glutine.</string>
     <string name="learnmore">Scopri di più.</string>
-    <string name="notavailable">Questa funzione non è disponibile nelle Design Previews di CeliEye.</string>
+    <string name="notavailable">Questa funzione non è disponibile nelle Previews di CeliEye.</string>
     <string name="addcart">Aggiungi al Carrello.</string>
     <string name="error">C \' è un errore? Informaci, tappando qui.</string>
     <string name="title_activity_async_task_http_post">AsyncTaskHttpPost</string>
