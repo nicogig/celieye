@@ -26,39 +26,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:background="@drawable/quantumdesign"
-        android:onClick="Design"
-        android:layout_below="@+id/button8"
-        android:layout_alignParentLeft="true" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/SettingsQuantum"
-        android:id="@+id/textView2"
-        android:gravity="center_horizontal"
-        android:layout_alignBaseline="@+id/button2"
-        android:layout_alignBottom="@+id/button2"
-        android:layout_toRightOf="@+id/button2" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button5"
-        android:background="@drawable/ic_good"
-        android:onClick="Good"
-        android:layout_below="@+id/button2"
-        android:layout_alignParentLeft="true" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/button6"
-        android:background="@drawable/ic_bad"
-        android:onClick="Bad"
-        android:layout_below="@+id/button5"
-        android:layout_alignParentLeft="true" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/button7"
         android:background="@drawable/update"
         android:onClick="DatabaseUpdate"
