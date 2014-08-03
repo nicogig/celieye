@@ -17,7 +17,7 @@ import java.io.OutputStream;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     //The Android's default system path of your application database.
-    private static String DB_PATH = "/sdcard/";
+    private static String DB_PATH = "/data/data/nicolagigante.celieye/files/";
 
     private static String DB_NAME = "dbaic.db";
 
@@ -32,7 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
      */
     public DatabaseHelper(Context context) {
 
-        super(context, DB_NAME, null, 2014005);
+        super(context,DB_PATH + DB_NAME, null, 2014005);
         this.myContext = context;
     }
 
@@ -63,6 +63,8 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         }
 
     }
+
+
 
     /**
      * Check if the database already exist to avoid re-copying the file each time you open the application.
