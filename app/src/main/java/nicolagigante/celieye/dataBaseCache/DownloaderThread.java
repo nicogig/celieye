@@ -18,6 +18,7 @@ import java.net.URLConnection;
 import java.nio.channels.FileChannel;
 
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Environment;
 import android.os.Message;
 import android.util.Log;
@@ -103,6 +104,8 @@ Log.i("outFileName", outFileName);
                 outChannel.close();
         }
     }
+
+
 
     /**
      * Connects to the URL of the file, begins the download, and notifies the

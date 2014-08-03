@@ -6,6 +6,7 @@ package nicolagigante.celieye.activity;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -24,6 +25,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.nio.channels.FileChannel;
 
 import nicolagigante.celieye.R;
@@ -64,13 +67,6 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
         button.setOnClickListener(this);
         outFile = new File(Environment.getExternalStorageDirectory() + "/" + fileName);
         destFile = new File(this.getApplicationContext().getFilesDir() + "/" + fileName);
-        try {
-            Log.i("Entrato", "tryfileoutput");
-            FileOutputStream fos = openFileOutput("dbaic.db", Context.MODE_PRIVATE);
-            Log.i("FileOutputStream", "riuscito");
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
 
     }
     public static void copyFile(File src, File dst) throws IOException
@@ -93,6 +89,15 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
             if (outChannel != null)
                 outChannel.close();
         }
+    }
+
+    private void copyFile(OutputStream os, InputStream is) throws IOException {
+        byte[] buffer = new byte[1024];
+        int length;
+        while((length = is.read(buffer))>0){
+            os.write(buffer, 0, length);
+        }
+        os.flush();
     }
 
     /** Called when the user clicks on something. */

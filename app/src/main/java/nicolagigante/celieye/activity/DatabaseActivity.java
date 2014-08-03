@@ -5,6 +5,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import java.io.IOException;
+
 import nicolagigante.celieye.R;
 import nicolagigante.celieye.dataBaseCache.DbAdapter;
 import nicolagigante.celieye.dataBaseCache.DatabaseHelper;
