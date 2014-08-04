@@ -115,10 +115,6 @@
                 android:value="nicolagigante.celieye.activity.Eye" />
         </activity>
         <activity
-            android:name=".test.TestDB"
-            android:label="@string/title_activity_test_db" >
-        </activity>
-        <activity
             android:name=".activity.DatabaseActivity"
             android:label="@string/title_activity_database"
             android:parentActivityName=".activity.Eye" >
@@ -127,8 +123,13 @@
                 android:value="nicolagigante.celieye.activity.Eye" />
         </activity>
         <activity
-            android:name=".activity.Downloader"
-            android:label="@string/title_activity_downloader" >
+            android:name=".activity.First"
+            android:label="@string/title_activity_first"
+            android:parentActivityName=".activity.Eye"
+            android:noHistory="true" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="nicolagigante.celieye.activity.Eye" />
         </activity>
     </application>
 
