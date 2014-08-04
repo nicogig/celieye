@@ -2,7 +2,9 @@ package nicolagigante.celieye.activity;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -27,19 +29,27 @@ import com.google.zxing.integration.android.IntentResult;
 
 public class Eye extends Activity implements OnClickListener {
    private TextView formatTxt, contentTxt, resultTxt;
-
+   public static final String FIRST_RUN = "FirstRun";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_eye);
-        Animation fadeIn = new AlphaAnimation(0, 1);
-        fadeIn.setInterpolator(new AccelerateInterpolator()); //add this
-        fadeIn.setDuration(1200);
+        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+        if (prefs.getBoolean(FIRST_RUN, true)) {
+            Intent i= new Intent(this, First.class);
+            startActivity(i);
+
+        }
+        else {
+            setContentView(R.layout.activity_eye);
+        }
+   //     Animation fadeIn = new AlphaAnimation(0, 1);
+  //      fadeIn.setInterpolator(new AccelerateInterpolator()); //add this
+  //      fadeIn.setDuration(1200);
         ImageButton b=(ImageButton)findViewById(R.id.imageButton);
-        AnimationSet animation = new AnimationSet(false); //change to false
-        animation.addAnimation(fadeIn);
-        b.startAnimation(animation);
-       b.setOnClickListener((View.OnClickListener) this);
+  //      AnimationSet animation = new AnimationSet(false); //change to false
+  //      animation.addAnimation(fadeIn);
+ //       b.startAnimation(animation);
+        b.setOnClickListener((View.OnClickListener) this);
         formatTxt = (TextView)findViewById(R.id.textView);
        contentTxt = (TextView)findViewById(R.id.textView2);
         resultTxt = (TextView)findViewById(R.id.textView3);

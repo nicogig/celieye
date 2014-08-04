@@ -50,7 +50,7 @@
     <string name="error_message_bad_url">Huston, we have a bad URL!</string>
     <string name="ForceDatabase">Update manually the database</string>
     <string name="downloader">Update manually the database</string>
-    <string name="updateinfo">Manually updating the database may require up to five minutes to complete, but may fix some problems you may encounter when scanning or browsing it. To start updating the database, press the button below.</string>
+    <string name="updateinfo">Manually updating the database may require up to five minutes to complete, but may fix some problems you may encounter when scanning or browsing it. You need it if it \'s the first time running CeliEye. To start updating the database, press the button below.</string>
     <string name="devupdate">This is the address which is used to download the database. Should be hidden to the end-user.</string>
     <string name="cart">Cart</string>
     <string name="title_activity_cart">Cart</string>
@@ -61,5 +61,9 @@
     <string name="title_activity_test_db">TestDB</string>
     <string name="title_activity_database">DatabaseActivity</string>
     <string name="title_activity_downloader">Downloader</string>
+    <string name="title_activity_first">CeliEye</string>
+    <string name="welcome">Welcome to CeliEye.</string>
+    <string name="introduction">A snap is all it takes to know if what you \'re buying is gluten-free.</string>
+    <string name="configure">Configure CeliEye.</string>
 
 </resources>
