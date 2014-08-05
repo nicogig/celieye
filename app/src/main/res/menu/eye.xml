@@ -6,8 +6,10 @@
           android:showAsAction="always" />
     <item android:id="@+id/action_search"
         android:title="@string/action_search"
-        android:icon="@drawable/search"
-        android:showAsAction="ifRoom" />
+
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView" />
     <!-- Settings, should always be in the overflow -->
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"

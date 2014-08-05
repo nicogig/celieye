@@ -89,32 +89,35 @@ public final class R {
         public static final int releasenotes=0x7f02003e;
         public static final int search=0x7f02003f;
         public static final int settings=0x7f020040;
-        public static final int todo=0x7f020041;
-        public static final int update=0x7f020042;
-        public static final int update_flow=0x7f020043;
+        public static final int splash=0x7f020041;
+        public static final int thank=0x7f020042;
+        public static final int todo=0x7f020043;
+        public static final int update=0x7f020044;
+        public static final int update_flow=0x7f020045;
     }
     public static final class id {
         public static final int TextNotAvailable=0x7f0b0003;
-        public static final int action_cart=0x7f0b001d;
-        public static final int action_search=0x7f0b001e;
-        public static final int action_settings=0x7f0b001c;
+        public static final int action_cart=0x7f0b001e;
+        public static final int action_search=0x7f0b001f;
+        public static final int action_settings=0x7f0b001d;
         public static final int button=0x7f0b0004;
         public static final int button2=0x7f0b0009;
         public static final int button7=0x7f0b0016;
         public static final int button8=0x7f0b0017;
         public static final int checkBox=0x7f0b000a;
-        public static final int download_button=0x7f0b001b;
+        public static final int download_button=0x7f0b001c;
         public static final int etResponse=0x7f0b0001;
         public static final int first=0x7f0b0013;
         public static final int imageButton=0x7f0b0011;
         public static final int imageButton2=0x7f0b0010;
         public static final int imageView=0x7f0b0002;
+        public static final int imageView2=0x7f0b0018;
         public static final int isConnected=0x7f0b0000;
         public static final int progressBar=0x7f0b000e;
         public static final int radioButton=0x7f0b0008;
         public static final int ratingBar=0x7f0b000d;
         public static final int seekBar=0x7f0b000f;
-        public static final int status_text_label=0x7f0b0019;
+        public static final int status_text_label=0x7f0b001a;
         public static final int switch1=0x7f0b000b;
         public static final int textView=0x7f0b0005;
         public static final int textView2=0x7f0b0006;
@@ -122,9 +125,9 @@ public final class R {
         public static final int textView4=0x7f0b0012;
         public static final int textView5=0x7f0b0014;
         public static final int textView6=0x7f0b0015;
-        public static final int todo=0x7f0b0018;
+        public static final int todo=0x7f0b0019;
         public static final int toggleButton=0x7f0b000c;
-        public static final int url_input=0x7f0b001a;
+        public static final int url_input=0x7f0b001b;
     }
     public static final class layout {
         public static final int activity_async_task_http_post=0x7f030000;
@@ -140,10 +143,11 @@ public final class R {
         public static final int activity_parse_json=0x7f03000a;
         public static final int activity_release_notes=0x7f03000b;
         public static final int activity_settings=0x7f03000c;
-        public static final int activity_test=0x7f03000d;
-        public static final int activity_test_db=0x7f03000e;
-        public static final int activity_to_do=0x7f03000f;
-        public static final int android_file_downloader=0x7f030010;
+        public static final int activity_splash=0x7f03000d;
+        public static final int activity_test=0x7f03000e;
+        public static final int activity_test_db=0x7f03000f;
+        public static final int activity_to_do=0x7f030010;
+        public static final int android_file_downloader=0x7f030011;
     }
     public static final class menu {
         public static final int async_task_http_post=0x7f0a0000;
@@ -160,9 +164,10 @@ public final class R {
         public static final int parse_json=0x7f0a000b;
         public static final int release_notes=0x7f0a000c;
         public static final int settings=0x7f0a000d;
-        public static final int test=0x7f0a000e;
-        public static final int test_db=0x7f0a000f;
-        public static final int to_do=0x7f0a0010;
+        public static final int splash=0x7f0a000e;
+        public static final int test=0x7f0a000f;
+        public static final int test_db=0x7f0a0010;
+        public static final int to_do=0x7f0a0011;
     }
     public static final class string {
         public static final int AppName=0x7f080000;
@@ -224,25 +229,27 @@ public final class R {
         public static final int progress_dialog_title_connecting=0x7f080038;
         public static final int progress_dialog_title_downloading=0x7f080039;
         public static final int status_text_default=0x7f08003a;
-        public static final int title_activity_async_task_http_post=0x7f08003b;
-        public static final int title_activity_bad=0x7f08003c;
-        public static final int title_activity_cart=0x7f08003d;
-        public static final int title_activity_database=0x7f08003e;
-        public static final int title_activity_design=0x7f08003f;
-        public static final int title_activity_downloader=0x7f080040;
-        public static final int title_activity_first=0x7f080041;
-        public static final int title_activity_good=0x7f080042;
-        public static final int title_activity_info=0x7f080043;
-        public static final int title_activity_not_available=0x7f080044;
-        public static final int title_activity_parse_json=0x7f080045;
-        public static final int title_activity_release_notes=0x7f080046;
-        public static final int title_activity_settings=0x7f080047;
-        public static final int title_activity_test_db=0x7f080048;
-        public static final int title_activity_to_do=0x7f080049;
-        public static final int updateinfo=0x7f08004a;
-        public static final int user_message_download_canceled=0x7f08004b;
-        public static final int user_message_download_complete=0x7f08004c;
-        public static final int welcome=0x7f08004d;
+        public static final int thank=0x7f08003b;
+        public static final int title_activity_async_task_http_post=0x7f08003c;
+        public static final int title_activity_bad=0x7f08003d;
+        public static final int title_activity_cart=0x7f08003e;
+        public static final int title_activity_database=0x7f08003f;
+        public static final int title_activity_design=0x7f080040;
+        public static final int title_activity_downloader=0x7f080041;
+        public static final int title_activity_first=0x7f080042;
+        public static final int title_activity_good=0x7f080043;
+        public static final int title_activity_info=0x7f080044;
+        public static final int title_activity_not_available=0x7f080045;
+        public static final int title_activity_parse_json=0x7f080046;
+        public static final int title_activity_release_notes=0x7f080047;
+        public static final int title_activity_settings=0x7f080048;
+        public static final int title_activity_splash=0x7f080049;
+        public static final int title_activity_test_db=0x7f08004a;
+        public static final int title_activity_to_do=0x7f08004b;
+        public static final int updateinfo=0x7f08004c;
+        public static final int user_message_download_canceled=0x7f08004d;
+        public static final int user_message_download_complete=0x7f08004e;
+        public static final int welcome=0x7f08004f;
     }
     public static final class style {
         public static final int CustomProgressBar=0x7f090000;

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="nicolagigante.celieye.activity.Splash"
+    android:background="@drawable/ic_actionbar">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/splash"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celi"
+        android:id="@+id/textView"
+        android:textColor="#ffffffff"
+        android:textSize="26dp"
+        android:layout_marginLeft="106dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignLeft="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eye"
+        android:id="@+id/textView2"
+        android:textColor="#ffffffff"
+        android:textSize="26dp"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imageView"
+        android:layout_toRightOf="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:text="@string/thank"
+        android:textColor="#ffffffff"
+        android:textSize="18dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView2"
+        android:background="@drawable/thank"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_marginLeft="8dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:text="Random Company, Inc."
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView" />
+</RelativeLayout>
