@@ -110,8 +110,8 @@ public class Eye extends Activity implements OnClickListener {
 //we have a result
              String scanContent = scanningResult.getContents();
              String scanFormat = scanningResult.getFormatName();
-             formatTxt.setText("FORMAT: " + scanFormat);
-             contentTxt.setText("CONTENT: " + scanContent);
+           //  formatTxt.setText("FORMAT: " + scanFormat);
+          //   contentTxt.setText("CONTENT: " + scanContent);
              url = "https://api.scandit.com/v2/products/" + scanContent + "?key=C6NTW7yipvCc3NsOCRGMFwL0v30btTfc-f3D7i4E3Qz&sources=basic&timeout=2000";
              //-------------------------------change intent---------------------
           //  Intent i=new Intent(this, AsyncTaskHttpPost.class);
