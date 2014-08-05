@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="nicolagigante.celieye"
-    android:versionCode="1"
-    android:versionName="Design Preview 1" >
+    package="nicolagigante.celieye" >
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -21,11 +19,7 @@
             android:name=".activity.Eye"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".activity.Info"
@@ -124,12 +118,24 @@
         </activity>
         <activity
             android:name=".activity.First"
-            android:label="@string/title_activity_first"
-            android:parentActivityName=".activity.Eye"
-            android:noHistory="true" >
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:parentActivityName=".activity.Eye" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
+        </activity>
+        <activity
+            android:name=".activity.Splash"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.Eye"
+            android:noHistory="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

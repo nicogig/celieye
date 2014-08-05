@@ -64,5 +64,6 @@
     <string name="welcome">Benvenuto in CeliEye.</string>
     <string name="introduction">Ora tutto quel che serve per sapere se un prodotto è senza glutine è una foto.</string>
     <string name="configure">Configura CeliEye</string>
+    <string name="thank">Grazie a</string>
 
 </resources>

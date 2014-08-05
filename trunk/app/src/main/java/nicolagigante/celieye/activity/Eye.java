@@ -3,6 +3,7 @@ package nicolagigante.celieye.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.Menu;
@@ -41,15 +42,17 @@ public class Eye extends Activity implements OnClickListener {
         }
         else {
             setContentView(R.layout.activity_eye);
+             Animation fadeIn = new AlphaAnimation(0, 1);
+                  fadeIn.setInterpolator(new AccelerateInterpolator()); //add this
+                  fadeIn.setDuration(1200);
+            ImageButton b=(ImageButton)findViewById(R.id.imageButton);
+                  AnimationSet animation = new AnimationSet(false); //change to false
+                  animation.addAnimation(fadeIn);
+                   b.startAnimation(animation);
+            b.setOnClickListener(this);
         }
-   //     Animation fadeIn = new AlphaAnimation(0, 1);
-  //      fadeIn.setInterpolator(new AccelerateInterpolator()); //add this
-  //      fadeIn.setDuration(1200);
-        ImageButton b=(ImageButton)findViewById(R.id.imageButton);
-  //      AnimationSet animation = new AnimationSet(false); //change to false
-  //      animation.addAnimation(fadeIn);
- //       b.startAnimation(animation);
-        b.setOnClickListener((View.OnClickListener) this);
+
+
         formatTxt = (TextView)findViewById(R.id.textView);
        contentTxt = (TextView)findViewById(R.id.textView2);
         resultTxt = (TextView)findViewById(R.id.textView3);
