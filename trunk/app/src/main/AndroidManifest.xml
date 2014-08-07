@@ -144,6 +144,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
         </activity>
+        <activity
+            android:name=".activity.BasicsTut"
+            android:label="@string/title_activity_basics_tut" >
+        </activity>
     </application>
 
 </manifest>

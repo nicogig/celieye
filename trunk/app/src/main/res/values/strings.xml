@@ -70,7 +70,13 @@
     <string name="title_activity_finish_tutorial">FinishTutorial</string>
     <string name="finish">Finish the Tutorial.</string>
     <string name="congrats">Congrats!</string>
-    <string name="tutfinish">You\'ve successfully finished the tutorial!</string>
+    <string name="tutfinish">You\'ve successfully finished the tutorial! You now only need to download the database from the next screen to get started.</string>
     <string name="nextstep">Next Step</string>
+    <string name="title_activity_basics_tut">BasicsTut</string>
+    <string name="basicstut">Get to know the basics.</string>
+    <string name="carttut">This is the Cart. You can save gluten-free products here.</string>
+    <string name="searchtut">This is the Search. You can manually search products here.</string>
+    <string name="settingstut">These are the Settings. From here you can update the database.</string>
+    <string name="scantut">You can start a scan by pressing the button below.</string>
 
 </resources>
