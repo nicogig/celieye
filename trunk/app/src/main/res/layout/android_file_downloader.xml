@@ -45,6 +45,6 @@ android:layout_height="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/update_flow"
         android:layout_gravity="center_horizontal"
-        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
