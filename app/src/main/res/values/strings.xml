@@ -63,9 +63,14 @@
     <string name="title_activity_downloader">Downloader</string>
     <string name="title_activity_first">CeliEye</string>
     <string name="welcome">Welcome to CeliEye.</string>
-    <string name="introduction">A snap is all it takes to know if what you \'re buying is gluten-free.</string>
+    <string name="introduction">A snap is all it takes to know if what you\'re buying is gluten-free.</string>
     <string name="configure">Configure CeliEye.</string>
     <string name="title_activity_splash">Splash</string>
     <string name="thank">Thanks to</string>
+    <string name="title_activity_finish_tutorial">FinishTutorial</string>
+    <string name="finish">Finish the Tutorial.</string>
+    <string name="congrats">Congrats!</string>
+    <string name="tutfinish">You\'ve successfully finished the tutorial!</string>
+    <string name="nextstep">Next Step</string>
 
 </resources>

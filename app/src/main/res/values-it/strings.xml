@@ -47,7 +47,7 @@
     <string name="error_message_bad_url">Huston, abbiamo un URL non valido!</string>
     <string name="ForceDatabase">Aggiorna manualmente il database</string>
     <string name="downloader">Aggiorna manualmente il database</string>
-    <string name="updateinfo">Aggiornare manualmente il database potrebbe richiedere fino a cinque minuti, però potrebbe aggiustare alcuni problemi che potresti aver incontrato nello scansionare o cercare all \'interno del suddetto. Hai bisogno di aggiornare il database se è la prima volta che avvii CeliEye. Premi il pulsante qui sotto per iniziare la procedura d \'aggiornamento.</string>
+    <string name="updateinfo">Aggiornare manualmente il database potrebbe richiedere fino a cinque minuti, però potrebbe aggiustare alcuni problemi che potresti aver incontrato nello scansionare o cercare all \'interno del suddetto. Hai bisogno di aggiornare il database se è la prima volta che avvii CeliEye. Premi il pulsante qui sotto per iniziare la procedura d\' aggiornamento.</string>
     <string name="devupdate">Questo è l \'indirizzo a cui l \'app si connette per aggiornare il database. Dovrebbe essere nascosto all \'end-user</string>
     <string name="cart">Carrello</string>
     <string name="title_activity_cart">Carrello</string>
@@ -65,5 +65,10 @@
     <string name="introduction">Ora tutto quel che serve per sapere se un prodotto è senza glutine è una foto.</string>
     <string name="configure">Configura CeliEye</string>
     <string name="thank">Grazie a</string>
+    <string name="title_activity_finish_tutorial">FinishTutorial</string>
+    <string name="finish">Finisci il Tutorial.</string>
+    <string name="congrats">Congratulazioni!</string>
+    <string name="tutfinish">Hai completato il tutorial!</string>
+    <string name="nextstep">Prossimo Step</string>
 
 </resources>
