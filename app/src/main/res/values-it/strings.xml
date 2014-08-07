@@ -68,7 +68,13 @@
     <string name="title_activity_finish_tutorial">FinishTutorial</string>
     <string name="finish">Finisci il Tutorial.</string>
     <string name="congrats">Congratulazioni!</string>
-    <string name="tutfinish">Hai completato il tutorial!</string>
+    <string name="tutfinish">Hai completato il tutorial! Adesso hai solo bisogno di installare il database per poter iniziare ad utilizzare l\'app.</string>
     <string name="nextstep">Prossimo Step</string>
+    <string name="title_activity_basics_tut">BasicsTut</string>
+    <string name="basicstut">Impara le basi.</string>
+    <string name="carttut">Questo è il Carrello. Puoi salvare prodotti senza glutine qui.</string>
+    <string name="searchtut">Questa è la funzione Cerca. Puoi cercare un prodotto manualmente qui.</string>
+    <string name="settingstut">Queste sono le Impstazioni. Puoi aggiornare il database qui.</string>
+    <string name="scantut">Puoi iniziare una scansione premendo questo bottone:</string>
 
 </resources>

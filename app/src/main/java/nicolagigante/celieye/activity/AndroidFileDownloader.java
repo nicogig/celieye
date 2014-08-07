@@ -235,6 +235,7 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
+                    boolean deleted = outFile.delete();
                     break;
 
                                 /*
