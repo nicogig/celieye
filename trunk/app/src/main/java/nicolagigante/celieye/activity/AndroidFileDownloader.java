@@ -18,6 +18,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -90,7 +91,7 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
                 outChannel.close();
         }
     }
-
+/*
     private void copyFile(OutputStream os, InputStream is) throws IOException {
         byte[] buffer = new byte[1024];
         int length;
@@ -99,12 +100,12 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
         }
         os.flush();
     }
-
+*/
     /** Called when the user clicks on something. */
     @Override
     public void onClick(View view)
     {
-        EditText urlInputField = (EditText) this.findViewById(R.id.url_input);
+        TextView urlInputField = (TextView) this.findViewById(R.id.url_input);
         String urlInput = urlInputField.getText().toString();
         downloaderThread = new DownloaderThread(thisActivity, urlInput);
         downloaderThread.start();
@@ -301,5 +302,9 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
         {
             Toast.makeText(thisActivity, message, Toast.LENGTH_SHORT).show();
         }
+    }
+    public void runUpdate(String urlInput){
+        downloaderThread = new DownloaderThread(thisActivity, urlInput);
+        downloaderThread.start();
     }
 }

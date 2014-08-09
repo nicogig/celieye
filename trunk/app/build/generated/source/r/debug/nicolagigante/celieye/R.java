@@ -105,8 +105,8 @@ public final class R {
         public static final int action_settings=0x7f0b001f;
         public static final int button=0x7f0b0004;
         public static final int button2=0x7f0b0010;
-        public static final int button7=0x7f0b0019;
-        public static final int button8=0x7f0b001a;
+        public static final int button7=0x7f0b001a;
+        public static final int button8=0x7f0b001b;
         public static final int checkBox=0x7f0b0011;
         public static final int download_button=0x7f0b001e;
         public static final int etResponse=0x7f0b0001;
@@ -122,7 +122,7 @@ public final class R {
         public static final int radioButton=0x7f0b000f;
         public static final int ratingBar=0x7f0b0014;
         public static final int seekBar=0x7f0b0016;
-        public static final int status_text_label=0x7f0b001c;
+        public static final int status_text_label=0x7f0b001d;
         public static final int switch1=0x7f0b0012;
         public static final int textView=0x7f0b0005;
         public static final int textView2=0x7f0b0006;
@@ -130,9 +130,9 @@ public final class R {
         public static final int textView4=0x7f0b000a;
         public static final int textView5=0x7f0b000b;
         public static final int textView6=0x7f0b000e;
-        public static final int todo=0x7f0b001b;
+        public static final int todo=0x7f0b001c;
         public static final int toggleButton=0x7f0b0013;
-        public static final int url_input=0x7f0b001d;
+        public static final int url_input=0x7f0b0019;
     }
     public static final class layout {
         public static final int activity_async_task_http_post=0x7f030000;
