@@ -54,7 +54,8 @@ public class DownloaderThread extends Thread
     }
 
 //---------------------------copy db-------------------
-private void copyDataBase() throws IOException{
+/*
+    private void copyDataBase() throws IOException{
      Log.i( "copyDataBase", "sono entrato, e tante grazie.");
     //Open your local db as the input stream
     InputStream myInput = myContext.openFileInput("/sdcard/dbaic.db");
@@ -81,9 +82,10 @@ Log.i("outFileName", outFileName);
     myInput.close();
 
 }
+*/
 //-----------------------------------------------------
 
-
+/*
     public static void copyFile(File src, File dst) throws IOException
     {
         Log.i("copyFile", "entrato");
@@ -104,7 +106,7 @@ Log.i("outFileName", outFileName);
                 outChannel.close();
         }
     }
-
+*/
 
 
     /**

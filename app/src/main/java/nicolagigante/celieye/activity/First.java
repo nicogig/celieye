@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import nicolagigante.celieye.R;
+import nicolagigante.celieye.dataBaseCache.DownloaderThread;
 
 public class First extends Activity {
 
@@ -21,6 +22,10 @@ public class First extends Activity {
         super.onCreate(savedInstanceState);
         getActionBar().hide();
         setContentView(R.layout.activity_first);
+
+        //-------------------------------------------------
+
+        //-------------------------------------------------
 
 
     }

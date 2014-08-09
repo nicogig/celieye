@@ -53,4 +53,11 @@
         android:layout_alignLeft="@+id/first"
         android:textColor="#ff000000" />
 
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:id="@+id/url_input"
+        android:layout_above="@+id/first"
+        android:layout_alignParentLeft="true" />
+
 </RelativeLayout>

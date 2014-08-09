@@ -10,7 +10,7 @@ android:layout_height="fill_parent"
     android:layout_height="wrap_content"
     android:text="@string/status_text_default"
     />
-<EditText
+<TextView
     android:id="@+id/url_input"
     android:text="http://celieye.tk/db/dbaic.db"
     android:layout_width="0dp"
