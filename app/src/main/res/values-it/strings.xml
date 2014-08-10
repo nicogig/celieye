@@ -76,5 +76,7 @@
     <string name="searchtut">Questa è la funzione Cerca. Puoi cercare un prodotto manualmente qui.</string>
     <string name="settingstut">Queste sono le Impstazioni. Puoi aggiornare il database qui.</string>
     <string name="scantut">Puoi iniziare una scansione premendo questo bottone:</string>
+    <string name="searchhint">Scrivi qualcosa...</string>
+    <string name="help">Aiuto</string>
 
 </resources>
