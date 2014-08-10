@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 
 import nicolagigante.celieye.R;
+import nicolagigante.celieye.test.TestReadWriteFile;
 
 public class Settings extends Activity {
 
@@ -68,5 +69,9 @@ public class Settings extends Activity {
     }
     public void Guide(View view) {
         goToUrl("http://celieye.tk/in-app/");
+    }
+    public void Tstrwr(View view){
+        Intent intent = new Intent(this, TestReadWriteFile.class);
+        startActivity(intent);
     }
 }
