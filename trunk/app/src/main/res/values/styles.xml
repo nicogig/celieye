@@ -4,17 +4,22 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_back_actionbar</item>
         <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
         <item name="android:actionBarWidgetTheme">@style/YourActionBarWidget</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
 
+
     <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/ic_actionbar</item>
+
+        <item name="android:background">#03a9f4</item>
         <item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item> <!-- This does the magic! -->
-        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:icon">@android:color/white</item>
         <item name="android:actionBarSize">56dp</item>
+
+
     </style>
 
     <style name="Theme.MyAppTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
     <style name="CustomProgressBar" parent="android:Widget.ProgressBar.Horizontal">
         <item name="android:indeterminateOnly">false</item>
@@ -29,6 +34,30 @@
         parent="android:Theme.Holo.Light.DarkActionBar">
         <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
         <item name="android:dropDownListViewStyle">@android:style/Widget.Holo.Light.ListView.DropDown</item>
+    </style>
+
+    <!-- Main Class custom theme -->
+
+
+    <style name="EyeTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/EyeAction</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_actionbar</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:actionBarWidgetTheme">@style/YourActionBarWidget</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="EyeAction" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/Theme.EyeTheme.ActionBar.TitleTextStyle</item> <!-- This does the magic! -->
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionBarSize">56dp</item>
+
+
+    </style>
+
+    <style name="Theme.EyeTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/transparent</item>
     </style>
 
 </resources>

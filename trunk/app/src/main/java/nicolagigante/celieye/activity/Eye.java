@@ -9,6 +9,7 @@ import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -43,6 +44,7 @@ public class Eye extends Activity implements OnClickListener {
 
         }
         else {
+            requestWindowFeature(Window.FEATURE_ACTION_BAR_OVERLAY);
             setContentView(R.layout.activity_eye);
              Animation fadeIn = new AlphaAnimation(0, 1);
                   fadeIn.setInterpolator(new AccelerateInterpolator()); //add this
