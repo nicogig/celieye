@@ -19,15 +19,15 @@ public class TestReadWriteFile extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_read_write_file);
         try {
-            ReadWriteFile  writeFile= new ReadWriteFile("test",1,this);
-            writeFile.writeFile("test di scrittura");
+            ReadWriteFile  writeFile= new ReadWriteFile("test",MODE_APPEND,this);
+            writeFile.writeFile("test di scrittura\n");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
         try {
-            ReadWriteFile  readFile= new ReadWriteFile("test",1,this);
+            ReadWriteFile  readFile= new ReadWriteFile("test",MODE_APPEND,this);
             String read=readFile.readFile();
             Log.e("lettura file", read);
         } catch (FileNotFoundException e) {
