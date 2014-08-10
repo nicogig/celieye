@@ -148,6 +148,10 @@
             android:name=".activity.BasicsTut"
             android:label="@string/title_activity_basics_tut" >
         </activity>
+        <activity
+            android:name=".test.TestReadWriteFile"
+            android:label="@string/title_activity_test_read_write_file" >
+        </activity>
     </application>
 
 </manifest>

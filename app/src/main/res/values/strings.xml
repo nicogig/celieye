@@ -78,5 +78,6 @@
     <string name="searchtut">This is the Search. You can manually search products here.</string>
     <string name="settingstut">These are the Settings. From here you can update the database.</string>
     <string name="scantut">You can start a scan by pressing the button below.</string>
+    <string name="title_activity_test_read_write_file">TestReadWriteFile</string>
 
 </resources>
