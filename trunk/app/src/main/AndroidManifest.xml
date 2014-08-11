@@ -19,7 +19,7 @@
             android:name=".activity.Eye"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/EyeTheme">
+            android:theme="@style/EyeTheme" >
         </activity>
         <activity
             android:name=".activity.Info"
@@ -48,7 +48,8 @@
         <activity
             android:name=".activity.NotAvailable"
             android:label="@string/title_activity_not_available"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:noHistory="true">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
@@ -79,7 +80,8 @@
         <activity
             android:name=".activity.Good"
             android:label="@string/title_activity_good"
-            android:parentActivityName=".activity.Eye" >
+            android:parentActivityName=".activity.Eye"
+            android:noHistory="true">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
@@ -87,7 +89,8 @@
         <activity
             android:name=".activity.bad"
             android:label="@string/title_activity_bad"
-            android:parentActivityName=".activity.Eye" >
+            android:parentActivityName=".activity.Eye"
+            android:noHistory="true">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
@@ -95,7 +98,8 @@
         <activity
             android:name=".activity.AndroidFileDownloader"
             android:label="@string/downloader"
-            android:parentActivityName=".activity.Eye" >
+            android:parentActivityName=".activity.Eye"
+            android:noHistory="true">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
@@ -111,7 +115,8 @@
         <activity
             android:name=".activity.DatabaseActivity"
             android:label="@string/title_activity_database"
-            android:parentActivityName=".activity.Eye" >
+            android:parentActivityName=".activity.Eye"
+            android:noHistory="true">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
@@ -140,18 +145,25 @@
         <activity
             android:name=".activity.FinishTutorial"
             android:label="@string/title_activity_finish_tutorial"
-            android:parentActivityName=".activity.Eye" >
+            android:parentActivityName=".activity.Eye"
+            android:noHistory="true">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
         </activity>
         <activity
             android:name=".activity.BasicsTut"
-            android:label="@string/title_activity_basics_tut" >
+            android:label="@string/title_activity_basics_tut"
+            android:noHistory="true">
         </activity>
         <activity
             android:name=".test.TestReadWriteFile"
             android:label="@string/title_activity_test_read_write_file" >
+        </activity>
+        <activity
+            android:name=".activity.infobuttontut"
+            android:label="@string/title_activity_infobuttontut"
+            android:theme="@style/EyeTheme" >
         </activity>
     </application>
 

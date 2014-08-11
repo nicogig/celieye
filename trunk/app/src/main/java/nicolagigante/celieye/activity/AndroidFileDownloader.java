@@ -6,6 +6,7 @@ package nicolagigante.celieye.activity;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.os.Environment;
@@ -68,6 +69,7 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
         button.setOnClickListener(this);
         outFile = new File(Environment.getExternalStorageDirectory() + "/" + fileName);
         destFile = new File(this.getApplicationContext().getFilesDir() + "/" + fileName);
+        Intent e = new Intent(this, Eye.class);
 
     }
     public static void copyFile(File src, File dst) throws IOException
@@ -237,6 +239,8 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
                         e.printStackTrace();
                     }
                     boolean deleted = outFile.delete();
+                    Intent e = new Intent(thisActivity , Eye.class);
+                    startActivity(e);
                     break;
 
                                 /*

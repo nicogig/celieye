@@ -16,7 +16,7 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="250dp"
+        android:layout_height="350dp"
         android:id="@+id/textView2"
         android:background="@drawable/back_home"
         android:layout_alignParentTop="true"
@@ -48,13 +48,13 @@
         android:layout_alignParentLeft="true" />
 
     <ImageButton
-        android:layout_width="79dp"
-        android:layout_height="79dp"
+        android:layout_width="109dp"
+        android:layout_height="109dp"
         android:id="@+id/imageButton"
         android:background="@drawable/ic_floating"
         android:src="@drawable/ic_cameraicon"
         android:layout_alignTop="@+id/textView6"
-        android:layout_alignRight="@+id/textView4" />
+        android:layout_toRightOf="@+id/textView4" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,7 +64,7 @@
         android:layout_alignParentLeft="true"
         android:layout_above="@+id/textView3"
         android:textColor="#ffffffff"
-        android:textSize="30dp"
+        android:textSize="50dp"
         android:textIsSelectable="false" />
 
     <TextView
@@ -74,7 +74,7 @@
         android:id="@+id/textView6"
         android:layout_alignBottom="@+id/textView2"
         android:layout_toRightOf="@+id/textView5"
-        android:textSize="30dp"
+        android:textSize="50dp"
         android:textStyle="bold"
         android:textColor="#ffffffff" />
 

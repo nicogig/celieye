@@ -76,10 +76,11 @@
     <string name="basicstut">Get to know the basics.</string>
     <string name="carttut">This is the Cart. You can save gluten-free products here.</string>
     <string name="searchtut">This is the Search. You can manually search products here.</string>
-    <string name="settingstut">These are the Settings. From here you can update the database.</string>
+    <string name="settingstut">This is the Menu. If you don\'t see this icon in the main screen, press the \'menu\' key to show it.</string>
     <string name="scantut">You can start a scan by pressing the button below.</string>
     <string name="title_activity_test_read_write_file">TestReadWriteFile</string>
     <string name="searchhint">Type something...</string>
     <string name="help">Help</string>
+    <string name="title_activity_infobuttontut">infobuttontut</string>
 
 </resources>
