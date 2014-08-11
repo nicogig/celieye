@@ -42,13 +42,13 @@
     <string name="progress_dialog_message_prefix_downloading" />
     <string name="user_message_download_complete">Download Completato!</string>
     <string name="user_message_download_canceled">Download non completato.</string>
-    <string name="error_message_general">Oooops, abbiamo un \' errore!</string>
-    <string name="error_message_file_not_found">Oddio, non trovo più l \' URL!</string>
+    <string name="error_message_general">Oooops, abbiamo un\' errore!</string>
+    <string name="error_message_file_not_found">Oddio, non trovo più l\' URL!</string>
     <string name="error_message_bad_url">Huston, abbiamo un URL non valido!</string>
     <string name="ForceDatabase">Aggiorna manualmente il database</string>
     <string name="downloader">Aggiorna manualmente il database</string>
-    <string name="updateinfo">Aggiornare manualmente il database potrebbe richiedere fino a cinque minuti, però potrebbe aggiustare alcuni problemi che potresti aver incontrato nello scansionare o cercare all \'interno del suddetto. Hai bisogno di aggiornare il database se è la prima volta che avvii CeliEye. Premi il pulsante qui sotto per iniziare la procedura d\' aggiornamento.</string>
-    <string name="devupdate">Questo è l \'indirizzo a cui l \'app si connette per aggiornare il database. Dovrebbe essere nascosto all \'end-user</string>
+    <string name="updateinfo">Aggiornare manualmente il database potrebbe richiedere fino a cinque minuti, però potrebbe aggiustare alcuni problemi che potresti aver incontrato nello scansionare o cercare all\'interno del suddetto. Hai bisogno di aggiornare il database se è la prima volta che avvii CeliEye. Premi il pulsante qui sotto per iniziare la procedura d\' aggiornamento.</string>
+    <string name="devupdate">Questo è l\'indirizzo a cui l\'app si connette per aggiornare il database. Dovrebbe essere nascosto all \'end-user</string>
     <string name="cart">Carrello</string>
     <string name="title_activity_cart">Carrello</string>
     <string name="cart_intro">Tieni traccia di cibi senza glutine.</string>
@@ -74,7 +74,7 @@
     <string name="basicstut">Impara le basi.</string>
     <string name="carttut">Questo è il Carrello. Puoi salvare prodotti senza glutine qui.</string>
     <string name="searchtut">Questa è la funzione Cerca. Puoi cercare un prodotto manualmente qui.</string>
-    <string name="settingstut">Queste sono le Impstazioni. Puoi aggiornare il database qui.</string>
+    <string name="settingstut">Questo è il Menu. Se non vedi questa icona nella schermata principale, premi il tasto \'menu\' del tuo telefono.</string>
     <string name="scantut">Puoi iniziare una scansione premendo questo bottone:</string>
     <string name="searchhint">Scrivi qualcosa...</string>
     <string name="help">Aiuto</string>

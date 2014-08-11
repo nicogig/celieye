@@ -32,8 +32,8 @@
         android:layout_alignParentLeft="true" />
 
     <Button
-        android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/first"
         android:onClick="finish"
 
