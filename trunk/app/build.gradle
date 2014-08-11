@@ -7,8 +7,8 @@ android {
         applicationId 'nicolagigante.celieye'
         minSdkVersion 16
         targetSdkVersion 20
-        versionCode 4
-        versionName 'Preview 1'
+        versionCode 6
+        versionName 'Preview 2'
     }
     buildTypes {
         release {

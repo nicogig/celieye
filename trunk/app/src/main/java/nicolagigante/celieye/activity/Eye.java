@@ -100,6 +100,10 @@ public class Eye extends Activity implements OnClickListener {
             clickHelp();
             return true;
         }
+        if (id == R.id.action_segnala) {
+            clickSegnala();
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
     private void clickSettings(){
@@ -113,6 +117,11 @@ public class Eye extends Activity implements OnClickListener {
     private void clickHelp(){
         Intent enabler = new Intent(this, Info.class);
         startActivity(enabler);
+    }
+    private void clickSegnala(){
+        Intent enabler = new Intent(this, SegnalaProdotto.class);
+        startActivity(enabler);
+
     }
    @Override
     public void onClick(View v) {
