@@ -16,11 +16,12 @@ import java.io.IOException;
 /**
  * Created by genio_2 on 12/08/2014.
  */
-public class AsyncHttpModule extends AsyncTask<String, Void, Void> {
+public class AsyncHttpModule extends AsyncTask<String, Void, String> {
 
     private final HttpClient Client = new DefaultHttpClient();
     private String Content;
     private String Error = null;
+    private String response;
    // private ProgressDialog Dialog = new ProgressDialog(AsyncronoustaskAndroidExample.this);
 
     String uiUpdate ;
@@ -35,7 +36,7 @@ public class AsyncHttpModule extends AsyncTask<String, Void, Void> {
     }
 
     // Call after onPreExecute method
-    protected Void doInBackground(String... urls) {
+    protected String doInBackground(String... urls) {
         try {
 
             // Call long running operations here (perform background computation)
@@ -57,12 +58,12 @@ public class AsyncHttpModule extends AsyncTask<String, Void, Void> {
         return null;
     }
 
-    protected void onPostExecute(Void unused) {
+    protected void onPostExecute(String response) {
         // NOTE: You can call UI Element here.
 
         // Close progress dialog
        // Dialog.dismiss();
-
+        this.response=response;
         if (Error != null) {
 
             uiUpdate="Output : "+Error;
