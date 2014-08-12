@@ -11,14 +11,15 @@
         android:showAsAction="collapseActionView|always"
         android:actionViewClass="android.widget.SearchView" />
     <!-- Settings, should always be in the overflow -->
-    <item android:id="@+id/action_segnala"
-        android:title="Segnala Prodotto"
-        android:showAsAction="never" />
+
     <item android:id="@+id/action_settings"
         android:title="@string/ForceDatabase"
-        android:icon="@drawable/settings"
-        android:showAsAction="never" />
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="ifRoom" />
     <item android:id="@+id/action_help"
         android:title="@string/help"
         android:showAsAction="never" />
+    <item android:id="@+id/action_segnala"
+        android:title="Segnala Prodotto"
+        android:showAsAction="ifRoom" />
 </menu>
