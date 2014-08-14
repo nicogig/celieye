@@ -29,12 +29,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/error"
-        android:id="@+id/button"
-        android:textStyle="italic"
-        android:textSize="15sp"
-        android:background="@android:drawable/edit_text"
+        android:id="@+id/segnala_button"
         android:layout_below="@+id/TextNotAvailable"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="31dp"
+        android:textStyle="italic"
+        android:background="@drawable/btn_mtrl_alpha"/>
+
 
 </RelativeLayout>

@@ -18,8 +18,10 @@
         android:showAsAction="ifRoom" />
     <item android:id="@+id/action_help"
         android:title="@string/help"
-        android:showAsAction="never" />
+        android:icon="@drawable/ic_action_info"
+        android:showAsAction="ifRoom" />
     <item android:id="@+id/action_segnala"
         android:title="Segnala Prodotto"
+        android:icon="@drawable/ic_action_about"
         android:showAsAction="ifRoom" />
 </menu>
