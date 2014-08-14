@@ -149,6 +149,13 @@ public class Eye extends Activity implements OnClickListener {
           //   i.putExtra("url", url);
            //  startActivity(i);
              //---------------------------------------------------------------
+             //---------Creo la classe a livello application per contenere il prodotto in
+             //modo da condividerla con tutte le activity
+             Prodotto prodotto=new Prodotto();
+             prodotto.setBarcode(scanContent);
+             ApplicationProdotti prodottoAPP=(ApplicationProdotti)this.getApplication();
+             prodottoAPP.setProdotto(prodotto);
+             //------------------------------------------------------
              Intent t=new Intent(this, DatabaseActivity.class);
              t.putExtra("barcode", scanContent);
              startActivity(t);
