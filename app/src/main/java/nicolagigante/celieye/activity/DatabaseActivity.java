@@ -33,7 +33,9 @@ public class DatabaseActivity extends Activity {
         }
         else{
             Intent bad=new Intent(this, bad.class);
+            bad.putExtra("barcode", barcode);
             startActivity(bad);
+
         }
     }
 

@@ -1,17 +1,26 @@
 package nicolagigante.celieye.activity;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+
 import nicolagigante.celieye.R;
 
-public class bad extends Activity {
+public class bad extends Activity implements View.OnClickListener {
+    private String barcode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bad);
+        Intent bad= getIntent();
+        barcode = bad.getStringExtra("barcode");
+        Button segnala = (Button)findViewById(R.id.segnala_button);
+        segnala.setOnClickListener(this);
     }
 
 
@@ -32,5 +41,11 @@ public class bad extends Activity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+    @Override
+    public void onClick(View v) {
+        Intent i = new Intent(this, SegnalaProdotto.class);
+        i.putExtra("barcode", barcode); //sistemare sto giro
+        startActivity(i);
     }
 }
