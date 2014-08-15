@@ -77,10 +77,14 @@
     <string name="settingstut">Questo è il Menu. Se non vedi questa icona nella schermata principale, premi il tasto \'menu\' del tuo telefono.</string>
     <string name="scantut">Puoi iniziare una scansione premendo questo bottone:</string>
     <string name="searchhint">Scrivi qualcosa...</string>
-    <string name="help">Aiuto</string>
+    <string name="help">Informazioni su...</string>
     <string name="title_activity_infobuttontut">infobuttontut</string>
     <string name="title_activity_test_read_write_file">TestReadWriteFile</string>
     <string name="title_activity_splash">Splash</string>
     <string name="title_activity_segnala_prodotto">Segnala Prodotto</string>
+    <string name="barcodesegnala">CODICE A BARRE</string>
+    <string name="namesegnala">NOME BRAND</string>
+    <string name="descriptionsegnala">DESCRIZIONE PRODOTTO</string>
+    <string name="toast_segnalazione">Prodotto segnalato con successo</string>
 
 </resources>

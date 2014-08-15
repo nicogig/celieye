@@ -71,6 +71,7 @@ public class Eye extends Activity implements OnClickListener {
         getMenuInflater().inflate(R.menu.eye, menu);
         // Getting SearchView from XML layout by id defined there - my_search_view in this case
         SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
+        searchView.setQueryHint(getString(R.string.searchhint));
         // Getting id for 'search_plate' - the id is part of generate R file,
         // so we have to get id on runtime.
         int searchPlateId = searchView.getContext().getResources().getIdentifier("android:id/search_plate", null, null);
@@ -78,6 +79,10 @@ public class Eye extends Activity implements OnClickListener {
         View searchPlate = searchView.findViewById(searchPlateId);
         // Setting background of 'search_plate' to earlier defined drawable.
         searchPlate.setBackgroundResource(R.drawable.textfield_search);
+        int id = searchView.getContext().getResources().getIdentifier("android:id/search_src_text", null, null);
+        TextView textView = (TextView) searchView.findViewById(id);
+        textView.setTextColor(Color.WHITE);
+        textView.setHintTextColor(Color.WHITE);
 
         return true;
     }
@@ -98,10 +103,6 @@ public class Eye extends Activity implements OnClickListener {
         }
         if (id == R.id.action_help) {
             clickHelp();
-            return true;
-        }
-        if (id == R.id.action_segnala) {
-            clickSegnala();
             return true;
         }
         return super.onOptionsItemSelected(item);

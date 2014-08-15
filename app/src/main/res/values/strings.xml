@@ -80,8 +80,12 @@
     <string name="scantut">You can start a scan by pressing the button below.</string>
     <string name="title_activity_test_read_write_file">TestReadWriteFile</string>
     <string name="searchhint">Type something...</string>
-    <string name="help">Help</string>
+    <string name="help">Infos</string>
     <string name="title_activity_infobuttontut">infobuttontut</string>
     <string name="title_activity_segnala_prodotto">Advise a Product</string>
+    <string name="barcodesegnala">BARCODE</string>
+    <string name="namesegnala">BRAND NAME</string>
+    <string name="descriptionsegnala">PRODUCT DESCRIPTION</string>
+    <string name="toast_segnalazione">Product sucessfully advised.</string>
 
 </resources>

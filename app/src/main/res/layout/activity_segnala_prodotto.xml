@@ -12,45 +12,84 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginTop="41dp"
-        android:layout_alignParentRight="true"
         android:background="@drawable/textfield"
-        android:id="@+id/textfield"/>
+        android:id="@+id/textfield"
+        android:textColor="#ffffffff"
+        android:maxLines="1"
+        android:textCursorDrawable="@null"
+        android:layout_below="@+id/barcode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView" />
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/textfield"
+        android:textCursorDrawable="@null"
         android:id="@+id/description"
+        android:maxLines="1"
+        android:textColor="#ffffffff"
         android:layout_below="@+id/textfield"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
-    <EditText
+        android:layout_alignRight="@+id/textView" />
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/textfield"
+        android:maxLines="1"
+        android:textCursorDrawable="@null"
         android:id="@+id/barcode"
-        android:layout_below="@+id/description"
+        android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true" />
+        android:layout_marginTop="55dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffffffff" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Invia"
         android:id="@+id/button"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
         android:onClick="Inviarichiesta"
-        android:background="@drawable/btn_mtrl_alpha" />
+        android:background="@drawable/btn_mtrl_alpha"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:text=""
         android:id="@+id/output"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/barcodesegnala"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/barcode"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/output"
+        android:layout_marginLeft="12dp"
+        android:textColor="#ffffffff"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/namesegnala"
+        android:id="@+id/textView2"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/barcode"
+        android:layout_alignLeft="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descriptionsegnala"
+        android:id="@+id/textView3"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:layout_below="@+id/textfield"
+        android:layout_alignLeft="@+id/textView2" />
 
 </RelativeLayout>
