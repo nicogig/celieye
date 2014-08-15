@@ -82,6 +82,6 @@
     <string name="searchhint">Type something...</string>
     <string name="help">Help</string>
     <string name="title_activity_infobuttontut">infobuttontut</string>
-    <string name="title_activity_segnala_prodotto">SegnalaProdotto</string>
+    <string name="title_activity_segnala_prodotto">Advise a Product</string>
 
 </resources>

@@ -81,5 +81,6 @@
     <string name="title_activity_infobuttontut">infobuttontut</string>
     <string name="title_activity_test_read_write_file">TestReadWriteFile</string>
     <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_segnala_prodotto">Segnala Prodotto</string>
 
 </resources>
