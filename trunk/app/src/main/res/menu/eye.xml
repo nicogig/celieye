@@ -20,8 +20,8 @@
         android:title="@string/help"
         android:icon="@drawable/ic_action_info"
         android:showAsAction="ifRoom" />
-    <item android:id="@+id/action_segnala"
+  <!--  <item android:id="@+id/action_segnala"
         android:title="Segnala Prodotto"
         android:icon="@drawable/ic_action_about"
-        android:showAsAction="ifRoom" />
+        android:showAsAction="ifRoom" /> -->
 </menu>

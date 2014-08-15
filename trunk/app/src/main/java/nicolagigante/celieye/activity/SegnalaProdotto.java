@@ -5,11 +5,13 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
@@ -19,14 +21,19 @@ import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.DefaultHttpClient;
 
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
 
 import nicolagigante.celieye.R;
 import nicolagigante.celieye.httpPost.AsyncHttpModule;
 
 public class SegnalaProdotto extends Activity {
     private String barcode;
-    private String description;
-    private String brandname;
+   // private String description;
+   // private String brandname;
+    private EditText descriptionText;// = (EditText)findViewById(R.id.description);
+    private EditText brandnameText;// = (EditText)findViewById(R.id.textfield);
+    private SegnalaProdotto thisActivity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,10 +41,12 @@ public class SegnalaProdotto extends Activity {
         setContentView(R.layout.activity_segnala_prodotto);
         Intent i = getIntent();
         barcode = i.getStringExtra("barcode");
-        EditText description = (EditText)findViewById(R.id.description);
-        EditText brandname = (EditText)findViewById(R.id.textfield);
-        this.description = description.toString();
-        this.brandname = brandname.toString();
+        TextView barcodeview = (TextView)findViewById(R.id.barcode);
+        barcodeview.setText(barcode);
+        descriptionText = (EditText)findViewById(R.id.description);
+        brandnameText = (EditText)findViewById(R.id.textfield);
+
+
 
     }
 
@@ -62,13 +71,17 @@ public class SegnalaProdotto extends Activity {
     }
     public void Inviarichiesta(View view){
         // Server Request URL
-      //  String serverURL = "http://www.celieye.tk/prodottidavalidare.php";
+      //  String serverURL = "http://www.celieye.​tk/prodottidavalidar​e.php";
         // Create Object and call AsyncTask execute Method
       //  new AsyncHttpModule().execute(serverURL);
+        String description = (String) descriptionText.getText().toString();
+        String brandname = (String) brandnameText.getText().toString();
+        String descriptionEncoded = TextUtils.htmlEncode(description);
+        String brandnameEncoded = TextUtils.htmlEncode(brandname);
 
         // Server Request URL
-        String serverURL = "http://www.celieye.tk/prodottidavalidare.php?id_barcode="+barcode+"&description="+description+"&brand_name="+brandname;
-
+        String serverURL = "http://www.celieye.tk/prodottidavalidare.php?id_barcode="+barcode+"&description="+descriptionEncoded+"&brand_name="+brandnameEncoded;
+        serverURL=serverURL.replaceAll(" ", "%20");
         // Create Object and call AsyncTask execute Method
         new LongOperation().execute(serverURL);
     }
@@ -127,6 +140,9 @@ public class SegnalaProdotto extends Activity {
             } else {
 
                 uiUpdate.setText("Output : "+Content);
+                Toast.makeText(thisActivity, getString(R.string.toast_segnalazione), Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(thisActivity, Eye.class);
+                startActivity(i);
 
             }
         }
