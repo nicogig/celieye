@@ -24,7 +24,8 @@
         <activity
             android:name=".activity.Info"
             android:label="@string/title_activity_info"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait"
+            android:theme="@style/InfoTheme" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="nicolagigante.celieye.activity.Eye" />
