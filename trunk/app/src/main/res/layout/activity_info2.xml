@@ -9,41 +9,74 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/AppName"
         android:id="@+id/textView"
-        android:textSize="34dp"
-        android:textIsSelectable="false"
-        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/textView2"
+        android:background="@drawable/back_info"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/InfoCopyright"
+        android:id="@+id/textView4"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
+        android:textColor="#ff000000"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celi"
+        android:id="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/textView3"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eye"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView5"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/InfoVersion"
-        android:id="@+id/textView2"
-        android:layout_alignWithParentIfMissing="true"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/InfoCopyright"
-        android:id="@+id/textView3"
-        android:layout_alignWithParentIfMissing="true"
-        android:textStyle="italic"
+        android:id="@+id/textView7"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="5dp" />
-
-    <ImageButton
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:id="@+id/imageButton"
-        android:background="@drawable/ic_launcher"
-        android:layout_above="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentLeft="true"
+        android:textColor="#ff000000"
+        android:textSize="26dp" />
 </RelativeLayout>

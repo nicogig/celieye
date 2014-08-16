@@ -16,7 +16,7 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="350dp"
+        android:layout_height="420dp"
         android:id="@+id/textView2"
         android:background="@drawable/back_home"
         android:layout_alignParentTop="true"
