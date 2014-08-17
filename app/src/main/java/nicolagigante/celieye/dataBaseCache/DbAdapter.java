@@ -87,15 +87,18 @@ public class DbAdapter {
     public Cursor fetchAllContacts() {
         return database.query(DATABASE_TABLE, new String[]{KEY_CONTACTID, KEY_NAME, KEY_SURNAME, KEY_SEX, KEY_BIRTH_DATE}, null, null, null, null, null);
     }
-
+*/
     //fetch contacts filter by a string
-    public Cursor fetchContactsByFilter(String filter) {
-        Cursor mCursor = database.query(true, DATABASE_TABLE, new String[]{
-                        KEY_CONTACTID, KEY_NAME, KEY_SURNAME, KEY_SEX, KEY_BIRTH_DATE},
-                KEY_NAME + " like '%" + filter + "%'", null, null, null, null, null
+    public Cursor searchProductByDescription(String filter) {
+        String[] arraycolonne = {
+                "*"
+        };
+        Cursor mCursor = database.query(false,dbKey.TABLE_PRODUCTS,arraycolonne,
+                dbKey.KEY_PRODUCTS_DESCRIPTION +
+                "LIKE %"+ filter +"%",null,null, null, null, null, null
         );
 
         return mCursor;
     }
-    */
+
 }
