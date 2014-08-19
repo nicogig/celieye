@@ -93,11 +93,12 @@ public class DbAdapter {
         String[] arraycolonne = {
                 "*"
         };
-        Cursor mCursor = database.query(false,dbKey.TABLE_PRODUCTS,arraycolonne,
+        /*Cursor mCursor = database.query(false,dbKey.TABLE_PRODUCTS,arraycolonne,
                 dbKey.KEY_PRODUCTS_DESCRIPTION +
                 "LIKE %"+ filter +"%",null,null, null, null, null, null
-        );
-
+        );*/
+        String sql = "SELECT * FROM products WHERE description Like '%"+filter+"%'";
+        Cursor mCursor= database.rawQuery(sql, null);
         return mCursor;
     }
 
