@@ -12,17 +12,19 @@ import nicolagigante.celieye.R;
 import nicolagigante.celieye.dataBaseCache.DbAdapter;
 
 public class TestGridView extends Activity {
-
+    private DbAdapter dbHelper;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_grid_view);
-        DbAdapter dbh = new DbAdapter(this);
-        dbh.open();
+        setContentView(R.layout.activity_database);
+        dbHelper = new DbAdapter(this);
+        dbHelper.open();
         Cursor cursor;
         GridView grv = (GridView) findViewById(R.id.grvData);
-        cursor = dbh.searchProductByDescription("testo da ricercare");
-        dbh.close();
+        cursor = dbHelper.searchProductByDescription("testo da ricercare");
+        dbHelper.close();
+        /*
         if (cursor != null) {
             startManagingCursor(cursor);
 
@@ -32,7 +34,7 @@ public class TestGridView extends Activity {
                     1, 2, 3 } );
             adapter.setViewResource(R.layout.activity_test_grid_view);
             grv.setAdapter(adapter);
-        }
+        }*/
     }
 
 
