@@ -24,4 +24,7 @@
         android:title="Segnala Prodotto"
         android:icon="@drawable/ic_action_about"
         android:showAsAction="ifRoom" /> -->
+    <item android:id="@+id/action_test"
+        android:title="Test"
+        android:showAsAction="never" />
 </menu>
