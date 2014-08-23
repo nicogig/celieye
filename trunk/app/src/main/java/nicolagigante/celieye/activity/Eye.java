@@ -22,6 +22,7 @@ import nicolagigante.celieye.httpPost.AsyncTaskHttpPost;
 import nicolagigante.celieye.jsonService.ReadJson;
 import nicolagigante.celieye.model.ApplicationProdotti;
 import nicolagigante.celieye.model.Prodotto;
+import nicolagigante.celieye.test.TestGridView;
 
 import android.view.View.OnClickListener;
 import android.widget.SearchView;
@@ -105,6 +106,10 @@ public class Eye extends Activity implements OnClickListener {
             clickHelp();
             return true;
         }
+        if (id == R.id.action_test) {
+            clickTest();
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
     private void clickSettings(){
@@ -123,6 +128,10 @@ public class Eye extends Activity implements OnClickListener {
         Intent enabler = new Intent(this, SegnalaProdotto.class);
         startActivity(enabler);
 
+    }
+    private void clickTest(){
+        Intent enabler = new Intent(this, TestGridView.class);
+        startActivity(enabler);
     }
    @Override
     public void onClick(View v) {

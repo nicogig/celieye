@@ -175,10 +175,6 @@
                 android:value="nicolagigante.celieye.activity.Eye" />
         </activity>
         <activity
-            android:name=".activity.AsyncronoustaskAndroidHTTP"
-            android:label="@string/title_activity_asyncronoustask_android_http" >
-        </activity>
-        <activity
             android:name=".test.TestGridView"
             android:label="@string/title_activity_test_grid_view" >
         </activity>
