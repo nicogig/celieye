@@ -1,6 +1,8 @@
 package nicolagigante.celieye.activity;
 
 import android.app.Activity;
+import android.app.SearchManager;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
@@ -32,7 +34,7 @@ import android.widget.Toast;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
-public class Eye extends Activity implements OnClickListener {
+public class Eye extends Activity implements OnClickListener, SearchView.OnQueryTextListener {
    private TextView formatTxt, contentTxt, resultTxt;
    public static final String FIRST_RUN = "FirstRun";
     @Override
@@ -73,6 +75,7 @@ public class Eye extends Activity implements OnClickListener {
         // Getting SearchView from XML layout by id defined there - my_search_view in this case
         SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
         searchView.setQueryHint(getString(R.string.searchhint));
+        searchView.setOnQueryTextListener(this);
         // Getting id for 'search_plate' - the id is part of generate R file,
         // so we have to get id on runtime.
         int searchPlateId = searchView.getContext().getResources().getIdentifier("android:id/search_plate", null, null);
@@ -84,7 +87,6 @@ public class Eye extends Activity implements OnClickListener {
         TextView textView = (TextView) searchView.findViewById(id);
         textView.setTextColor(Color.WHITE);
         textView.setHintTextColor(Color.WHITE);
-
         return true;
     }
 
@@ -180,4 +182,16 @@ public class Eye extends Activity implements OnClickListener {
             }
      }
 
+    @Override
+    public boolean onQueryTextSubmit(String query) {
+        Intent in = new Intent(this, TestGridView.class);
+        in.putExtra("query", query);
+        startActivity(in);
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String newText) {
+        return false;
+    }
 }
