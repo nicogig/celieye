@@ -86,5 +86,6 @@
     <string name="namesegnala">NOME BRAND</string>
     <string name="descriptionsegnala">DESCRIZIONE PRODOTTO</string>
     <string name="toast_segnalazione">Prodotto segnalato con successo</string>
+    <string name="title_activity_test_grid_view">Risultati della ricerca</string>
 
 </resources>
