@@ -83,6 +83,6 @@
     <string name="help">Help</string>
     <string name="title_activity_infobuttontut">infobuttontut</string>
     <string name="title_activity_segnala_prodotto">Advise a Product</string>
-    <string name="title_activity_test_grid_view">TestGridView</string>
+    <string name="title_activity_test_grid_view">Search Results</string>
 
 </resources>
