@@ -108,10 +108,6 @@ public class Eye extends Activity implements OnClickListener, SearchView.OnQuery
             clickHelp();
             return true;
         }
-        if (id == R.id.action_test) {
-            clickTest();
-            return true;
-        }
         return super.onOptionsItemSelected(item);
     }
     private void clickSettings(){
