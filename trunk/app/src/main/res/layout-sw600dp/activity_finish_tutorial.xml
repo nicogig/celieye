@@ -36,13 +36,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/first"
         android:onClick="finish"
-
+        android:text="@string/nextstep"
+        android:textSize="24dp"
         android:background="@drawable/next_button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp" />
 
-    <TextView
+    TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nextstep"
