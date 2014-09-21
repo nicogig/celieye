@@ -37,13 +37,13 @@
         android:layout_height="50dp"
         android:id="@+id/first"
         android:onClick="first"
-
+        android:text="@string/nextstep"
         android:background="@drawable/next_button"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp" />
 
-    <TextView
+    TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/nextstep"
@@ -53,13 +53,5 @@
         android:layout_alignLeft="@+id/first"
         android:layout_alignTop="@+id/first"
         android:layout_alignRight="@+id/first" />
-
-
-    <EditText
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:id="@+id/url_input"
-        android:layout_above="@+id/first"
-        android:layout_alignParentLeft="true" />
 
 </RelativeLayout>
