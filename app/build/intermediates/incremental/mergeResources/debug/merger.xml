@@ -1,689 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="2" >
+<merger version="3"><dataSet config="main"><source path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res"><file name="zoomin" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\anim\zoomin.xml" qualifiers="" type="anim"/><file name="anim_progress" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\anim_progress.xml" qualifiers="" type="drawable"/><file name="another_shadow" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\another_shadow.xml" qualifiers="" type="drawable"/><file name="back" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\back.xml" qualifiers="" type="drawable"/><file name="backdrop" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\backdrop.xml" qualifiers="" type="drawable"/><file name="back_home" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\back_home.png" qualifiers="" type="drawable"/><file name="back_info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\back_info.png" qualifiers="" type="drawable"/><file name="button_circle" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\button_circle.xml" qualifiers="" type="drawable"/><file name="cart" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\cart.xml" qualifiers="" type="drawable"/><file name="circle" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\circle.xml" qualifiers="" type="drawable"/><file name="circle_focused" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\circle_focused.xml" qualifiers="" type="drawable"/><file name="circle_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\circle_pressed.xml" qualifiers="" type="drawable"/><file name="circle_shadow" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\circle_shadow.xml" qualifiers="" type="drawable"/><file name="firstback" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\firstback.png" qualifiers="" type="drawable"/><file name="ic_actionbar" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\ic_actionbar.png" qualifiers="" type="drawable"/><file name="ic_back_actionbar" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\ic_back_actionbar.xml" qualifiers="" type="drawable"/><file name="ic_floating" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\ic_floating.png" qualifiers="" type="drawable"/><file name="ic_navbar" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\ic_navbar.png" qualifiers="" type="drawable"/><file name="info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\info.xml" qualifiers="" type="drawable"/><file name="next" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\next.png" qualifiers="" type="drawable"/><file name="next_button" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\next_button.xml" qualifiers="" type="drawable"/><file name="next_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\next_pressed.png" qualifiers="" type="drawable"/><file name="progress" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\progress.png" qualifiers="" type="drawable"/><file name="progress_medium_material" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\progress_medium_material.xml" qualifiers="" type="drawable"/><file name="progress_small_material" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\progress_small_material.xml" qualifiers="" type="drawable"/><file name="quantumdesign" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\quantumdesign.xml" qualifiers="" type="drawable"/><file name="rectangle" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\rectangle.xml" qualifiers="" type="drawable"/><file name="rectangle_button" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\rectangle_button.xml" qualifiers="" type="drawable"/><file name="rectangle_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\rectangle_pressed.xml" qualifiers="" type="drawable"/><file name="releasenotes" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\releasenotes.xml" qualifiers="" type="drawable"/><file name="search" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\search.xml" qualifiers="" type="drawable"/><file name="settings" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\settings.xml" qualifiers="" type="drawable"/><file name="splash" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\splash.png" qualifiers="" type="drawable"/><file name="textfield" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\textfield.xml" qualifiers="" type="drawable"/><file name="textfield_search" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\textfield_search.xml" qualifiers="" type="drawable"/><file name="thank" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\thank.png" qualifiers="" type="drawable"/><file name="todo" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\todo.xml" qualifiers="" type="drawable"/><file name="update" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\update.xml" qualifiers="" type="drawable"/><file name="update_flow" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable\update_flow.xml" qualifiers="" type="drawable"/><file name="btn_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\btn_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_ab_back_mtrl_am_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_ab_back_mtrl_am_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_about" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_about.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_camera" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_camera.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_cart" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_cart.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_cart_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_cart_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_info.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_refresh.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_search" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_search.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_search_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_search_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_settings" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_settings.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_action_settings_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_action_settings_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_back" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_back.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_back_action" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_back_action.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_back_action_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_back_action_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_back_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_back_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_bad" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_bad.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_camera" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_camera.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_cameraicon" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_cameraicon.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_camera_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_camera_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_good" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_good.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_info.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_info_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_info_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_info_tile" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_info_tile.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_info_tile_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_info_tile_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_menu_moreoverflow_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_menu_moreoverflow_mtrl_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_menu_search_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_menu_search_mtrl_alpha.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_notavailable" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_notavailable.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_quantumdesign" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_quantumdesign.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_quantumdesign_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_quantumdesign_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_quantumdesign_tile" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_quantumdesign_tile.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_quantumdesign_tile_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_quantumdesign_tile_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_releasenotes" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_releasenotes.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_releasenotes_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_releasenotes_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_todo" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_todo.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_todo_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_todo_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_updates" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_updates.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_updates_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_updates_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_update_tile" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_update_tile.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_update_tile_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\ic_update_tile_pressed.png" qualifiers="hdpi-v4" type="drawable"/><file name="shadow" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\shadow.png" qualifiers="hdpi-v4" type="drawable"/><file name="textfield_activated_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\textfield_activated_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="textfield_default_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\textfield_default_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="textfield_search_activated_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\textfield_search_activated_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="textfield_search_default_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-hdpi\textfield_search_default_mtrl_alpha.9.png" qualifiers="hdpi-v4" type="drawable"/><file name="btn_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\btn_mtrl_alpha.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_ab_back_mtrl_am_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_ab_back_mtrl_am_alpha.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_about" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_about.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_camera" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_camera.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_cart" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_cart.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_cart_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_cart_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_info.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_refresh.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_search" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_search.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_search_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_search_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_settings" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_settings.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_action_settings_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_action_settings_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_back" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_back.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_back_action" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_back_action.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_back_action_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_back_action_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_back_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_back_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_bad" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_bad.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_camera" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_camera.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_cameraicon" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_cameraicon.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_camera_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_camera_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_good" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_good.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_info.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_info_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_info_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_info_tile" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_info_tile.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_info_tile_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_info_tile_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_menu_moreoverflow_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_menu_moreoverflow_mtrl_alpha.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_menu_search_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_menu_search_mtrl_alpha.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_notavailable" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_notavailable.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_quantumdesign" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_quantumdesign.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_quantumdesign_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_quantumdesign_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_quantumdesign_tile" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_quantumdesign_tile.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_quantumdesign_tile_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_quantumdesign_tile_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_releasenotes" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_releasenotes.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_releasenotes_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_releasenotes_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_todo" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_todo.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_todo_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_todo_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_updates" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_updates.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_updates_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_updates_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_update_tile" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_update_tile.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_update_tile_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\ic_update_tile_pressed.png" qualifiers="mdpi-v4" type="drawable"/><file name="shadow" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\shadow.png" qualifiers="mdpi-v4" type="drawable"/><file name="textfield_activated_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\textfield_activated_mtrl_alpha.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="textfield_default_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\textfield_default_mtrl_alpha.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="textfield_search_activated_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\textfield_search_activated_mtrl_alpha.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="textfield_search_default_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-mdpi\textfield_search_default_mtrl_alpha.9.png" qualifiers="mdpi-v4" type="drawable"/><file name="back_button" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\back_button.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\btn_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_ab_back_mtrl_am_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_ab_back_mtrl_am_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_about" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_about.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_camera" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_camera.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_cart" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_cart.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_cart_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_cart_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_info.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_refresh.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_search" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_search.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_search_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_search_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_settings" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_settings.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_settings_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_action_settings_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_back" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_back.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_back_action" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_back_action.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_back_action_old_old" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_back_action_old_old.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_back_action_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_back_action_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_back_action_pressed_old_old" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_back_action_pressed_old_old.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_back_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_back_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_bad" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_bad.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_camera" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_camera.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_cameraicon" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_cameraicon.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_camera_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_camera_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_cart" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_cart.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_good" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_good.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_info.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_info_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_info_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_info_tile" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_info_tile.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_info_tile_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_info_tile_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_menu_moreoverflow_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_menu_moreoverflow_mtrl_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_menu_search_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_menu_search_mtrl_alpha.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_notavailable" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_notavailable.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_quantumdesign" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_quantumdesign.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_quantumdesign_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_quantumdesign_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_quantumdesign_tile" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_quantumdesign_tile.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_quantumdesign_tile_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_quantumdesign_tile_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_releasenotes" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_releasenotes.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_releasenotes_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_releasenotes_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_todo" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_todo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_todo_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_todo_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_update" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_update.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_update_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_update_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_update_tile" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_update_tile.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_update_tile_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\ic_update_tile_pressed.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shadow" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\shadow.png" qualifiers="xhdpi-v4" type="drawable"/><file name="textfield_activated_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\textfield_activated_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="textfield_default_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\textfield_default_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="textfield_search_activated_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\textfield_search_activated_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="textfield_search_default_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xhdpi\textfield_search_default_mtrl_alpha.9.png" qualifiers="xhdpi-v4" type="drawable"/><file name="btn_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\btn_mtrl_alpha.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_ab_back_mtrl_am_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_ab_back_mtrl_am_alpha.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_about" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_action_about.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_camera" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_action_camera.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_action_info.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_refresh" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_action_refresh.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_search" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_action_search.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_search_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_action_search_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_settings" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_action_settings.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_settings_pressed" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_action_settings_pressed.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_camera" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_camera.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_cameraicon" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_cameraicon.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_menu_moreoverflow_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_menu_moreoverflow_mtrl_alpha.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_menu_search_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\ic_menu_search_mtrl_alpha.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="shadow" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\shadow.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="textfield_activated_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\textfield_activated_mtrl_alpha.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="textfield_default_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\textfield_default_mtrl_alpha.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="textfield_search_activated_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\textfield_search_activated_mtrl_alpha.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="textfield_search_default_mtrl_alpha" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\drawable-xxhdpi\textfield_search_default_mtrl_alpha.9.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_async_task_http_post" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_async_task_http_post.xml" qualifiers="" type="layout"/><file name="activity_bad" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_bad.xml" qualifiers="" type="layout"/><file name="activity_basics_tut" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_basics_tut.xml" qualifiers="" type="layout"/><file name="activity_cart" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_cart.xml" qualifiers="" type="layout"/><file name="activity_database" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_database.xml" qualifiers="" type="layout"/><file name="activity_design" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_design.xml" qualifiers="" type="layout"/><file name="activity_eye" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_eye.xml" qualifiers="" type="layout"/><file name="activity_finish_tutorial" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_finish_tutorial.xml" qualifiers="" type="layout"/><file name="activity_first" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_first.xml" qualifiers="" type="layout"/><file name="activity_good" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_good.xml" qualifiers="" type="layout"/><file name="activity_info2" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_info2.xml" qualifiers="" type="layout"/><file name="activity_infobuttontut" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_infobuttontut.xml" qualifiers="" type="layout"/><file name="activity_not_available" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_not_available.xml" qualifiers="" type="layout"/><file name="activity_parse_json" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_parse_json.xml" qualifiers="" type="layout"/><file name="activity_release_notes" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_release_notes.xml" qualifiers="" type="layout"/><file name="activity_segnala_prodotto" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_segnala_prodotto.xml" qualifiers="" type="layout"/><file name="activity_settings" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_settings.xml" qualifiers="" type="layout"/><file name="activity_splash" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_splash.xml" qualifiers="" type="layout"/><file name="activity_test" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_test.xml" qualifiers="" type="layout"/><file name="activity_test_db" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_test_db.xml" qualifiers="" type="layout"/><file name="activity_test_grid_view" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_test_grid_view.xml" qualifiers="" type="layout"/><file name="activity_test_read_write_file" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_test_read_write_file.xml" qualifiers="" type="layout"/><file name="activity_to_do" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\activity_to_do.xml" qualifiers="" type="layout"/><file name="android_file_downloader" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\android_file_downloader.xml" qualifiers="" type="layout"/><file name="row" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout\row.xml" qualifiers="" type="layout"/><file name="activity_async_task_http_post" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_async_task_http_post.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_bad" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_bad.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_basics_tut" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_basics_tut.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_cart" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_cart.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_database" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_database.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_design" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_design.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_eye" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_eye.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_finish_tutorial" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_finish_tutorial.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_first" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_first.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_good" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_good.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_info2" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_info2.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_not_available" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_not_available.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_parse_json" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_parse_json.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_release_notes" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_release_notes.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_settings" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_settings.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_splash" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_splash.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_test" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_test.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_test_db" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_test_db.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_test_read_write_file" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_test_read_write_file.xml" qualifiers="sw600dp-v13" type="layout"/><file name="activity_to_do" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\activity_to_do.xml" qualifiers="sw600dp-v13" type="layout"/><file name="android_file_downloader" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\android_file_downloader.xml" qualifiers="sw600dp-v13" type="layout"/><file name="row" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\layout-sw600dp\row.xml" qualifiers="sw600dp-v13" type="layout"/><file name="async_task_http_post" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\async_task_http_post.xml" qualifiers="" type="menu"/><file name="bad" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\bad.xml" qualifiers="" type="menu"/><file name="basics_tut" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\basics_tut.xml" qualifiers="" type="menu"/><file name="cart" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\cart.xml" qualifiers="" type="menu"/><file name="database" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\database.xml" qualifiers="" type="menu"/><file name="design" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\design.xml" qualifiers="" type="menu"/><file name="downloader" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\downloader.xml" qualifiers="" type="menu"/><file name="eye" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\eye.xml" qualifiers="" type="menu"/><file name="finish_tutorial" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\finish_tutorial.xml" qualifiers="" type="menu"/><file name="first" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\first.xml" qualifiers="" type="menu"/><file name="good" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\good.xml" qualifiers="" type="menu"/><file name="info" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\info.xml" qualifiers="" type="menu"/><file name="infobuttontut" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\infobuttontut.xml" qualifiers="" type="menu"/><file name="not_available" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\not_available.xml" qualifiers="" type="menu"/><file name="parse_json" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\parse_json.xml" qualifiers="" type="menu"/><file name="release_notes" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\release_notes.xml" qualifiers="" type="menu"/><file name="segnala_prodotto" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\segnala_prodotto.xml" qualifiers="" type="menu"/><file name="settings" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\settings.xml" qualifiers="" type="menu"/><file name="splash" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\splash.xml" qualifiers="" type="menu"/><file name="test" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\test.xml" qualifiers="" type="menu"/><file name="test_db" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\test_db.xml" qualifiers="" type="menu"/><file name="test_grid_view" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\test_grid_view.xml" qualifiers="" type="menu"/><file name="test_read_write_file" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\test_read_write_file.xml" qualifiers="" type="menu"/><file name="to_do" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\menu\to_do.xml" qualifiers="" type="menu"/><file path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="FloatingActionButton">
+        <attr format="color" name="fab_colorPressed"/>
+        <attr format="color" name="fab_colorNormal"/>
+        <attr format="boolean" name="fab_shadow"/>
+        <attr format="enum" name="fab_type">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="fab_size_mini">40dp</dimen><dimen name="activity_vertical_margin">0dp</dimen><dimen name="activity_horizontal_margin">0dp</dimen><dimen name="fab_mini_shadow_size">6dp</dimen><dimen name="fab_size_normal">56dp</dimen><dimen name="fab_shadow_size">8dp</dimen></file><file path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\values\strings.xml" qualifiers=""><string name="SettingsInfo">Infos</string><string name="user_message_download_canceled">Download Cancelled.</string><string name="title_activity_release_notes">Release Notes</string><string name="user_message_download_complete">Download Completed.</string><string name="InfoCopyright">Made by Nicola Gigante. Some informations in our database might not be correct, so please don\'t trust us 100%.</string><string name="error">Is this an error? Report it by tapping here.</string><string name="updateinfo">Manually updating the database may require up to five minutes to complete, but may fix some problems you may encounter when scanning or browsing it. You need it if it \'s the first time running CeliEye. To start updating the database, press the button below.</string><string name="title_activity_test_db">TestDB</string><string name="title_activity_settings">Settings</string><string name="title_activity_to_do">ToDo</string><string name="downloader">Update manually the database</string><string name="cart">Cart</string><string name="title_activity_not_available">Not Available</string><string name="AppName">CeliEye</string><string name="title_activity_splash">Splash</string><string name="carttut">This is the Cart. You can save gluten-free products here.</string><string name="cart_intro">Keep track of gluten-free foods.</string><string name="title_activity_downloader">Downloader</string><string name="ReleaseCodename">Quantum Dinosaur</string><string name="namesegnala">BRAND NAME</string><string name="toast_segnalazione">Product advised with success</string><string name="ReleaseVersion">Version 0.0.6a</string><string name="descriptionsegnala">PRODUCT DESCRIPTION</string><string name="learnmore">Learn more.</string><string name="notavailable">This feature is not available in the Previews of CeliEye.</string><string name="barcodesegnala">BARCODE</string><string name="EyeScan">Touch the camera to start scanning.</string><string name="title_activity_parse_json">ParseJSON</string><string name="SettingsRelease">Release Notes</string><string name="progress_dialog_title_downloading">Downloading...</string><string name="addcart">Add to Cart.</string><string name="introduction">A snap is all it takes to know if what you\'re buying is gluten-free.</string><string name="searchtut">This is the Search. You can manually search products here.</string><string name="bad">This is NOT a gluten-free product!</string><string name="title_activity_good">Gluten-free product</string><string name="error_message_bad_url">Huston, we have a bad URL!</string><string name="help">Help</string><string name="error_message_general">Ooops, we have an error!</string><string name="thank">Thanks to</string><string name="title_activity_test_grid_view">Search Results</string><string name="SettingsToDO">To Do</string><string name="welcome">Welcome to CeliEye.</string><string name="title_activity_finish_tutorial">FinishTutorial</string><string name="good">This product is gluten-free!</string><string name="title_activity_segnala_prodotto">Advise a Product</string><string name="ToDoTitle">To Do.</string><string name="progress_dialog_title_connecting">Connecting...</string><string name="title_activity_bad">Product with gluten</string><string name="ForceDatabase">Update manually the database</string><string name="title_activity_basics_tut">BasicsTut</string><string name="error_message_file_not_found">I didn \'t find the file, sorry.</string><string name="configure">Configure CeliEye.</string><string name="scantut">You can start a scan by pressing the button below.</string><string name="settingstut">This is the Menu. If you don\'t see this icon in the main screen, press the \'menu\' key to show it.</string><string name="title_activity_async_task_http_post">AsyncTaskHttpPost</string><string name="Release2">- The app now scans elements</string><string name="progress_dialog_message_prefix_connecting"/><string name="Release1">- Bug Fixes</string><string name="Release4">- Fun Fact: This app walks like a dinosaur.</string><string name="Release3">- Fixed Graphics</string><string name="progress_dialog_message_prefix_downloading"/><string name="title_activity_cart">Cart</string><string name="title_activity_database">DatabaseActivity</string><string name="title_activity_test_read_write_file">TestReadWriteFile</string><string name="devupdate">This is the address which is used to download the database. Should be hidden to the end-user.</string><string name="InfoVersion">PREVIEW 5</string><string name="title_activity_info">Infos</string><string name="hello_world">Hello world!</string><string name="NotAvailable">This feature is not available yet.</string><string name="basicstut">Get to know the basics.</string><string name="nextstep">Next Step</string><string name="title_activity_infobuttontut">infobuttontut</string><string name="action_settings">Settings</string><string name="SettingsQuantum">Quantum Design Test Area</string><string name="title_activity_first">CeliEye</string><string name="app_name">CeliEye</string><string name="searchhint">Type something...</string><string name="status_text_default"/><string name="ToDo4">- Make this list prehistoric</string><string name="ToDo2">- Finish the graphics</string><string name="finish">Finish the Tutorial.</string><string name="ToDo3">- Build Success/Failure Graphics</string><string name="ToDo1">- Integrate Thread</string><string name="congrats">Congrats!</string><string name="tutfinish">You\'ve successfully finished the tutorial! You now only need to download the database from the next screen to get started.</string><string name="title_activity_design">Design</string><string name="action_search">Search</string></file><file path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\values\strings_activity_settings.xml" qualifiers=""><string name="pref_header_notifications">Notifications</string><string name="pref_title_system_sync_settings">System sync settings</string><string name="pref_default_display_name">John Smith</string><string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string><string name="pref_title_add_friends_to_messages">Add friends to messages</string><string name="pref_title_vibrate">Vibrate</string><string name="pref_header_data_sync">Data &amp; sync</string><string name="pref_title_sync_frequency">Sync frequency</string><string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array><string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array><string name="pref_ringtone_silent">Silent</string><string name="pref_title_social_recommendations">Enable social recommendations</string><string name="pref_title_ringtone">Ringtone</string><string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array><string name="pref_header_general">General</string><string name="pref_title_display_name">Display name</string><string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array><string name="pref_title_new_message_notifications">New message notifications</string></file><file path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\values\styles.xml" qualifiers=""><style name="Theme.EyeTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style><style name="Theme.MyAppTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="Theme.InfoTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="CustomProgressBar" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@drawable/anim_progress</item>
+        <item name="android:minHeight">10dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style><style name="MyCustomTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_actionbar</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:actionBarWidgetTheme">@style/YourActionBarWidget</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
 
-    <dataSet config="main" >
-        <source path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res" >
-            <file
-                name="another_shadow"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\another_shadow.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="back"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\back.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="button_circle"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\button_circle.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="circle_focused"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\circle_focused.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="ic_actionbar"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\ic_actionbar.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="ic_navbar"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\ic_navbar.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="rectangle"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\rectangle.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="rectangle_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\rectangle_pressed.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="search"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\search.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="settings"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\settings.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="ic_action_camera"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_action_camera.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_search"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_action_search.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_search_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_action_search_pressed.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_action_settings.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_action_settings_pressed.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_back.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_back_pressed.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_camera"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_camera.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_camera_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_camera_pressed.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_launcher.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_camera"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_action_camera.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_search"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_action_search.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_search_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_action_search_pressed.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_action_settings.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_action_settings_pressed.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_back.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_back_pressed.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_camera"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_camera.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_camera_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_camera_pressed.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_launcher.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="back_button"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\back_button.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_camera"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_action_camera.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_search"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_action_search.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_search_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_action_search_pressed.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_action_settings.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_action_settings_pressed.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_back.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_back_pressed.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_camera"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_camera.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_camera_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_camera_pressed.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_launcher.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_camera"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xxhdpi\ic_action_camera.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_search"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xxhdpi\ic_action_search.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_search_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xxhdpi\ic_action_search_pressed.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xxhdpi\ic_action_settings.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_settings_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xxhdpi\ic_action_settings_pressed.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_camera"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xxhdpi\ic_camera.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_launcher"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xxhdpi\ic_launcher.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="activity_eye"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\layout\activity_eye.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_info2"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\layout\activity_info2.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_settings"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\layout\activity_settings.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="eye"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\menu\eye.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="info"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\menu\info.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="settings"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\menu\settings.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\values\dimens.xml"
-                qualifiers="" >
-                <dimen name="activity_horizontal_margin" >16dp
-                </dimen>
-                <dimen name="activity_vertical_margin" >16dp
-                </dimen>
-            </file>
-            <file
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\values\strings.xml"
-                qualifiers="" >
-                <string name="action_settings" >Impostazioni
-                </string>
-                <string name="title_activity_not_available" >Non Disponibile
-                </string>
-                <string name="title_activity_info" >Informazioni
-                </string>
-                <string name="app_name" >CeliEye
-                </string>
-                <string name="action_search" >Cerca
-                </string>
-                <string name="hello_world" >Hello world!
-                </string>
-                <string name="title_activity_design" >Design
-                </string>
-            </file>
-            <file
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\values\strings_activity_settings.xml"
-                qualifiers="" >
-                <string-array name="pref_sync_frequency_values" >
-                    <item>
-15
-                    </item>
-                    <item>
-30
-                    </item>
-                    <item>
-60
-                    </item>
-                    <item>
-180
-                    </item>
-                    <item>
-360
-                    </item>
-                    <item>
--1
-                    </item>
-                </string-array>
+        <item name="android:background">#03a9f4</item>
+        <item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item> <!-- This does the magic! -->
+        <item name="android:icon">@android:color/white</item>
+        <item name="android:actionBarSize">56dp</item>
 
-                <string name="title_activity_settings" >Impostazioni
-                </string>
-                <string name="pref_ringtone_silent" >Silent
-                </string>
 
-                <string-array name="pref_example_list_values" >
-                    <item>
-1
-                    </item>
-                    <item>
-0
-                    </item>
-                    <item>
--1
-                    </item>
-                </string-array>
+    </style><style name="EyeAction" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
 
-                <string name="pref_title_display_name" >Display name
-                </string>
-                <string name="pref_title_sync_frequency" >Sync frequency
-                </string>
-                <string name="pref_description_social_recommendations" >Recommendations for people to contact based on your message history
-                </string>
-                <string name="pref_header_general" >General
-                </string>
-                <string name="pref_title_add_friends_to_messages" >Add friends to messages
-                </string>
-                <string name="pref_default_display_name" >John Smith
-                </string>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/Theme.EyeTheme.ActionBar.TitleTextStyle</item> <!-- This does the magic! -->
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionBarSize">56dp</item>
 
-                <string-array name="pref_example_list_titles" >
-                    <item>
-Always
-                    </item>
-                    <item>
-When possible
-                    </item>
-                    <item>
-Never
-                    </item>
-                </string-array>
 
-                <string name="pref_title_new_message_notifications" >New message notifications
-                </string>
-                <string name="pref_title_vibrate" >Vibrate
-                </string>
-                <string name="pref_title_ringtone" >Ringtone
-                </string>
-                <string name="pref_title_social_recommendations" >Enable social recommendations
-                </string>
-                <string name="pref_header_notifications" >Notifications
-                </string>
+    </style><style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_mtrl_alpha</item>
+    </style><style name="InfoAction" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
 
-                <string-array name="pref_sync_frequency_titles" >
-                    <item>
-15 minutes
-                    </item>
-                    <item>
-30 minutes
-                    </item>
-                    <item>
-1 hour
-                    </item>
-                    <item>
-3 hours
-                    </item>
-                    <item>
-6 hours
-                    </item>
-                    <item>
-Never
-                    </item>
-                </string-array>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/Theme.InfoTheme.ActionBar.TitleTextStyle</item> <!-- This does the magic! -->
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionBarSize">56dp</item>
 
-                <string name="pref_title_system_sync_settings" >System sync settings
-                </string>
-                <string name="pref_header_data_sync" >Data &amp; sync
-                </string>
-            </file>
-            <file
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\values\styles.xml"
-                qualifiers="" >
 
-                <style
-                    name="CustomProgressBar"
-                    parent="android:Widget.ProgressBar.Horizontal" >
-                    <item name="android:indeterminateOnly">
-false
-                    </item>
-                    <item name="android:indeterminateDrawable">
-@drawable/anim_progress
-                    </item>
-                    <item name="android:minHeight">
-10dip
-                    </item>
-                    <item name="android:maxHeight">
-20dip
-                    </item>
-                </style>
-
-                <style
-                    name="MyActionBarTheme"
-                    parent="@android:style/Widget.Holo.Light.ActionBar" >
-                    <item name="android:background">
-@drawable/ic_actionbar
-                    </item>
-                    <item name="android:titleTextStyle">
-@style/Theme.MyAppTheme.ActionBar.TitleTextStyle
-                    </item>
-                    <!-- This does the magic! -->
-                    <item name="android:icon">
-@android:color/transparent
-                    </item>
-                </style>
-
-                <style
-                    name="MyCustomTheme"
-                    parent="@android:style/Theme.Holo.Light" >
-                    <item name="android:actionBarStyle">
-@style/MyActionBarTheme
-                    </item>
-                    <item name="android:homeAsUpIndicator">
-@drawable/ic_back_actionbar
-                    </item>
-                </style>
-
-                <style
-                    name="Theme.MyAppTheme.ActionBar.TitleTextStyle"
-                    parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title" >
-                    <item name="android:textColor">
-#ffffff
-                    </item>
-                </style>
-            </file>
-            <file
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\values-w820dp\dimens.xml"
-                qualifiers="w820dp-v13" >
-                <dimen name="activity_horizontal_margin" >64dp
-                </dimen>
-            </file>
-            <file
-                name="pref_data_sync"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\xml\pref_data_sync.xml"
-                qualifiers=""
-                type="xml" />
-            <file
-                name="pref_general"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\xml\pref_general.xml"
-                qualifiers=""
-                type="xml" />
-            <file
-                name="pref_headers"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\xml\pref_headers.xml"
-                qualifiers=""
-                type="xml" />
-            <file
-                name="pref_notification"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\xml\pref_notification.xml"
-                qualifiers=""
-                type="xml" />
-            <file
-                name="ic_back_action"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_back_action.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_action_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_back_action_pressed.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_actionbar"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\ic_back_actionbar.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="ic_back_action_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_back_action_pressed.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_action"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_back_action.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_action"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_back_action.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_action_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_back_action_pressed.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_action_old_old"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_back_action_old_old.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_back_action_pressed_old_old"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_back_action_pressed_old_old.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="rectangle_button"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\rectangle_button.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="ic_action_about"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_action_about.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_about"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xxhdpi\ic_action_about.png"
-                qualifiers="xxhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_about"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_action_about.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_action_about"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_action_about.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_info_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_info_pressed.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_info"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_info.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="design"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\menu\design.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="activity_design"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\layout\activity_design.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="activity_not_available"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\layout\activity_not_available.xml"
-                qualifiers=""
-                type="layout" />
-            <file
-                name="not_available"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\menu\not_available.xml"
-                qualifiers=""
-                type="menu" />
-            <file
-                name="ic_quantumdesign"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_quantumdesign.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_quantumdesign"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_quantumdesign.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_notavailable"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_notavailable.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_notavailable"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_notavailable.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_quantumdesign"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_quantumdesign.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_notavailable"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_notavailable.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_info"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_info.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="info"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\info.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="ic_quantumdesign_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_quantumdesign_pressed.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_quantumdesign_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-xhdpi\ic_quantumdesign_pressed.png"
-                qualifiers="xhdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_info_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_info_pressed.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_quantumdesign_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_quantumdesign_pressed.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_info_pressed"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-hdpi\ic_info_pressed.png"
-                qualifiers="hdpi-v4"
-                type="drawable" />
-            <file
-                name="ic_info"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable-mdpi\ic_info.png"
-                qualifiers="mdpi-v4"
-                type="drawable" />
-            <file
-                name="quantumdesign"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\quantumdesign.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="progress_small_material"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\progress_small_material.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="progress_medium_material"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\progress_medium_material.xml"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="progress"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\progress.png"
-                qualifiers=""
-                type="drawable" />
-            <file
-                name="anim_progress"
-                path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\main\res\drawable\anim_progress.xml"
-                qualifiers=""
-                type="drawable" />
-        </source>
-        <source path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\build\generated\res\rs\debug" />
-        <source path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\build\generated\res\generated\debug" />
-    </dataSet>
-    <dataSet config="debug" >
-        <source path="C:\Users\Nico\Documents\GitHub\CeliEye3\app\src\debug\res" />
-    </dataSet>
-
-</merger>
+    </style><style name="EyeTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/EyeAction</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_actionbar</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:actionBarWidgetTheme">@style/YourActionBarWidget</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="InfoTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/InfoAction</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_actionbar</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:actionBarWidgetTheme">@style/YourActionBarWidget</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style><style name="YourActionBarWidget" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@android:style/Widget.Holo.Light.ListView.DropDown</item>
+    </style></file><file path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\values-it\strings.xml" qualifiers="it"><string name="namesegnala">NOME BRAND</string><string name="Release3">- Aggiustata la grafica</string><string name="Release4">- Fun Fact: Questa app cammina come un dinosauro.</string><string name="Release1">- Risolti alcuni bug</string><string name="updateinfo">Aggiornare manualmente il database potrebbe richiedere fino a cinque minuti, però potrebbe aggiustare alcuni problemi che potresti aver incontrato nello scansionare o cercare all\'interno del suddetto. Hai bisogno di aggiornare il database se è la prima volta che avvii CeliEye. Premi il pulsante qui sotto per iniziare la procedura d\' aggiornamento.</string><string name="Release2">- L\'app ora effettua scansioni</string><string name="ForceDatabase">Aggiorna manualmente il database</string><string name="title_activity_database">DatabaseActivity</string><string name="InfoCopyright">Creata da Nicola Gigante. Qualche informazione nel nostro database potrebbe risultare non corretta al 100%. Anche se tentiamo sempre di verificare le informazioni, procedete con cautela.</string><string name="title_activity_async_task_http_post">AsyncTaskHttpPost</string><string name="status_text_default"/><string name="barcodesegnala">CODICE A BARRE</string><string name="addcart">Aggiungi al Carrello.</string><string name="configure">Configura CeliEye</string><string name="cart_intro">Tieni traccia di cibi senza glutine.</string><string name="ToDo1">- Integrare Thread</string><string name="error_message_bad_url">Huston, abbiamo un URL non valido!</string><string name="introduction">Ora tutto quel che serve per sapere se un prodotto è senza glutine è una foto.</string><string name="SettingsInfo">Informazioni</string><string name="ToDo4">- Rendere la lista preistorica</string><string name="ToDo3">- Costruire Activity Successo/Fallimento</string><string name="title_activity_segnala_prodotto">Segnala Prodotto</string><string name="ToDo2">- Finire la grafica</string><string name="progress_dialog_title_connecting">Mi sto connettendo...</string><string name="downloader">Aggiorna manualmente il database</string><string name="action_settings">Impostazioni</string><string name="scantut">Puoi iniziare una scansione premendo questo bottone:</string><string name="error_message_general">Oooops, abbiamo un\' errore!</string><string name="action_search">Cerca</string><string name="devupdate">Questo è l\'indirizzo a cui l\'app si connette per aggiornare il database. Dovrebbe essere nascosto all \'end-user</string><string name="error">C \' è un errore? Informaci, tappando qui.</string><string name="finish">Finisci il Tutorial.</string><string name="ReleaseVersion">Versione 0.0.6a</string><string name="progress_dialog_message_prefix_connecting"/><string name="title_activity_settings">Impostazioni</string><string name="title_activity_to_do">ToDo</string><string name="nextstep">Prossimo Step</string><string name="NotAvailable">Questa funzione non è ancora disponibile.</string><string name="bad">Questo prodotto NON è senza glutine!</string><string name="learnmore">Scopri di più.</string><string name="title_activity_downloader">Downloader</string><string name="basicstut">Impara le basi.</string><string name="user_message_download_complete">Download Completato!</string><string name="searchhint">Scrivi qualcosa...</string><string name="toast_segnalazione">Prodotto segnalato con successo</string><string name="title_activity_first">CeliEye</string><string name="welcome">Benvenuto in CeliEye.</string><string name="EyeScan">Tocca la fotocamera per iniziare una scansione.</string><string name="title_activity_finish_tutorial">FinishTutorial</string><string name="title_activity_splash">Splash</string><string name="title_activity_design">Design</string><string name="descriptionsegnala">DESCRIZIONE PRODOTTO</string><string name="InfoVersion">PREVIEW 5</string><string name="user_message_download_canceled">Download non completato.</string><string name="progress_dialog_message_prefix_downloading"/><string name="settingstut">Questo è il Menu. Se non vedi questa icona nella schermata principale, premi il tasto \'menu\' del tuo telefono.</string><string name="title_activity_release_notes">Note sulla release</string><string name="tutfinish">Hai completato il tutorial! Adesso hai solo bisogno di installare il database per poter iniziare ad utilizzare l\'app.</string><string name="help">Informazioni su...</string><string name="ToDoTitle">Da fare</string><string name="error_message_file_not_found">Oddio, non trovo più l\' URL!</string><string name="thank">Grazie a</string><string name="hello_world">Hello world!</string><string name="good">Questo prodotto è senza glutine!</string><string name="carttut">Questo è il Carrello. Puoi salvare prodotti senza glutine qui.</string><string name="title_activity_bad">Prodotto con glutine</string><string name="title_activity_infobuttontut">infobuttontut</string><string name="title_activity_test_grid_view">Risultati della ricerca</string><string name="title_activity_test_read_write_file">TestReadWriteFile</string><string name="app_name">CeliEye</string><string name="SettingsRelease">Note sulla release</string><string name="title_activity_parse_json">ParseJSON</string><string name="SettingsToDO">To Do</string><string name="searchtut">Questa è la funzione Cerca. Puoi cercare un prodotto manualmente qui.</string><string name="progress_dialog_title_downloading">Sto scaricando...</string><string name="notavailable">Questa funzione non è disponibile nelle Previews di CeliEye.</string><string name="AppName">CeliEye</string><string name="title_activity_good">Prodotto senza glutine</string><string name="title_activity_test_db">TestDB</string><string name="congrats">Congratulazioni!</string><string name="title_activity_cart">Carrello</string><string name="cart">Carrello</string><string name="title_activity_not_available">Non Disponibile</string><string name="title_activity_basics_tut">BasicsTut</string><string name="title_activity_info">Informazioni</string><string name="ReleaseCodename">Dinosauro Quantistico</string><string name="SettingsQuantum">Quantum Design Test Area</string></file><file path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\values-it\strings_activity_settings.xml" qualifiers="it"><string name="pref_title_social_recommendations">Enable social recommendations</string><string name="pref_title_display_name">Display name</string><string name="pref_title_add_friends_to_messages">Add friends to messages</string><string name="pref_title_sync_frequency">Sync frequency</string><string name="pref_header_general">General</string><string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array><string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array><string name="pref_title_system_sync_settings">System sync settings</string><string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array><string name="pref_ringtone_silent">Silent</string><string name="pref_header_data_sync">Data &amp; sync</string><string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array><string name="pref_title_vibrate">Vibrate</string><string name="pref_title_new_message_notifications">New message notifications</string><string name="pref_default_display_name">John Smith</string><string name="pref_header_notifications">Notifications</string><string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string><string name="pref_title_ringtone">Ringtone</string></file><file path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\values-w820dp\dimens.xml" qualifiers="w820dp-v13"><dimen name="activity_horizontal_margin">64dp</dimen></file><file name="pref_data_sync" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\xml\pref_data_sync.xml" qualifiers="" type="xml"/><file name="pref_general" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\xml\pref_general.xml" qualifiers="" type="xml"/><file name="pref_headers" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\xml\pref_headers.xml" qualifiers="" type="xml"/><file name="pref_notification" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\xml\pref_notification.xml" qualifiers="" type="xml"/><file name="searchable" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\xml\searchable.xml" qualifiers="" type="xml"/><file name="settings" path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\main\res\xml\settings.xml" qualifiers="" type="xml"/></source><source path="C:\Users\Nicola\Documents\GitHub\celieye\app\build\generated\res\rs\debug"/><source path="C:\Users\Nicola\Documents\GitHub\celieye\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Nicola\Documents\GitHub\celieye\app\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="FloatingActionButton"><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorNormal"/><attr format="boolean" name="fab_shadow"/><attr format="enum" name="fab_type"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr></declare-styleable></configuration></mergedItems></merger>

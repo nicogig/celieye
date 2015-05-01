@@ -9,7 +9,7 @@
     tools:context="nicolagigante.celieye.activity.NotAvailable">
 
     <TextView
-        android:text="Questa funzione non è ancora disponibile."
+        android:text="@string/NotAvailable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/TextNotAvailable"
@@ -26,4 +26,4 @@
         android:layout_marginBottom="31dp" />
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/layout/activity_not_available.xml -->
+<!-- From: file:/C:/Users/Nicola/Documents/GitHub/celieye/app/src/main/res/layout/activity_not_available.xml -->

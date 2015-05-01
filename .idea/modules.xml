@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CeliEye.iml" filepath="$PROJECT_DIR$/CeliEye.iml" />
       <module fileurl="file://$PROJECT_DIR$/CeliEye2307.iml" filepath="$PROJECT_DIR$/CeliEye2307.iml" />
       <module fileurl="file://$PROJECT_DIR$/CeliEye3.iml" filepath="$PROJECT_DIR$/CeliEye3.iml" />
       <module fileurl="file://$PROJECT_DIR$/CeliEye_2.iml" filepath="$PROJECT_DIR$/CeliEye_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/CeliEye_3.iml" filepath="$PROJECT_DIR$/CeliEye_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/celieye.iml" filepath="$PROJECT_DIR$/celieye.iml" />
+      <module fileurl="file://$PROJECT_DIR$/celieye.iml" filepath="$PROJECT_DIR$/celieye.iml" />
     </modules>
   </component>
 </project>

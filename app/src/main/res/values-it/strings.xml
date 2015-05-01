@@ -22,8 +22,8 @@
     <string name="SettingsRelease">Note sulla release</string>
     <string name="SettingsInfo">Informazioni</string>
     <string name="AppName">CeliEye</string>
-    <string name="InfoVersion">PREVIEW 4</string>
-    <string name="InfoCopyright">Creata da Eugenio &amp; Nicola Gigante. Qualche informazione nel nostro database potrebbe risultare non corretta al 100%. Anche se tentiamo sempre di verificare le informazioni, procedete con cautela.</string>
+    <string name="InfoVersion">PREVIEW 5</string>
+    <string name="InfoCopyright">Creata da Nicola Gigante. Qualche informazione nel nostro database potrebbe risultare non corretta al 100%. Anche se tentiamo sempre di verificare le informazioni, procedete con cautela.</string>
     <string name="NotAvailable">Questa funzione non è ancora disponibile.</string>
     <string name="EyeScan">Tocca la fotocamera per iniziare una scansione.</string>
     <string name="ToDoTitle">Da fare</string>
@@ -87,5 +87,6 @@
     <string name="descriptionsegnala">DESCRIZIONE PRODOTTO</string>
     <string name="toast_segnalazione">Prodotto segnalato con successo</string>
     <string name="title_activity_test_grid_view">Risultati della ricerca</string>
+    <string name="send">Invia</string>
 
 </resources>

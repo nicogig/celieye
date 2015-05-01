@@ -6,43 +6,87 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:id="@+id/textView2"
+        android:background="@drawable/back_info"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/InfoCopyright"
+        android:id="@+id/textView4"
+        android:textStyle="italic"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ff000000"
+        android:textSize="16dp" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:background="@drawable/ic_launcher"
-        android:layout_alignWithParentIfMissing="true"
-        android:layout_marginTop="133dp"
-        android:layout_below="@+id/button"
-        android:layout_toLeftOf="@+id/textView" />
+        android:id="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CeliEye"
-        android:id="@+id/textView"
-        android:textAlignment="gravity"
-        android:textSize="34dp"
-        android:textIsSelectable="false"
-        android:layout_alignWithParentIfMissing="true"
-        android:layout_alignBottom="@+id/imageView2"
-        android:layout_centerHorizontal="true" />
+        android:text="Celi"
+        android:id="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/textView3"
+        android:textColor="#ffffffff"
+        android:textSize="30dp"
+        android:textIsSelectable="false" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Versione 0.0.3a - Prototipo di Design"
-        android:id="@+id/textView2"
-        android:layout_alignWithParentIfMissing="true"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:text="Eye"
+        android:id="@+id/textView6"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView5"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Utilizzo consentito solo a scopo DEMO"
-        android:id="@+id/textView3"
-        android:layout_alignWithParentIfMissing="true"
+        android:text="@string/InfoVersion"
+        android:id="@+id/textView7"
         android:layout_below="@+id/textView2"
-        android:layout_centerHorizontal="true" />
-</RelativeLayout><!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/layout/activity_info2.xml -->
+        android:layout_alignParentLeft="true"
+        android:textColor="#ff000000"
+        android:textSize="26dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CeliEye is an app to identify which products are gluten free and which aren&apos;t, using their barcodes. CeliEye may not work in all parts of the world. CeliEye was developed and tested in Italy."
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ff000000"
+        android:textSize="16dp" />
+</RelativeLayout><!-- From: file:/C:/Users/Nicola/Documents/GitHub/celieye/app/src/main/res/layout/activity_info2.xml -->

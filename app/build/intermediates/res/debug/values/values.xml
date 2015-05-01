@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/values/strings_activity_settings.xml -->
-    <eat-comment />
-
+    <!-- From: file:/C:/Users/Nicola/Documents/GitHub/celieye/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
     <string-array name="pref_example_list_titles">
         <item>Always</item>
         <item>When possible</item>
@@ -30,21 +28,68 @@
         <item>360</item>
         <item>-1</item>
     </string-array>
-    <!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/values/dimens.xml -->
-    <eat-comment />
-
-    <dimen name="activity_horizontal_margin">16dp</dimen>
-    <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/values/strings.xml -->
-    <eat-comment />
-
-    <string name="action_search">Cerca</string>
-    <string name="action_settings">Impostazioni</string>
+    <declare-styleable name="FloatingActionButton"><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorNormal"/><attr format="boolean" name="fab_shadow"/><attr format="enum" name="fab_type"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr></declare-styleable>
+    <!-- From: file:/C:/Users/Nicola/Documents/GitHub/celieye/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="fab_mini_shadow_size">6dp</dimen>
+    <dimen name="fab_shadow_size">8dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
+    <!-- From: file:/C:/Users/Nicola/Documents/GitHub/celieye/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="AppName">CeliEye</string>
+    <string name="EyeScan">Touch the camera to start scanning.</string>
+    <string name="ForceDatabase">Update manually the database</string>
+    <string name="InfoCopyright">Made by Nicola Gigante. Some informations in our database might not be correct, so please don\'t trust us 100%.</string>
+    <string name="InfoVersion">PREVIEW 5</string>
+    <string name="NotAvailable">This feature is not available yet.</string>
+    <string name="Release1">- Bug Fixes</string>
+    <string name="Release2">- The app now scans elements</string>
+    <string name="Release3">- Fixed Graphics</string>
+    <string name="Release4">- Fun Fact: This app walks like a dinosaur.</string>
+    <string name="ReleaseCodename">Quantum Dinosaur</string>
+    <string name="ReleaseVersion">Version 0.0.6a</string>
+    <string name="SettingsInfo">Infos</string>
+    <string name="SettingsQuantum">Quantum Design Test Area</string>
+    <string name="SettingsRelease">Release Notes</string>
+    <string name="SettingsToDO">To Do</string>
+    <string name="ToDo1">- Integrate Thread</string>
+    <string name="ToDo2">- Finish the graphics</string>
+    <string name="ToDo3">- Build Success/Failure Graphics</string>
+    <string name="ToDo4">- Make this list prehistoric</string>
+    <string name="ToDoTitle">To Do.</string>
+    <string name="action_search">Search</string>
+    <string name="action_settings">Settings</string>
+    <string name="addcart">Add to Cart.</string>
     <string name="app_name">CeliEye</string>
+    <string name="bad">This is NOT a gluten-free product!</string>
+    <string name="barcodesegnala">BARCODE</string>
+    <string name="basicstut">Get to know the basics.</string>
+    <string name="cart">Cart</string>
+    <string name="cart_intro">Keep track of gluten-free foods.</string>
+    <string name="carttut">This is the Cart. You can save gluten-free products here.</string>
+    <string name="configure">Configure CeliEye.</string>
+    <string name="congrats">Congrats!</string>
+    <string name="descriptionsegnala">PRODUCT DESCRIPTION</string>
+    <string name="devupdate">This is the address which is used to download the database. Should be hidden to the end-user.</string>
+    <string name="downloader">Update manually the database</string>
+    <string name="error">Is this an error? Report it by tapping here.</string>
+    <string name="error_message_bad_url">Huston, we have a bad URL!</string>
+    <string name="error_message_file_not_found">I didn \'t find the file, sorry.</string>
+    <string name="error_message_general">Ooops, we have an error!</string>
+    <string name="finish">Finish the Tutorial.</string>
+    <string name="good">This product is gluten-free!</string>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/values/strings_activity_settings.xml -->
-    <eat-comment />
-
+    <string name="help">Help</string>
+    <string name="introduction">A snap is all it takes to know if what you\'re buying is gluten-free.</string>
+    <string name="learnmore">Learn more.</string>
+    <string name="namesegnala">BRAND NAME</string>
+    <string name="nextstep">Next Step</string>
+    <string name="notavailable">This feature is not available in the Previews of CeliEye.</string>
+    <!-- From: file:/C:/Users/Nicola/Documents/GitHub/celieye/app/src/main/res/values/strings_activity_settings.xml -->
+    <eat-comment/>
     <string name="pref_default_display_name">John Smith</string>
     <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
     <string name="pref_header_data_sync">Data &amp; sync</string>
@@ -59,40 +104,116 @@
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string name="pref_title_system_sync_settings">System sync settings</string>
     <string name="pref_title_vibrate">Vibrate</string>
-    <!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/values/strings.xml -->
-    <eat-comment />
-
+    <!-- From: file:/C:/Users/Nicola/Documents/GitHub/celieye/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="progress_dialog_message_prefix_connecting"/>
+    <string name="progress_dialog_message_prefix_downloading"/>
+    <string name="progress_dialog_title_connecting">Connecting...</string>
+    <string name="progress_dialog_title_downloading">Downloading...</string>
+    <string name="scantut">You can start a scan by pressing the button below.</string>
+    <string name="searchhint">Type something...</string>
+    <string name="searchtut">This is the Search. You can manually search products here.</string>
+    <string name="settingstut">This is the Menu. If you don\'t see this icon in the main screen, press the \'menu\' key to show it.</string>
+    <string name="status_text_default"/>
+    <string name="thank">Thanks to</string>
+    <string name="title_activity_async_task_http_post">AsyncTaskHttpPost</string>
+    <string name="title_activity_bad">Product with gluten</string>
+    <string name="title_activity_basics_tut">BasicsTut</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_database">DatabaseActivity</string>
     <string name="title_activity_design">Design</string>
-    <string name="title_activity_info">Informazioni</string>
-    <string name="title_activity_not_available">Non Disponibile</string>
-    <!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/values/strings_activity_settings.xml -->
-    <eat-comment />
-
-    <string name="title_activity_settings">Impostazioni</string>
-    <!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/values/styles.xml -->
-    <eat-comment />
-
+    <string name="title_activity_downloader">Downloader</string>
+    <string name="title_activity_finish_tutorial">FinishTutorial</string>
+    <string name="title_activity_first">CeliEye</string>
+    <string name="title_activity_good">Gluten-free product</string>
+    <string name="title_activity_info">Infos</string>
+    <string name="title_activity_infobuttontut">infobuttontut</string>
+    <string name="title_activity_not_available">Not Available</string>
+    <string name="title_activity_parse_json">ParseJSON</string>
+    <string name="title_activity_release_notes">Release Notes</string>
+    <string name="title_activity_segnala_prodotto">Advise a Product</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="title_activity_test_db">TestDB</string>
+    <string name="title_activity_test_grid_view">Search Results</string>
+    <string name="title_activity_test_read_write_file">TestReadWriteFile</string>
+    <string name="title_activity_to_do">ToDo</string>
+    <string name="toast_segnalazione">Product advised with success</string>
+    <string name="tutfinish">You\'ve successfully finished the tutorial! You now only need to download the database from the next screen to get started.</string>
+    <string name="updateinfo">Manually updating the database may require up to five minutes to complete, but may fix some problems you may encounter when scanning or browsing it. You need it if it \'s the first time running CeliEye. To start updating the database, press the button below.</string>
+    <string name="user_message_download_canceled">Download Cancelled.</string>
+    <string name="user_message_download_complete">Download Completed.</string>
+    <string name="welcome">Welcome to CeliEye.</string>
+    <!-- From: file:/C:/Users/Nicola/Documents/GitHub/celieye/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
     <style name="CustomProgressBar" parent="android:Widget.ProgressBar.Horizontal">
         <item name="android:indeterminateOnly">false</item>
         <item name="android:indeterminateDrawable">@drawable/anim_progress</item>
         <item name="android:minHeight">10dip</item>
         <item name="android:maxHeight">20dip</item>
     </style>
+    <style name="EyeAction" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
 
-    <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
-        <item name="android:background">@drawable/ic_actionbar</item>
-        <item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item>
-        <!-- This does the magic! -->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/Theme.EyeTheme.ActionBar.TitleTextStyle</item> <!-- This does the magic! -->
         <item name="android:icon">@android:color/transparent</item>
-    </style>
+        <item name="android:actionBarSize">56dp</item>
 
-    <style name="MyCustomTheme" parent="@android:style/Theme.Holo.Light">
+
+    </style>
+    <style name="EyeTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/EyeAction</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_actionbar</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:actionBarWidgetTheme">@style/YourActionBarWidget</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="InfoAction" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:titleTextStyle">@style/Theme.InfoTheme.ActionBar.TitleTextStyle</item> <!-- This does the magic! -->
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionBarSize">56dp</item>
+
+
+    </style>
+    <style name="InfoTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/InfoAction</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_actionbar</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:actionBarWidgetTheme">@style/YourActionBarWidget</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+
+        <item name="android:background">#03a9f4</item>
+        <item name="android:titleTextStyle">@style/Theme.MyAppTheme.ActionBar.TitleTextStyle</item> <!-- This does the magic! -->
+        <item name="android:icon">@android:color/white</item>
+        <item name="android:actionBarSize">56dp</item>
+
+
+    </style>
+    <style name="MyCustomTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_back_actionbar</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+        <item name="android:actionBarWidgetTheme">@style/YourActionBarWidget</item>
+        <item name="android:windowContentOverlay">@null</item>
     </style>
-
+    <style name="OverFlow" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_mtrl_alpha</item>
+    </style>
+    <style name="Theme.EyeTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.InfoTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
     <style name="Theme.MyAppTheme.ActionBar.TitleTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
-        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
-
+    <style name="YourActionBarWidget" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@android:style/Widget.Holo.Light.ListView.DropDown</item>
+    </style>
 </resources>

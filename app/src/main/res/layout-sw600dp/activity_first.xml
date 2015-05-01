@@ -44,15 +44,4 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp" />
 
-    TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/nextstep"
-        android:textSize="15dp"
-        android:gravity="center|center_vertical"
-        android:layout_alignParentBottom="true"
-        android:layout_alignLeft="@+id/first"
-        android:layout_alignTop="@+id/first"
-        android:layout_alignRight="@+id/first" />
-
 </RelativeLayout>

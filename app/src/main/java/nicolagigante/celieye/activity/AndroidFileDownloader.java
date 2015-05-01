@@ -93,6 +93,28 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
                 outChannel.close();
         }
     }
+
+    public static void copyFiletoSD(File src, File dst) throws IOException
+    {
+        Log.i("copyFileSD", "entrato");
+
+        FileChannel inChannel = new FileInputStream(src).getChannel();
+        Log.i("inChannel", inChannel.toString());
+        FileChannel outChannel = new FileOutputStream(dst).getChannel();
+        Log.i("outChannel", outChannel.toString());
+        try
+        {
+            inChannel.transferTo(0, inChannel.size(), outChannel);
+            Log.i("inChannel Transfer", inChannel.toString());
+        }
+        finally
+        {
+            if (inChannel != null)
+                inChannel.close();
+            if (outChannel != null)
+                outChannel.close();
+        }
+    }
 /*
     private void copyFile(OutputStream os, InputStream is) throws IOException {
         byte[] buffer = new byte[1024];
@@ -109,8 +131,17 @@ public class AndroidFileDownloader extends Activity implements OnClickListener
     {
         TextView urlInputField = (TextView) this.findViewById(R.id.url_input);
         String urlInput = urlInputField.getText().toString();
-        downloaderThread = new DownloaderThread(thisActivity, urlInput);
+        downloaderThread = new DownloaderThread(thisActivity, "https://github.com/nicogig/celieye_db/raw/master/dbaic.db");
         downloaderThread.start();
+    }
+
+    public void toSD(View view){
+        try {
+            copyFiletoSD(destFile, outFile);
+            Log.i("copyFileToSD", "copyFile");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

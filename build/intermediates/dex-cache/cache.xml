@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="C:\CeliEye_3\app\build\intermediates\pre-dexed\debug\gson-2.2.4-be7a3fe7b3340d08ac83af1b1fa083bd248004b3.jar"
-        jar="C:\CeliEye_3\app\libs\gson-2.2.4.jar"
+        jar="C:\Users\Nicola\Documents\GitHub\celieye\app\libs\gson-2.2.4.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8"/>
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\Nicola\Documents\GitHub\celieye\app\build\intermediates\pre-dexed\debug\gson-2.2.4-fc414f8dc4d5ebf85ab725c0d34758d76fe7f46e.jar" />
+    </item>
     <item
-        dex="C:\CeliEye_3\app\build\intermediates\pre-dexed\debug\android-support-v4-3a55063b57cfdb690b09c0945fc3fda4a32b8882.jar"
-        jar="C:\CeliEye_3\app\libs\android-support-v4.jar"
+        jar="C:\Users\Nicola\Documents\GitHub\celieye\app\libs\android-support-v4.jar"
         jumboMode="false"
         revision="20.0.0"
-        sha1="efec67655f6db90757faa37201efcee2a9ec3507"/>
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="C:\Users\Nicola\Documents\GitHub\celieye\app\build\intermediates\pre-dexed\debug\android-support-v4-ca03d8fc174412baa12e7d705f5e0e46b47f6e8c.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

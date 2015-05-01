@@ -5,4 +5,4 @@
     <item android:state_focused="true" android:drawable="@drawable/circle_focused" />
     <item android:drawable="@drawable/ic_action_settings" />
 
-</selector><!-- From: file:/C:/Users/Nico/Documents/GitHub/CeliEye3/app/src/main/res/drawable/settings.xml -->
+</selector><!-- From: file:/C:/Users/Nicola/Documents/GitHub/celieye/app/src/main/res/drawable/settings.xml -->

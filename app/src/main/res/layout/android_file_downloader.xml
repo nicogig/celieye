@@ -12,7 +12,7 @@ android:layout_height="fill_parent"
     />
 <TextView
     android:id="@+id/url_input"
-    android:text="http://celieye.tk/db/dbaic.db"
+    android:text="https://github.com/nicogig/celieye_db/raw/master/dbaic.db"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:layout_above="@+id/download_button"
@@ -47,4 +47,16 @@ android:layout_height="fill_parent"
         android:layout_gravity="center_horizontal"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
+    <!--
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To SD"
+        android:id="@+id/button3"
+        android:layout_above="@+id/url_input"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="80dp"
+        android:onClick="toSD" />
+    -->
 </RelativeLayout>

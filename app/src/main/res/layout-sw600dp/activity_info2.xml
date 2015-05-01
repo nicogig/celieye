@@ -80,4 +80,14 @@
         android:layout_alignParentLeft="true"
         android:textColor="#ff000000"
         android:textSize="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CeliEye is an app to identify which products are gluten free and which aren&apos;t, using their barcodes. CeliEye may not work in all parts of the world. CeliEye was developed and tested in Italy."
+        android:id="@+id/textView8"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:textColor="#ff000000"
+        android:textSize="16dp" />
 </RelativeLayout>

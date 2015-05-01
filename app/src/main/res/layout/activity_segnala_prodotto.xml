@@ -47,12 +47,13 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Invia"
+        android:text="@string/send"
         android:id="@+id/button"
         android:onClick="Inviarichiesta"
         android:background="@drawable/btn_mtrl_alpha"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:enabled="false"/>
 
     <TextView
         android:layout_width="0dp"
