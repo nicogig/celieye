@@ -41,8 +41,11 @@ public class DbAdapter {
        String[] arraycolonne = {
                "*"
        };
-        Cursor mCursor = database.query(false,"barcode", arraycolonne ,
-                "id_barcode = "+barcode,null,null, null, null, null, null);
+       // Cursor mCursor = database.query(false,"barcode", arraycolonne ,
+       //         "id_barcode = "+barcode,null,null, null, null, null, null);
+
+        Cursor mCursor = database.query(false,"articles", arraycolonne ,
+                "ean = "+barcode,null,null, null, null, null, null);
 
        // Cursor mCursor=database.rawQuery("SELECT * " + " from " + dbKey.TABLE_BARCODE, new String[]{dbKey.KEY_BARCODE_ID_BARCODE + "=" + barcode});
         if (mCursor.moveToFirst()) {

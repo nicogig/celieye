@@ -32,7 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
      */
     public DatabaseHelper(Context context) {
 
-        super(context,DB_PATH + DB_NAME, null, 2014005);
+        super(context,DB_PATH + DB_NAME, null, 2015026);
         this.myContext = context;
     }
 

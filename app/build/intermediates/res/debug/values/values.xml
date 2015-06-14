@@ -113,6 +113,7 @@
     <string name="scantut">You can start a scan by pressing the button below.</string>
     <string name="searchhint">Type something...</string>
     <string name="searchtut">This is the Search. You can manually search products here.</string>
+    <string name="send">Send</string>
     <string name="settingstut">This is the Menu. If you don\'t see this icon in the main screen, press the \'menu\' key to show it.</string>
     <string name="status_text_default"/>
     <string name="thank">Thanks to</string>
